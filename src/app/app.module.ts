@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { HttpModule } from '@angular/http';
+import { RouterModule } from '@angular/router';
 
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
@@ -10,15 +12,21 @@ import { AngularFireAuthModule } from 'angularfire2/auth';
 import { environment } from '../environments/environment';
 
 import { AppComponent } from './app.component';
-import { LandingComponent } from './landing/landing.component';
+import { LandingModule } from './landing/landing.module';
+
+import { ApiService } from './shared/services';
+import { AppRoutingModule } from './/app-routing.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LandingComponent
   ],
   imports: [
     BrowserModule,
+    HttpModule,
+    RouterModule,
+    AppRoutingModule,
+    LandingModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireDatabaseModule, // para la database de siempre
     AngularFirestoreModule, // imports firebase/firestore, only needed for database features
@@ -26,7 +34,9 @@ import { LandingComponent } from './landing/landing.component';
     AngularFireStorageModule, // imports firebase/storage only needed for storage features
     NgbModule.forRoot()
   ],
-  providers: [],
+  providers: [
+    ApiService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

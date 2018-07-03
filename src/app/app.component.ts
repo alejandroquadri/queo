@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import * as moment from 'moment';
-import { AngularFireDatabase } from 'angularfire2/database';
 import { Observable } from 'rxjs';
+import { ApiService } from './shared/services';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -15,9 +16,11 @@ export class AppComponent {
   items: Observable<any[]>;
 
   constructor(
-    db: AngularFireDatabase
+    api: ApiService,
+    router: Router
   ) {
-    this.items = db.list('products').valueChanges();
+    this.items = api.getList('products');
+    console.log(api.saludo);
   }
 
 }
