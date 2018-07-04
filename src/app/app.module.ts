@@ -14,8 +14,11 @@ import { environment } from '../environments/environment';
 import { AppComponent } from './app.component';
 import { LandingModule } from './landing/landing.module';
 
-import { ApiService } from './shared/services';
 import { AppRoutingModule } from './/app-routing.module';
+import {
+  ApiService,
+  SharedModule
+} from './shared';
 
 @NgModule({
   declarations: [
@@ -25,14 +28,15 @@ import { AppRoutingModule } from './/app-routing.module';
     BrowserModule,
     HttpModule,
     RouterModule,
-    AppRoutingModule,
-    LandingModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireDatabaseModule, // para la database de siempre
     AngularFirestoreModule, // imports firebase/firestore, only needed for database features
     AngularFireAuthModule, // imports firebase/auth, only needed for auth features,
     AngularFireStorageModule, // imports firebase/storage only needed for storage features
-    NgbModule.forRoot()
+    NgbModule.forRoot(),
+    AppRoutingModule,
+    LandingModule,
+    SharedModule
   ],
   providers: [
     ApiService
