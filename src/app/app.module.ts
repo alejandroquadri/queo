@@ -11,6 +11,8 @@ import { AngularFireStorageModule } from 'angularfire2/storage';
 import { AngularFireAuthModule } from 'angularfire2/auth';
 import { environment } from '../environments/environment';
 
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
 import { AppComponent } from './app.component';
 import { LandingModule } from './landing/landing.module';
 
@@ -37,6 +39,7 @@ import { ContactComponent } from './contact/contact.component';
     AngularFireAuthModule, // imports firebase/auth, only needed for auth features,
     AngularFireStorageModule, // imports firebase/storage only needed for storage features
     NgbModule.forRoot(),
+    FontAwesomeModule,
     AppRoutingModule,
     LandingModule,
     SharedModule

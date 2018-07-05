@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { StaticService } from './shared';
+import { faSpinner } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-root',
@@ -11,6 +12,7 @@ import { StaticService } from './shared';
 export class AppComponent {
 
   data: any;
+  faSpinner = faSpinner;
 
   constructor(
     private staticData: StaticService

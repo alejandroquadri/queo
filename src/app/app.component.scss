@@ -1,3 +1,10 @@
-.global-wrapper {
+.global-wrapper, .spinner {
   height: 100%;
+}
+
+.spinner {
+  background-color: var(--green-light);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }

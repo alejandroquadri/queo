@@ -4,6 +4,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeaderComponent } from './ui/header/header.component';
 import { FooterComponent } from './ui/footer/footer.component';
 import { RouterModule } from '@angular/router';
+import { SpinnerComponent } from './ui/spinner/spinner.component';
 
 @NgModule({
   imports: [
@@ -13,13 +14,15 @@ import { RouterModule } from '@angular/router';
   ],
   declarations: [
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    SpinnerComponent
   ],
   exports: [
     CommonModule,
     NgbModule,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    SpinnerComponent
   ]
 })
 export class SharedModule { }

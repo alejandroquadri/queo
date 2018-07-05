@@ -19,7 +19,6 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit() {
     this.data = this.staticData.data.logos;
-    console.log(this.data);
   }
 
 }

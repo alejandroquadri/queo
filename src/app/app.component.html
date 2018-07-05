@@ -1,11 +1,11 @@
-<!-- <div  *ngIf="data"  class="global-wrapper">
+<div  *ngIf="data"  class="global-wrapper">
   <app-header></app-header>
   <router-outlet></router-outlet>
   <app-footer></app-footer>
-</div> -->
-<div>
-  <i class="fas fa-spinner"></i>
-  <i class="fab fa-accessible-icon"></i>
+</div>
+
+<div class="spinner" *ngIf="!data">
+  <app-spinner></app-spinner>
 </div>
 
 
