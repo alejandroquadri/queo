@@ -1,3 +1,71 @@
-<p>
-  landing works!
-</p>
+
+<!-- 
+Lo de abajo sirve en caso de querer presentar un carrousel de pagina entera
+la imagen la saco porque es dificil hacerla responsive. Uso la imagen como cover del div custom.
+Como el template de cada slide se crea dinamicamente por el componente de ng-bootstrap es necesario modificar las clase desde el controlador 
+-->
+<!-- 
+<div class="carousel-wrapper d-flex">
+  <ngb-carousel [interval]="0" (slide)="cambio($event)">
+    <ng-template ngbSlide #slide1>
+      <div class="carousel-caption">
+        <h3>First slide label</h3>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+      <div class="custom" [ngStyle]="{'background-image': 'url(' + terrazzoImg.terr1 + ')'}"></div>
+    </ng-template>
+    <ng-template ngbSlide #slide2>
+      <div class="carousel-caption">
+        <h3>Second slide label</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="custom" [ngStyle]="{'background-image': 'url(' + terrazzoImg.quarzo1 + ')'}"></div>
+    </ng-template>
+    <ng-template ngbSlide #slide3>
+      <div class="carousel-caption">
+        <h3>Third slide label</h3>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+      <div class="custom" [ngStyle]="{'background-image': 'url(' + epoxiImg.epoxi1 + ')'}"></div>
+    </ng-template>
+    <ng-template ngbSlide #slide3>
+      <div class="carousel-caption">
+        <h3>Forth slide label</h3>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+      <div class="custom" [ngStyle]="{'background-image': 'url(' + terrazzoImg.nico4 + ')'}"></div>
+    </ng-template>
+  </ngb-carousel>
+</div> -->
+
+<!-- El div de abajo sirve en caso de querer usar de landing una imagen full screen -->
+<div *ngIf="data" class="carousel-wrapper d-flex">
+
+  <div class="custom desktop" [ngStyle]="{'background-image': 'url(' + data[3] + ')'}">
+    <!-- <div class="titulos">
+      <img class="logo ml-4" [src]="logo">
+      <div class="oneliner">Diseñamos objetos y muebles en terrazzo para que logres espacios originales, elegantes y sofisticados</div>
+      <div class="botones">
+        <button type="button" class="btn btn-lg botonComprar" (click)= "toProducts()">Comprar</button>
+        <button type="button" class="ml-2 btn btn-lg btn-outline-secondary botonConocer" (click)= "more()">Conocer mas</button>
+      </div>
+    </div> -->
+  </div>
+
+  <div class="custom mobile" [ngStyle]="{'background-image': 'url(' + landingMobile + ')'}">
+    <!-- <img class="logoMobile ml-4" [src]="logo"> -->
+    <div class="titulosMobile">
+      <img class="logoMobile ml-4" [src]="logo">
+      <div class="onelinerMobile">Diseñamos objetos en terrazzo para que logres espacios originales y sofisticados</div>
+    </div>
+    <div class="botonesMobile">
+      <button type="button" class="btn btn-lg botonComprar" (click)= "toProducts()">Comprar</button>
+      <button type="button" class="ml-2 btn btn-lg btn-outline-secondary botonConocer" (click)= "more()">Conocer mas</button>
+    </div>
+  </div> 
+  
+</div>
+
+
+  
+  

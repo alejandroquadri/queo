@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { LandingComponent } from './landing/landing.component';
 
 const routes: Routes = [
-  { path: 'home', component: LandingComponent }
+  { path: '', component: LandingComponent }
 ];
 
 @NgModule({

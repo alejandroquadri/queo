@@ -19,7 +19,6 @@ export class ApiService {
     public http: Http,
     public db: AngularFireDatabase
   ) {
-    console.log('inicia api');
   }
 
   // FUNCIONES http

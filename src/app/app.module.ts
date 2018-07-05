@@ -17,12 +17,15 @@ import { LandingModule } from './landing/landing.module';
 import { AppRoutingModule } from './/app-routing.module';
 import {
   ApiService,
-  SharedModule
+  SharedModule,
+  StaticService
 } from './shared';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
@@ -39,7 +42,8 @@ import {
     SharedModule
   ],
   providers: [
-    ApiService
+    ApiService,
+    StaticService
   ],
   bootstrap: [AppComponent]
 })

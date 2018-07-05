@@ -1,8 +1,5 @@
 import { Component } from '@angular/core';
-import * as moment from 'moment';
-import { Observable } from 'rxjs';
-import { ApiService } from './shared/services';
-import { Router } from '@angular/router';
+import { StaticService } from './shared';
 
 @Component({
   selector: 'app-root',
@@ -10,17 +7,17 @@ import { Router } from '@angular/router';
   styleUrls: ['./app.component.scss']
 })
 
+
 export class AppComponent {
-  title = 'app';
-  date = moment().format('DD-MM-YY');
-  items: Observable<any[]>;
+
+  data: any;
 
   constructor(
-    api: ApiService,
-    router: Router
+    private staticData: StaticService
   ) {
-    this.items = api.getList('products');
-    console.log(api.saludo);
+    this.staticData.getStaticData()
+    .then( ret => {
+      this.data = this.staticData.data;
+    });
   }
-
 }
