@@ -1,5 +1,5 @@
 .landing {
-	background-color: var(--dark);
+	background-color: var(--black);
 }
 
 .notLanding {
@@ -11,5 +11,5 @@
 }
 
 nav {
-	min-height: 96.84px;
+	min-height: var(--navbar-height);
 }

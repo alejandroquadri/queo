@@ -11,23 +11,30 @@ import { AngularFireStorageModule } from 'angularfire2/storage';
 import { AngularFireAuthModule } from 'angularfire2/auth';
 import { environment } from '../environments/environment';
 
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-
 import { AppComponent } from './app.component';
 import { LandingModule } from './landing/landing.module';
 
 import { AppRoutingModule } from './/app-routing.module';
+
 import {
   ApiService,
   SharedModule,
-  StaticService
+  StaticService,
+  ContactFormService
 } from './shared';
+
 import { ContactComponent } from './contact/contact.component';
+import { ApplicationsComponent } from './applications/applications.component';
+import { ProductsComponent } from './products/products.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ContactComponent,
+    ApplicationsComponent,
+    ProductsComponent,
+    ProjectsComponent,
   ],
   imports: [
     BrowserModule,
@@ -39,14 +46,14 @@ import { ContactComponent } from './contact/contact.component';
     AngularFireAuthModule, // imports firebase/auth, only needed for auth features,
     AngularFireStorageModule, // imports firebase/storage only needed for storage features
     NgbModule.forRoot(),
-    FontAwesomeModule,
     AppRoutingModule,
     LandingModule,
     SharedModule
   ],
   providers: [
     ApiService,
-    StaticService
+    StaticService,
+    ContactFormService
   ],
   bootstrap: [AppComponent]
 })

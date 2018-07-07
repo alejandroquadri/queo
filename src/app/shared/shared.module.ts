@@ -5,12 +5,24 @@ import { HeaderComponent } from './ui/header/header.component';
 import { FooterComponent } from './ui/footer/footer.component';
 import { RouterModule } from '@angular/router';
 import { SpinnerComponent } from './ui/spinner/spinner.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import { AgmCoreModule } from '@agm/core';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   imports: [
     CommonModule,
     RouterModule,
-    NgbModule
+    NgbModule,
+    FormsModule,
+    ReactiveFormsModule,
+    BrowserAnimationsModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyADqo_qHiIMLvwZ1H5w4S2MaPiGfrq2IHI'
+    }),
+    FontAwesomeModule
   ],
   declarations: [
     HeaderComponent,
@@ -22,7 +34,12 @@ import { SpinnerComponent } from './ui/spinner/spinner.component';
     NgbModule,
     HeaderComponent,
     FooterComponent,
-    SpinnerComponent
+    SpinnerComponent,
+    FormsModule,
+    ReactiveFormsModule,
+    BrowserAnimationsModule,
+    AgmCoreModule,
+    FontAwesomeModule
   ]
 })
 export class SharedModule { }

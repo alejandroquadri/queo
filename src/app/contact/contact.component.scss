@@ -1,0 +1,32 @@
+.contenedor {
+	min-height: calc(100vh - var(--navbar-height));
+}
+
+.sebm-google-map-container {
+  height: 100%;
+  width: 100%;
+}
+
+.item {
+	width: 50%;
+}
+
+.thanks {
+	color: #7F007F;
+	font-weight: 200;
+}
+
+.estilo {
+	font-weight: 300;
+}
+
+@media (max-width : 415px) {
+	.item {
+		width:100%;
+	}
+
+	.sebm-google-map-container {
+	  height: 300px;
+	  width: 100%;
+	}
+}

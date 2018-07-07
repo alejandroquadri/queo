@@ -1,5 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { StaticService } from '../shared';
+import { Router } from '@angular/router';
 // import { Observable } from 'rxjs';
 
 @Component({
@@ -19,7 +20,8 @@ export class LandingComponent implements OnInit {
   @ViewChild('slide1') slide1;
 
   constructor(
-    private staticData: StaticService
+    private staticData: StaticService,
+    private router: Router
   ) {
     this.data = this.staticData.data.ambients;
   }
@@ -56,6 +58,14 @@ export class LandingComponent implements OnInit {
       this.active[0].style.height = '100%';
       this.active[0].style.display = 'flex';
     }, 50);
+  }
+
+  toProducts() {
+    this.router.navigate(['/']);
+  }
+
+  more() {
+    this.router.navigate(['/']);
   }
 
 }

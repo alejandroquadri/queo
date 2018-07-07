@@ -10,7 +10,7 @@
 
 .carousel-wrapper {
   // height: 100%;
-  height: calc(100vh - 96.84px);
+  height: calc(100vh - var(--navbar-height));
   background-color: pink;
 }
 
