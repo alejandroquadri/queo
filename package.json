@@ -23,6 +23,8 @@
     "@angular/router": "^6.0.3",
     "@fortawesome/angular-fontawesome": "^0.1.1",
     "@fortawesome/fontawesome-svg-core": "^1.2.0",
+    "@fortawesome/free-brands-svg-icons": "^5.1.0",
+    "@fortawesome/free-regular-svg-icons": "^5.1.0",
     "@fortawesome/free-solid-svg-icons": "^5.1.0",
     "@ng-bootstrap/ng-bootstrap": "^2.2.0",
     "add": "^2.0.6",
