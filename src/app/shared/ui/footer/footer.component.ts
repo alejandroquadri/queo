@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faFacebook, faInstagram, faMapMarker, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faCoffee, faFacebook, faInstagram, faMapMarker, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-footer',
@@ -8,10 +8,11 @@ import { faFacebook, faInstagram, faMapMarker, faEnvelope } from '@fortawesome/f
 })
 export class FooterComponent implements OnInit {
 
-  facebook: faFacebook;
-  instagram: faInstagram;
-  map: faMapMarker;
-  envelope: faEnvelope;
+  public facebook = faCoffee;
+  public instagram = faInstagram;
+  public map = faMapMarker;
+  public envelope = faEnvelope;
+  public telephone = faPhone;
 
   constructor() { }
 
