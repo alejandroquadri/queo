@@ -10,6 +10,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AgmCoreModule } from '@agm/core';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { StepsComponent } from './components/steps/steps.component';
+import { TrustQuadriComponent } from './components/trust-quadri/trust-quadri.component';
 
 @NgModule({
   imports: [
@@ -27,7 +29,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   declarations: [
     HeaderComponent,
     FooterComponent,
-    SpinnerComponent
+    SpinnerComponent,
+    StepsComponent,
+    TrustQuadriComponent
   ],
   exports: [
     CommonModule,
@@ -39,7 +43,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     ReactiveFormsModule,
     BrowserAnimationsModule,
     AgmCoreModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    StepsComponent,
+    TrustQuadriComponent
   ]
 })
 export class SharedModule { }

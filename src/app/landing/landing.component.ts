@@ -1,7 +1,10 @@
+import { StepsComponent } from './../shared/components/steps/steps.component';
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { StaticService } from '../shared';
 import { Router } from '@angular/router';
 // import { Observable } from 'rxjs';
+
+// import { StepsComponent } from '../shared';
 
 @Component({
   selector: 'app-landing',

@@ -35,69 +35,131 @@
   background-size: cover;
 }
 
-.titulos {
-	position: absolute;
-  top: 10%;
-  left: 5%;
-  // width: 40%;
-}
-
-.logo {
-  width: 100%;
-  max-width: 30rem;
-  min-width: 17rem;
-  // position: absolute;
-  // top: 10%;
-  // left: 5%;
+.carousel-caption {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 20%;
+  text-align: start;
 }
 
 .oneliner {
-	color: white;
+	color: var(--light);
 	width: 100%;
-  // max-width: 90%;
+  max-width: 90%;
   // min-width: 17rem;
-  position: relative;
-  top: 2em;
-  left: 4rem;
-  font-size: 4rem;
-  font-weight: 400;
+  // position: relative;
+  // top: 2em;
+  // left: 4rem;
+  font-size: 5rem;
+  font-weight: 100;
   line-height: 1.6;
+  padding-left: 7rem;
 }
 
 .botones {
-	position: relative;
-  top: 9rem;
-  left: 4rem;
+  padding-left: 7rem;
+	// position: relative;
+  // top: 9rem;
+  // left: 4rem;
 }
 
 .botonComprar {
-	color: white;
-	background-color: hsla(300, 100%, 50%, 1);
-	border-color: hsla(300, 100%, 50%, 1);
+	color: var(--light);
+	background-color: var(--green-dark);
+	border-color: var(--green-dark);
 }
 
 .botonComprar:hover {
-	color: white;
-	background-color: hsla(290, 100%, 50%, 1);
-	border-color: hsla(290, 100%, 50%, 1);
+	color: var(--light);
+	background-color: var(--green-light);
+	border-color: var(--green-light);
 	cursor: pointer;
 }
 
 .botonComprar:active {
-  color: #fff;
-  background-color: hsla(290, 100%, 50%, 1);
-	border-color: hsla(290, 100%, 50%, 1);
+  color: var(--light);
+  background-color: var(--green-light);
+	border-color: var(--green-light);
   box-shadow: 0 0 0 0.2rem hsla(290, 100%, 50%, 0.5);
 }
 
 .botonConocer {
-	color: white;
-	border-color: white;
+	color: var(--light);
+	border-color: var(--light);
 }
 
 .botonConocer:hover {
 	cursor: pointer;
 }
+
+
+
+// esto es para foto de pantalla completa
+
+// .titulos {
+// 	position: absolute;
+//   top: 10%;
+//   left: 5%;
+//   // width: 40%;
+// }
+
+// .logo {
+//   width: 100%;
+//   max-width: 30rem;
+//   min-width: 17rem;
+//   // position: absolute;
+//   // top: 10%;
+//   // left: 5%;
+// }
+
+// .oneliner {
+// 	color: white;
+// 	width: 100%;
+//   // max-width: 90%;
+//   // min-width: 17rem;
+//   position: relative;
+//   top: 2em;
+//   left: 4rem;
+//   font-size: 4rem;
+//   font-weight: 400;
+//   line-height: 1.6;
+// }
+
+// .botones {
+// 	position: relative;
+//   top: 9rem;
+//   left: 4rem;
+// }
+
+// .botonComprar {
+// 	color: white;
+// 	background-color: var(--green-dark);
+// 	border-color: var(--green-dark);
+// }
+
+// .botonComprar:hover {
+// 	color: white;
+// 	background-color: var(--green-light);
+// 	border-color: var(--green-light);
+// 	cursor: pointer;
+// }
+
+// .botonComprar:active {
+//   color: #fff;
+//   background-color: var(--green-light);
+// 	border-color: var(--green-light);
+//   box-shadow: 0 0 0 0.2rem hsla(290, 100%, 50%, 0.5);
+// }
+
+// .botonConocer {
+// 	color: white;
+// 	border-color: white;
+// }
+
+// .botonConocer:hover {
+// 	cursor: pointer;
+// }
 
 .titulosMobile {
 	position: absolute;

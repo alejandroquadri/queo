@@ -12,8 +12,6 @@ import { AngularFireAuthModule } from 'angularfire2/auth';
 import { environment } from '../environments/environment';
 
 import { AppComponent } from './app.component';
-import { LandingModule } from './landing/landing.module';
-
 import { AppRoutingModule } from './/app-routing.module';
 
 import {
@@ -27,6 +25,7 @@ import { ContactComponent } from './contact/contact.component';
 import { ApplicationsComponent } from './applications/applications.component';
 import { ProductsComponent } from './products/products.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { LandingComponent } from './landing/landing.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +34,7 @@ import { ProjectsComponent } from './projects/projects.component';
     ApplicationsComponent,
     ProductsComponent,
     ProjectsComponent,
+    LandingComponent
   ],
   imports: [
     BrowserModule,
@@ -47,7 +47,6 @@ import { ProjectsComponent } from './projects/projects.component';
     AngularFireStorageModule, // imports firebase/storage only needed for storage features
     NgbModule.forRoot(),
     AppRoutingModule,
-    LandingModule,
     SharedModule
   ],
   providers: [
