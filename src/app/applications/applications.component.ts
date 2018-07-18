@@ -1,4 +1,6 @@
+import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
+import { StaticService } from '../shared';
 
 @Component({
   selector: 'app-applications',
@@ -7,9 +9,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ApplicationsComponent implements OnInit {
 
-  constructor() { }
+  data: any;
+
+  constructor(
+    private staticData: StaticService,
+    private router: Router
+  ) {
+    this.data = this.staticData.data;
+  }
 
   ngOnInit() {
+  }
+
+  goTo(path: string) {
+    this.router.navigate([path]);
   }
 
 }

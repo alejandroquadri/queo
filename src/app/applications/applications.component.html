@@ -1,3 +1,50 @@
-<p>
-  applications works!
-</p>
+<div class="container-fluid">
+  <div class="apps">
+    <div class="row">
+      <div class="col-lg-4 col-sm-12 custom d-flex flex-row align-items-center"
+      [ngStyle]="{'background-image': 'url(' + data.ambients[2] + ')'}"
+      (click) = "goTo('/')" >
+        <div class="align-self-center d-flex flex-column w-100">
+          <div><img [src]="data.images.pisoInt" class="iconsH p-2 mb-3" alt=""></div>
+          <div class="appNames text-center p-2">PISOS <br> INTERIORES</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-12 custom d-flex flex-row align-items-center"
+      [ngStyle]="{'background-image': 'url(' + data.ambients[3] + ')'}">
+        <div class="align-self-center d-flex flex-column w-100">
+          <div><img [src]="data.images.pisoExt" class="iconsH p-2 mb-3" alt=""></div>
+          <div class="appNames text-center p-2">PISOS <br> EXTERIORES</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-12 custom d-flex flex-row align-items-center"
+      [ngStyle]="{'background-image': 'url(' + data.ambients[0] + ')'}">
+        <div class="align-self-center d-flex flex-column w-100">
+          <div><img [src]="data.images.paredInt" class="iconsV p-2 mb-3" alt=""></div>
+          <div class="appNames text-center p-2">PAREDES <br> INTERIORES</div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-sm-12 custom d-flex flex-row align-items-center"
+      [ngStyle]="{'background-image': 'url(' + data.ambients[1] + ')'}">
+        <div class="align-self-center d-flex flex-column w-100">
+          <div><img [src]="data.images.paredExt" class="iconsV p-2 mb-3" alt=""></div>
+          <div class="appNames text-center p-2">PAREDES <br> EXTERIORES</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-12 custom d-flex flex-row align-items-center"
+      [ngStyle]="{'background-image': 'url(' + data.ambients[2] + ')'}">
+        <div class="align-self-center d-flex flex-column w-100">
+          <div><img [src]="data.images.mesa" class="iconsH p-2 mb-3" alt=""></div>
+          <div class="appNames text-center p-2">MESAS</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-12 texto d-flex flex-row align-items-center text-center">
+        Podemos ayudarte a crear un espacio especial con Terrazzo
+      </div>
+    </div>
+  </div>
+
+  <app-steps></app-steps>
+  <app-trust-quadri></app-trust-quadri>
+</div>

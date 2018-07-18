@@ -18,7 +18,7 @@ export class HeaderComponent implements OnInit {
   data: any;
 
   ngOnInit() {
-    this.data = this.staticData.data.logos;
+    this.data = this.staticData.data.images;
   }
 
 }
