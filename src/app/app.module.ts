@@ -26,6 +26,7 @@ import { ApplicationsComponent } from './applications/applications.component';
 import { ProductsComponent } from './products/products.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { LandingComponent } from './landing/landing.component';
+// import { HoverDirective } from './shared/directives/hover.directive';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { LandingComponent } from './landing/landing.component';
     ApplicationsComponent,
     ProductsComponent,
     ProjectsComponent,
-    LandingComponent
+    LandingComponent,
+    // HoverDirective
   ],
   imports: [
     BrowserModule,

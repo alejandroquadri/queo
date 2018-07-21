@@ -13,6 +13,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { StepsComponent } from './components/steps/steps.component';
 import { TrustQuadriComponent } from './components/trust-quadri/trust-quadri.component';
 
+import { HoverDirective } from './directives/hover.directive';
+
 @NgModule({
   imports: [
     CommonModule,
@@ -31,7 +33,8 @@ import { TrustQuadriComponent } from './components/trust-quadri/trust-quadri.com
     FooterComponent,
     SpinnerComponent,
     StepsComponent,
-    TrustQuadriComponent
+    TrustQuadriComponent,
+    HoverDirective
   ],
   exports: [
     CommonModule,
@@ -45,7 +48,8 @@ import { TrustQuadriComponent } from './components/trust-quadri/trust-quadri.com
     AgmCoreModule,
     FontAwesomeModule,
     StepsComponent,
-    TrustQuadriComponent
+    TrustQuadriComponent,
+    HoverDirective
   ]
 })
 export class SharedModule { }
