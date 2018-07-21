@@ -32,11 +32,11 @@ export class ApplicationsComponent implements OnInit {
   }
 
   mouseIn(event, app: string) {
-    let el = this.wichApp(app);
+    const el = this.wichApp(app);
     this.renderer.addClass(el.nativeElement, 'customDark');
   }
   mouseOut(event, app: string) {
-    let el = this.wichApp(app);
+    const el = this.wichApp(app);
     this.renderer.removeClass(el.nativeElement, 'customDark');
   }
 

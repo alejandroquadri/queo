@@ -33,6 +33,11 @@
 	background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-filter: brightness(80%);
+  -moz-filter: brightness(80%);
+  -o-filter: brightness(80%);
+  -ms-filter: brightness(80%);
+  filter: brightness(80%);
 }
 
 .carousel-caption {

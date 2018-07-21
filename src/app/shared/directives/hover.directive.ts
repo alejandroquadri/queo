@@ -10,9 +10,7 @@ export class HoverDirective implements OnInit {
     private renderer: Renderer2
   ) { }
 
-  ngOnInit() {
-    // this.renderer.setStyle(this.el.nativeElement, 'backgroundColor', 'gray');
-  }
+  ngOnInit() {}
 
   @HostListener('mouseover') onMouseOver() {
     // const part = this.el.nativeElement.querySelector('.card-text');
