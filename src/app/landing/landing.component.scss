@@ -11,7 +11,7 @@
 .carousel-wrapper {
   // height: 100%;
   height: calc(100vh - var(--navbar-height));
-  background-color: pink;
+  background-color: var(--green-light);
 }
 
 .carousel {

@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, APP_INITIALIZER } from '@angular/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
@@ -28,6 +28,12 @@ import { ProjectsComponent } from './projects/projects.component';
 import { LandingComponent } from './landing/landing.component';
 // import { HoverDirective } from './shared/directives/hover.directive';
 
+
+// esto es para precargar la data antes que se inicie la aplicacion
+export function DataProviderFactory(provider: StaticService) {
+  return () => provider.getStaticData();
+}
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -54,7 +60,8 @@ import { LandingComponent } from './landing/landing.component';
   providers: [
     ApiService,
     StaticService,
-    ContactFormService
+    ContactFormService,
+    { provide: APP_INITIALIZER, useFactory: DataProviderFactory, deps: [StaticService], multi: true }
   ],
   bootstrap: [AppComponent]
 })

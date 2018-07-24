@@ -14,9 +14,10 @@ export class AppComponent {
   constructor(
     private staticData: StaticService
   ) {
-    this.staticData.getStaticData()
-    .then( ret => {
-      this.data = this.staticData.data;
-    });
+    // this.staticData.getStaticData()
+    // .then( ret => {
+    //   this.data = this.staticData.data;
+    // });
+    console.log('construye app component');
   }
 }
