@@ -1,9 +1,13 @@
-import { BrowserModule } from '@angular/platform-browser';
+// Angular
+// comento el BrowserModule porque queda reemplazado por el BrowserAnimationsModule. Sino traer kilombo al usar lazyloading
+// import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule, APP_INITIALIZER } from '@angular/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 
+// AngularFire
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AngularFirestoreModule } from 'angularfire2/firestore';
@@ -11,23 +15,19 @@ import { AngularFireStorageModule } from 'angularfire2/storage';
 import { AngularFireAuthModule } from 'angularfire2/auth';
 import { environment } from '../environments/environment';
 
+
 import { AppComponent } from './app.component';
-import { AppRoutingModule } from './/app-routing.module';
+import { AppRoutingModule } from './app-routing.module';
 
 import {
-  ApiService,
   SharedModule,
   StaticService,
-  ContactFormService
 } from './shared';
 
 import { ContactComponent } from './contact/contact.component';
-import { ApplicationsComponent } from './applications/applications.component';
 import { ProductsComponent } from './products/products.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { LandingComponent } from './landing/landing.component';
-// import { HoverDirective } from './shared/directives/hover.directive';
-
 
 // esto es para precargar la data antes que se inicie la aplicacion
 export function DataProviderFactory(provider: StaticService) {
@@ -38,14 +38,13 @@ export function DataProviderFactory(provider: StaticService) {
   declarations: [
     AppComponent,
     ContactComponent,
-    ApplicationsComponent,
     ProductsComponent,
     ProjectsComponent,
     LandingComponent,
-    // HoverDirective
   ],
   imports: [
-    BrowserModule,
+    // BrowserModule,
+    BrowserAnimationsModule,
     HttpModule,
     RouterModule,
     AngularFireModule.initializeApp(environment.firebase),
@@ -55,12 +54,9 @@ export function DataProviderFactory(provider: StaticService) {
     AngularFireStorageModule, // imports firebase/storage only needed for storage features
     NgbModule.forRoot(),
     AppRoutingModule,
-    SharedModule
+    SharedModule,
   ],
   providers: [
-    ApiService,
-    StaticService,
-    ContactFormService,
     { provide: APP_INITIALIZER, useFactory: DataProviderFactory, deps: [StaticService], multi: true }
   ],
   bootstrap: [AppComponent]

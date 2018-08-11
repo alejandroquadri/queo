@@ -8,7 +8,7 @@ import {
 } from '@angular/animations';
 import { Validators, FormGroup, FormArray, FormBuilder } from '@angular/forms';
 
-import { ContactFormService } from '../shared';
+import { ContactFormService } from './contact-form.service';
 
 @Component({
   selector: 'app-contact',
@@ -63,7 +63,7 @@ export class ContactComponent implements OnInit {
     this.myForm.reset();
     this.thanks = 'show';
     setTimeout(() => {
-      this.thanks = 'hide'
+      this.thanks = 'hide';
     }, 5000);
   }
 

@@ -1,4 +1,4 @@
-import { StepsComponent } from './../shared/components/steps/steps.component';
+import { StepsComponent } from '../shared/components/steps/steps.component';
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { StaticService } from '../shared';
 import { Router } from '@angular/router';

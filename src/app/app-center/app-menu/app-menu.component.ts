@@ -1,13 +1,13 @@
 import { Router } from '@angular/router';
 import { Component, OnInit, ViewChild, ElementRef, HostListener, Renderer2 } from '@angular/core';
-import { StaticService } from '../shared';
+import { StaticService } from '../../shared';
 
 @Component({
-  selector: 'app-applications',
-  templateUrl: './applications.component.html',
-  styleUrls: ['./applications.component.scss']
+  selector: 'app-app-menu',
+  templateUrl: './app-menu.component.html',
+  styleUrls: ['./app-menu.component.scss']
 })
-export class ApplicationsComponent implements OnInit {
+export class AppMenuComponent implements OnInit {
 
   data: any;
   @ViewChild('pisosInt') pisosInt: ElementRef;

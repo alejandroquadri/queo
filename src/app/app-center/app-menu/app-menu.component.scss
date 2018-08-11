@@ -70,3 +70,12 @@
   letter-spacing: 0.2rem;
   color: white;
 }
+
+// esto hay que arreglarlo para moviles
+@media (max-width: 767.98px) {
+
+  .row {
+    height: 50rem;
+  }
+
+ }

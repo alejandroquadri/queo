@@ -1,0 +1,127 @@
+{
+  "ambients" : [ "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432", "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fcocina%20terrazzo.jpg?alt=media&token=98aa4092-451e-4fd4-87df-b9ae3bf90176", "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fcocina.jpg?alt=media&token=ec71ebc7-5ca4-489f-8963-18434f1be485", "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FTerrazzo-Levantina.jpg?alt=media&token=f66c6ecc-0779-4f3b-8e43-90b84f778e91" ],
+  "apps" : {
+    "mesas" : {
+      "icon" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2FmesaBlanco.png?alt=media&token=4356b2c5-b62d-4335-9ce4-a504ec96fd4d",
+      "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fcocina.jpg?alt=media&token=ec71ebc7-5ca4-489f-8963-18434f1be485",
+      "texto" : "Terrazzo, un material versatil y en plena tendencia. Este material espectacular y totalmente customizable convertira tus mesas en un elemento de singular destaque y originalidad",
+      "titulo" : "Mesas y barras",
+      "products": [
+        "classic",
+        "glass",
+        "solid",
+        "vaca"
+      ]
+    },
+    "paredes-exteriores" : {
+      "icon" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2FparedExtBlanco.png?alt=media&token=b73166fe-e68c-4ee8-a108-64d0b90f56ec",
+      "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fcocina.jpg?alt=media&token=ec71ebc7-5ca4-489f-8963-18434f1be485",
+      "texto" : "Terrazzo, un material versatil y en plena tendencia. Este material espectacular y totalmente customizable convertira tus mesas en un elemento de singular destaque y originalidad",
+      "titulo" : "Paredes Exteriores",
+      "products": [
+        "rusticato",
+        "3D",
+        "brick"
+      ]
+    },
+    "paredes-interiores" : {
+      "icon" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2FparedIntBlanco.png?alt=media&token=ccffd480-9897-4138-bbab-a37cbad30fa6",
+      "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fcocina%20terrazzo.jpg?alt=media&token=98aa4092-451e-4fd4-87df-b9ae3bf90176",
+      "texto" : "Terrazzo, un material versatil y en plena tendencia. Este material espectacular y totalmente customizable convertira tus mesas en un elemento de singular destaque y originalidad",
+      "titulo" : "Paredes interiores",
+      "products": [
+        "classic",
+        "glass",
+        "solid",
+        "vaca",
+        "rusticato",
+        "3D",
+        "brick"
+      ]
+    },
+    "pisos-exteriores" : {
+      "icon" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2FpisoExtBlanco.png?alt=media&token=72a5aa77-a73e-4d06-9cae-eb0f25ea2f35",
+      "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fcocina%20terrazzo.jpg?alt=media&token=98aa4092-451e-4fd4-87df-b9ae3bf90176",
+      "texto" : "Terrazzo, un material versatil y en plena tendencia. Este material espectacular y totalmente customizable convertira tus mesas en un elemento de singular destaque y originalidad",
+      "titulo" : "Pisos exteriores",
+      "products": [
+        "classic",
+        "glass",
+        "solid",
+        "vaca",
+        "loseta",
+        "rusticato"
+      ]
+    },
+    "pisos-interiores" : {
+      "icon" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2FparedIntBlanco.png?alt=media&token=ccffd480-9897-4138-bbab-a37cbad30fa6",
+      "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fcocina%20terrazzo.jpg?alt=media&token=98aa4092-451e-4fd4-87df-b9ae3bf90176",
+      "texto" : "Terrazzo, un material versatil y en plena tendencia. Este material espectacular y totalmente customizable convertira tus mesas en un elemento de singular destaque y originalidad",
+      "titulo" : "Pisos Interiores",
+      "products": [
+        "classic",
+        "glass",
+        "solid",
+        "vaca",
+        "quarzo"
+      ]
+    }
+  },
+  "images" : {
+    "logoQuadriBlanco" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2FLogoQuadri%201024%20fondo%20blanco.png?alt=media&token=ef459896-b83d-43d7-8c20-811d9c925ce2",
+    "logoQuadriNegro" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2FLogo%20Quadri%201024.png?alt=media&token=3b95e687-2a41-47b2-9087-362dbce7bc88",
+    "logoQuadriNegroAncho" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2FLogo%20Quadri%20ancho.png?alt=media&token=ed6fd2c1-c2a4-429e-9adf-d9a05792844a",
+    "mesa" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2FmesaBlanco.png?alt=media&token=4356b2c5-b62d-4335-9ce4-a504ec96fd4d",
+    "paredExt" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2FparedExtBlanco.png?alt=media&token=b73166fe-e68c-4ee8-a108-64d0b90f56ec",
+    "paredInt" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2FparedIntBlanco.png?alt=media&token=ccffd480-9897-4138-bbab-a37cbad30fa6",
+    "pisoExt" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2FpisoExtBlanco.png?alt=media&token=72a5aa77-a73e-4d06-9cae-eb0f25ea2f35",
+    "pisoInt" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2FpisoIntBlanco.png?alt=media&token=ec5f3472-5203-45db-b0ad-5249b3bc0911"
+  },
+  "logos" : {
+    "pisoInteriorBlanco" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2FmesaBlanco.png?alt=media&token=82c43109-90c9-4f95-abcc-85610b86aaa5",
+    "quadri" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2FLogo%20Quadri%201024.png?alt=media&token=3b95e687-2a41-47b2-9087-362dbce7bc88",
+    "quadriBlanco" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2FLogoQuadri%201024%20fondo%20blanco.png?alt=media&token=ef459896-b83d-43d7-8c20-811d9c925ce2"
+  },
+  "products" : {
+    "3d" : {
+      "name" : "3D",
+      "order" : 5
+    },
+    "brick" : {
+      "name" : "BRIC",
+      "order" : 7
+    },
+    "calcareos" : {
+      "name" : "Calcareos",
+      "order" : 2
+    },
+    "classic" : {
+      "name" : "Clasica",
+      "order" : 0
+    },
+    "solid" : {
+      "name" : "Solido",
+      "order" : 8
+    },
+    "glass" : {
+      "name" : "Vitro",
+      "order" : 1
+    },
+    "losetas" : {
+      "name" : "Losetas",
+      "order" : 4
+    },
+    "rusticato" : {
+      "name" : "rusticato",
+      "order" : 6
+    },
+    "vaca" : {
+      "name" : "Vaca Loca",
+      "order" : 3
+    },
+    "quarzo" : {
+      "name": "Quarzo",
+      "order": 9
+    }
+  }
+}

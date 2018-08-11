@@ -1,18 +1,22 @@
+// angular
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
+// vendor
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { AgmCoreModule } from '@agm/core';
+
+// componentes
 import { HeaderComponent } from './ui/header/header.component';
 import { FooterComponent } from './ui/footer/footer.component';
-import { RouterModule } from '@angular/router';
 import { SpinnerComponent } from './ui/spinner/spinner.component';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
-import { AgmCoreModule } from '@agm/core';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { StepsComponent } from './components/steps/steps.component';
 import { TrustQuadriComponent } from './components/trust-quadri/trust-quadri.component';
 
+// directives
 import { HoverDirective } from './directives/hover.directive';
 
 @NgModule({
@@ -22,7 +26,7 @@ import { HoverDirective } from './directives/hover.directive';
     NgbModule,
     FormsModule,
     ReactiveFormsModule,
-    BrowserAnimationsModule,
+    // BrowserAnimationsModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyADqo_qHiIMLvwZ1H5w4S2MaPiGfrq2IHI'
     }),
@@ -44,7 +48,6 @@ import { HoverDirective } from './directives/hover.directive';
     SpinnerComponent,
     FormsModule,
     ReactiveFormsModule,
-    BrowserAnimationsModule,
     AgmCoreModule,
     FontAwesomeModule,
     StepsComponent,
