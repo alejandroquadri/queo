@@ -1,0 +1,36 @@
+.color-container {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.color {
+  height: 15rem;
+  width: 15rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 1.8rem;
+  font-weight: 200;
+  color: white;
+  border-radius: 15rem;
+  // flex-shrink: 0;
+}
+
+.titulo {
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+
+@media (max-width: 744px) {
+
+  .color-container {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+}
+
+// .color {
+//   flex-shrink: 0;
+// }

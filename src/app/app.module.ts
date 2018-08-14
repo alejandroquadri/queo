@@ -25,7 +25,7 @@ import {
 } from './shared';
 
 import { ContactComponent } from './contact/contact.component';
-import { ProductsComponent } from './products/products.component';
+// import { ProductsComponent } from './products/products.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { LandingComponent } from './landing/landing.component';
 
@@ -38,7 +38,7 @@ export function DataProviderFactory(provider: StaticService) {
   declarations: [
     AppComponent,
     ContactComponent,
-    ProductsComponent,
+    // ProductsComponent,
     ProjectsComponent,
     LandingComponent,
   ],

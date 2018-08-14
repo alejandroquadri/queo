@@ -15,6 +15,7 @@ import { FooterComponent } from './ui/footer/footer.component';
 import { SpinnerComponent } from './ui/spinner/spinner.component';
 import { StepsComponent } from './components/steps/steps.component';
 import { TrustQuadriComponent } from './components/trust-quadri/trust-quadri.component';
+import { BlendsComponent } from './components/blends/blends.component';
 
 // directives
 import { HoverDirective } from './directives/hover.directive';
@@ -38,7 +39,8 @@ import { HoverDirective } from './directives/hover.directive';
     SpinnerComponent,
     StepsComponent,
     TrustQuadriComponent,
-    HoverDirective
+    HoverDirective,
+    BlendsComponent
   ],
   exports: [
     CommonModule,
@@ -52,6 +54,7 @@ import { HoverDirective } from './directives/hover.directive';
     FontAwesomeModule,
     StepsComponent,
     TrustQuadriComponent,
+    BlendsComponent,
     HoverDirective
   ]
 })

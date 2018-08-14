@@ -1,0 +1,30 @@
+.imagen-presentacion, {
+  height: 30vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.titulo {
+  font-size: 2.5rem;
+  font-weight: 130;
+  color: white;
+}
+
+.prod {
+  height: 21rem;
+  width: 21rem;
+  background-color: var(--green-dark);
+  font-size: 1.8rem;
+  font-weight: 130;
+  color: white;
+}
+
+.prod:hover {
+  cursor: pointer;
+  -webkit-filter: brightness(80%);
+  -moz-filter: brightness(80%);
+  -o-filter: brightness(80%);
+  -ms-filter: brightness(80%);
+  filter: brightness(80%);
+}

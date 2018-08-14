@@ -1,0 +1,17 @@
+<div class="jumbotron jumbotron-fluid imagen-presentacion mb-0"
+[ngStyle]="{'background-image': 'url(' + ambients[3] + ')'}">
+  <div class="container">
+    <div class="titulo mb-3">Conoce todos nuestras lineas de productos</div>
+</div>
+</div>
+
+<div class="jumbotron jumbotron-fluid mb-0 bg-white
+">
+  <div class="container" >
+    <div class="d-flex product-container flex-wrap">
+      <div *ngFor="let prod of productsArray" class="prod m-3 d-flex align-items-center" (click)="routeTo(prod)">
+        <div class="text-center w-100 prod-name"> {{ products[prod].name }} </div>
+      </div>
+    </div>
+  </div>
+</div>

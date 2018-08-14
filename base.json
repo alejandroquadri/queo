@@ -1,70 +1,82 @@
 {
   "ambients" : [ "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432", "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fcocina%20terrazzo.jpg?alt=media&token=98aa4092-451e-4fd4-87df-b9ae3bf90176", "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fcocina.jpg?alt=media&token=ec71ebc7-5ca4-489f-8963-18434f1be485", "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FTerrazzo-Levantina.jpg?alt=media&token=f66c6ecc-0779-4f3b-8e43-90b84f778e91" ],
+  "colors" : {
+    "blanco" : {
+      "url": "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/colors%2FBlanco.jpg?alt=media&token=5ab8f3c5-f218-4fae-846b-fdb5aa355226",
+      "name": "Blanco"
+    },
+    "blanco-espuma" : {
+      "url": "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/colors%2FB%20Espuma.jpg?alt=media&token=997a5d4b-a315-46e8-83a2-b653bc727254",
+      "name": "Blanco espuma"
+    },
+    "brechiato" : {
+      "url": "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/colors%2FBrechiato.jpg?alt=media&token=98e12940-ccf1-4f15-968d-873ffcc9e2b7",
+      "name": "Brechiato"
+    },
+    "dzek" : {
+      "url": "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/colors%2FDzek.JPG?alt=media&token=ab8541fd-f8fa-4ca2-9597-46a4b6c55b55",
+      "name": "Vaca loca"
+    },
+    "grafito" : {
+      "url": "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/colors%2FNegroCemento.jpg?alt=media&token=10761666-c124-453c-8a67-fe2ab7633527",
+      "name": "Grafito"
+    },
+    "gris-cemento" : {
+      "url": "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/colors%2FGrisCemento.jpg?alt=media&token=bf7975a9-28e0-41f2-a1bf-42173efa5ffe",
+      "name": "Plata"
+    },
+    "gris-plomo" : {
+      "url": "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/colors%2FGris%20Plomo.jpg?alt=media&token=a099e900-cb2e-49eb-b06b-d60fb6606c4f",
+      "name": "Acero"
+    },
+    "rosa" : {
+      "url": "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/colors%2FRosa.jpg?alt=media&token=1a3e856e-07b1-4ea2-af51-504174718a51",
+      "name":"Rosa"
+    },
+    "vaca-marciana" : {
+      "url": "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/colors%2Fmarciana.jpg?alt=media&token=17bcff4a-d396-4795-8acd-3f98883598d6",
+      "name": "Vaca marciana"
+    },
+    "verde-alpe" : {
+      "url": "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/colors%2FVerde%20Alpe.jpg?alt=media&token=3841faff-6f5b-4cf7-83df-5fe69e0f6f06",
+      "name": "Negro"
+    }
+  },
   "apps" : {
     "mesas" : {
       "icon" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2FmesaBlanco.png?alt=media&token=4356b2c5-b62d-4335-9ce4-a504ec96fd4d",
       "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fcocina.jpg?alt=media&token=ec71ebc7-5ca4-489f-8963-18434f1be485",
+      "products" : [ "classic", "glass", "solid", "vaca" ],
       "texto" : "Terrazzo, un material versatil y en plena tendencia. Este material espectacular y totalmente customizable convertira tus mesas en un elemento de singular destaque y originalidad",
-      "titulo" : "Mesas y barras",
-      "products": [
-        "classic",
-        "glass",
-        "solid",
-        "vaca"
-      ]
+      "titulo" : "Mesas y barras"
     },
     "paredes-exteriores" : {
       "icon" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2FparedExtBlanco.png?alt=media&token=b73166fe-e68c-4ee8-a108-64d0b90f56ec",
       "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fcocina.jpg?alt=media&token=ec71ebc7-5ca4-489f-8963-18434f1be485",
+      "products" : [ "rusticato", "3d", "brick" ],
       "texto" : "Terrazzo, un material versatil y en plena tendencia. Este material espectacular y totalmente customizable convertira tus mesas en un elemento de singular destaque y originalidad",
-      "titulo" : "Paredes Exteriores",
-      "products": [
-        "rusticato",
-        "3D",
-        "brick"
-      ]
+      "titulo" : "Paredes Exteriores"
     },
     "paredes-interiores" : {
       "icon" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2FparedIntBlanco.png?alt=media&token=ccffd480-9897-4138-bbab-a37cbad30fa6",
       "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fcocina%20terrazzo.jpg?alt=media&token=98aa4092-451e-4fd4-87df-b9ae3bf90176",
+      "products" : [ "classic", "glass", "solid", "vaca", "rusticato", "3d", "brick" ],
       "texto" : "Terrazzo, un material versatil y en plena tendencia. Este material espectacular y totalmente customizable convertira tus mesas en un elemento de singular destaque y originalidad",
-      "titulo" : "Paredes interiores",
-      "products": [
-        "classic",
-        "glass",
-        "solid",
-        "vaca",
-        "rusticato",
-        "3D",
-        "brick"
-      ]
+      "titulo" : "Paredes interiores"
     },
     "pisos-exteriores" : {
       "icon" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2FpisoExtBlanco.png?alt=media&token=72a5aa77-a73e-4d06-9cae-eb0f25ea2f35",
       "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fcocina%20terrazzo.jpg?alt=media&token=98aa4092-451e-4fd4-87df-b9ae3bf90176",
+      "products" : [ "classic", "glass", "solid", "vaca", "losetas", "rusticato", "calcareos" ],
       "texto" : "Terrazzo, un material versatil y en plena tendencia. Este material espectacular y totalmente customizable convertira tus mesas en un elemento de singular destaque y originalidad",
-      "titulo" : "Pisos exteriores",
-      "products": [
-        "classic",
-        "glass",
-        "solid",
-        "vaca",
-        "loseta",
-        "rusticato"
-      ]
+      "titulo" : "Pisos exteriores"
     },
     "pisos-interiores" : {
       "icon" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2FparedIntBlanco.png?alt=media&token=ccffd480-9897-4138-bbab-a37cbad30fa6",
       "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fcocina%20terrazzo.jpg?alt=media&token=98aa4092-451e-4fd4-87df-b9ae3bf90176",
+      "products" : [ "classic", "glass", "solid", "vaca", "quarzo" ],
       "texto" : "Terrazzo, un material versatil y en plena tendencia. Este material espectacular y totalmente customizable convertira tus mesas en un elemento de singular destaque y originalidad",
-      "titulo" : "Pisos Interiores",
-      "products": [
-        "classic",
-        "glass",
-        "solid",
-        "vaca",
-        "quarzo"
-      ]
+      "titulo" : "Pisos Interiores"
     }
   },
   "images" : {
@@ -84,44 +96,74 @@
   },
   "products" : {
     "3d" : {
+      "colors" : [ "blanco", "dzek", "vaca-marciana", "rosa", "verde-alpe" ],
       "name" : "3D",
-      "order" : 5
+      "order" : 5,
+      "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
+      "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses"
     },
     "brick" : {
       "name" : "BRIC",
-      "order" : 7
+      "order" : 7,
+      "colors" : [ "blanco", "dzek", "vaca-marciana", "rosa", "verde-alpe" ],
+      "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
+      "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses"
     },
     "calcareos" : {
       "name" : "Calcareos",
-      "order" : 2
+      "order" : 2,
+      "colors" : [ "blanco", "dzek", "vaca-marciana", "rosa", "verde-alpe" ],
+      "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
+      "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses"
     },
     "classic" : {
       "name" : "Clasica",
-      "order" : 0
-    },
-    "solid" : {
-      "name" : "Solido",
-      "order" : 8
+      "order" : 0,
+      "colors" : [ "blanco", "dzek", "vaca-marciana", "rosa", "verde-alpe" ],
+      "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
+      "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses"
     },
     "glass" : {
       "name" : "Vitro",
-      "order" : 1
+      "order" : 1,
+      "colors" : [ "blanco", "dzek", "vaca-marciana", "rosa", "verde-alpe" ],
+      "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
+      "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses"
     },
     "losetas" : {
       "name" : "Losetas",
-      "order" : 4
+      "order" : 4,
+      "colors" : [ "blanco", "dzek", "vaca-marciana", "rosa", "verde-alpe" ],
+      "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
+      "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses"
+    },
+    "quarzo" : {
+      "name" : "Quarzo",
+      "order" : 9,
+      "colors" : [ "blanco", "dzek", "vaca-marciana", "rosa", "verde-alpe" ],
+      "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
+      "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses"
     },
     "rusticato" : {
-      "name" : "rusticato",
-      "order" : 6
+      "name" : "Rusticato",
+      "order" : 6,
+      "colors" : [ "blanco", "dzek", "vaca-marciana", "rosa", "verde-alpe" ],
+      "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
+      "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses"
+    },
+    "solid" : {
+      "name" : "Solido",
+      "order" : 8,
+      "colors" : [ "blanco", "dzek", "vaca-marciana", "rosa", "verde-alpe" ],
+      "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
+      "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses"
     },
     "vaca" : {
       "name" : "Vaca Loca",
-      "order" : 3
-    },
-    "quarzo" : {
-      "name": "Quarzo",
-      "order": 9
+      "order" : 3,
+      "colors" : [ "blanco", "dzek", "vaca-marciana", "rosa", "verde-alpe" ],
+      "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
+      "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses"
     }
   }
 }

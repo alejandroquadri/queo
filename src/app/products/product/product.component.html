@@ -1,0 +1,12 @@
+<div class="jumbotron jumbotron-fluid imagen-presentacion mb-0"
+[ngStyle]="{'background-image': 'url(' + product.presentacion + ')'}">
+</div>
+
+<div class="jumbotron jumbotron-fluid mb-0">
+  <div class="container">
+    <div class="titulo">{{ product.name }}</div>
+    <p class="lead">{{ product.text }}</p>
+  </div>
+</div>
+
+<app-blends [colors]="product.colors" ></app-blends>
