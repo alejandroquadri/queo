@@ -17,7 +17,7 @@ export class AppMenuComponent implements OnInit {
   @ViewChild('mesas') mesas: ElementRef;
 
   constructor(
-    private staticData: StaticService,
+    public staticData: StaticService,
     private router: Router,
     private renderer: Renderer2
   ) {

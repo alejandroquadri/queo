@@ -1,0 +1,37 @@
+.dim-container {
+  flex-direction: row;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.dim {
+  font-size: 1.1rem;
+  font-weight: 200;
+  margin: 1rem;
+  // border-radius: 15rem;
+}
+
+.titulo {
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+
+.dim-img {
+  height: auto;
+}
+
+@media (max-width: 744px) {
+
+  .dim-container {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .dim {
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 0.7rem;
+  }
+
+}

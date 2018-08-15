@@ -7,6 +7,11 @@ import { ApiService } from './api.service';
 export class StaticService {
 
   data: any;
+  mesa = './assets/icons/mesaBlanco.png';
+  paredExt = './assets/icons/paredExtBlanco.png';
+  paredInt = './assets/icons/paredIntBlanco.png';
+  pisoInt = './assets/icons/pisoIntBlanco.png';
+  pisoExt = './assets/icons/pisoExtBlanco.png';
 
   constructor(
     private api: ApiService
