@@ -3,6 +3,10 @@
   color: white;
 }
 
+.items{
+  padding: 3rem;
+}
+
 .icons {
   font-size: 6rem;
 }
@@ -14,9 +18,23 @@
 .text {
   font-size: 1.2rem;
   font-weight: 100;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .title {
   font-size: 2rem;
   font-weight: 100;
+}
+
+@media (max-width : 415px) {
+
+  .items{
+    padding: 0rem 3rem 0rem 3rem;
+  }
+
+  .text {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
 }
