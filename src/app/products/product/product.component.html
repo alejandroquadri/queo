@@ -1,13 +1,14 @@
-<div class="jumbotron jumbotron-fluid imagen-presentacion mb-0"
-[ngStyle]="{'background-image': 'url(' + product.presentacion + ')'}">
-</div>
-
-<div class="jumbotron jumbotron-fluid mb-0">
-  <div class="container">
-    <div class="titulo">{{ product.name }}</div>
-    <p class="lead">{{ product.text }}</p>
+<div class="prod-header-wrapper">
+  <div class="jumbotron jumbotron-fluid imagen-presentacion mb-0"
+    [ngStyle]="{'background-image': 'url(' + product.presentacion + ')'}"></div>
+  <div class="title-wrapper jumbotron mb-0 bg-transparent">
+    <div class="container">
+      <div class="title">{{ product.name }}</div>
+      <p class="sub-title">{{ product.text }}</p>
+    </div>
   </div>
 </div>
 
 <app-blends [colors]="product.colors"></app-blends>
 <app-dim [dim]="product.dim" [thikness]="product.thickness"></app-dim>
+<app-applications [applications]="product.applications" ></app-applications>

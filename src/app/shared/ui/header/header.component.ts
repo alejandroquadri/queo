@@ -15,10 +15,10 @@ export class HeaderComponent implements OnInit {
   ) { }
 
   isExpanded = false;
-  data: any;
+  logo: any;
 
   ngOnInit() {
-    this.data = this.staticData.data.images;
+    this.logo = this.staticData.logo;
   }
 
 }

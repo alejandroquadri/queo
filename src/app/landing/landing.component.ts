@@ -1,10 +1,7 @@
-import { StepsComponent } from '../shared/components/steps/steps.component';
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { StaticService } from '../shared';
 import { Router } from '@angular/router';
-// import { Observable } from 'rxjs';
 
-// import { StepsComponent } from '../shared';
+import { StaticService } from '../shared';
 
 @Component({
   selector: 'app-landing',
@@ -13,20 +10,22 @@ import { Router } from '@angular/router';
 })
 export class LandingComponent implements OnInit {
 
-  // items: Observable<any[]>;
   carrousel = true;
   data: any;
+  images: any;
 
   carouselInner: any;
   carouselItems: any;
   active: any;
+
   @ViewChild('slide1') slide1;
 
   constructor(
     private staticData: StaticService,
     private router: Router
   ) {
-    this.data = this.staticData.data.ambients;
+    this.data = this.staticData.data.landing;
+    this.images = this.staticData.data.projectImgs;
   }
 
   ngOnInit() {

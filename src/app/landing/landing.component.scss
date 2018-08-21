@@ -49,7 +49,7 @@
 }
 
 .oneliner {
-	color: var(--light);
+	color: white;
 	width: 100%;
   max-width: 90%;
   // min-width: 17rem;
@@ -70,28 +70,28 @@
 }
 
 .botonComprar {
-	color: var(--light);
+	color: white;
 	background-color: var(--green-dark);
 	border-color: var(--green-dark);
 }
 
 .botonComprar:hover {
-	color: var(--light);
+	color: white;
 	background-color: var(--green-light);
 	border-color: var(--green-light);
 	cursor: pointer;
 }
 
 .botonComprar:active {
-  color: var(--light);
+  color: white;
   background-color: var(--green-light);
 	border-color: var(--green-light);
   box-shadow: 0 0 0 0.2rem hsla(290, 100%, 50%, 0.5);
 }
 
 .botonConocer {
-	color: var(--light);
-	border-color: var(--light);
+	color: white;
+	border-color: white;
 }
 
 .botonConocer:hover {

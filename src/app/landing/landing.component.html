@@ -15,7 +15,7 @@ Como el template de cada slide se crea dinamicamente por el componente de ng-boo
         </div>
       </div>
       <img style="display:none;" [src]="data[1]" width="100" alt="">
-      <div class="custom" [ngStyle]="{'background-image': 'url(' + data[0] + ')'}"></div>
+      <div class="custom" [ngStyle]="{'background-image': 'url(' + images[data.carrImgs[0]].url + ')'}"></div>
     </ng-template>
     <ng-template ngbSlide #slide2>
       <div class="carousel-caption">
@@ -26,7 +26,7 @@ Como el template de cada slide se crea dinamicamente por el componente de ng-boo
         </div>
       </div>
       <img style="display:none;" [src]="data[2]" width="100" alt="">
-      <div class="custom" [ngStyle]="{'background-image': 'url(' + data[1] + ')'}"></div>
+      <div class="custom" [ngStyle]="{'background-image': 'url(' + images[data.carrImgs[1]].url + ')'}"></div>
     </ng-template>
     <ng-template ngbSlide #slide3>
       <div class="carousel-caption">
@@ -37,7 +37,7 @@ Como el template de cada slide se crea dinamicamente por el componente de ng-boo
         </div>
       </div>
       <img style="display:none;" [src]="data[3]" width="100" alt="">
-      <div class="custom" [ngStyle]="{'background-image': 'url(' + data[2] + ')'}"></div>
+      <div class="custom" [ngStyle]="{'background-image': 'url(' + images[data.carrImgs[2]].url + ')'}"></div>
     </ng-template>
     <ng-template ngbSlide #slide3>
       <div class="carousel-caption">
@@ -48,15 +48,15 @@ Como el template de cada slide se crea dinamicamente por el componente de ng-boo
         </div>
       </div>
       <img style="display:none;" [src]="data[0]" width="100" alt="">
-      <div class="custom" [ngStyle]="{'background-image': 'url(' + data[3] + ')'}"></div>
+      <div class="custom" [ngStyle]="{'background-image': 'url(' + images[data.carrImgs[3]].url + ')'}"></div>
     </ng-template>
   </ngb-carousel>
 </div>
 
-<!-- El div de abajo sirve en caso de querer usar de landing una imagen full screen -->
+<!-- El div de abajo sirve en caso de querer usar de una imagen f.urlull screen -->
 <div *ngIf="!carrousel"  class="carousel-wrapper d-flex">
 
-  <div class="custom desktop" [ngStyle]="{'background-image': 'url(' + data[3] + ')'}">
+  <div class="custom desktop" [ngStyle]="{'background-image': 'url(' + images[data.carrImgs[3]].url + ')'}">
     <div class="titulos">
       <!-- <img class="logo ml-4" [src]="logo"> -->
       <div class="oneliner">MÉTASELO EN EL ORTO</div>

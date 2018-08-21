@@ -1,0 +1,14 @@
+<div class="jumbotron jumbotron-fluid mb-0 bg-transparent">
+  <div class="container">
+    <div class="titulo mb-4">Aplicaciones</div>
+    <div class="app-container d-flex">
+      <div *ngFor="let app of applications" class="app d-flex flex-column">
+        <div class="app-img-container d-flex flex-row">
+          <img class="app-img mx-auto align-self-center" [src]="apps[app]['icon-black']" alt=""
+          [ngClass]="detWidth(app)">
+        </div>
+        <div class="app-text"> {{ apps[app].titulo }} </div>
+      </div>
+    </div>
+  </div>
+</div>

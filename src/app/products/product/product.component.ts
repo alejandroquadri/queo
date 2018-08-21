@@ -21,6 +21,7 @@ export class ProductComponent implements OnInit {
   ngOnInit() {
     this.id = this.route.snapshot.paramMap.getAll('id');
     this.product = this.staticData.data.products[this.id];
+    console.log(this.product.applications);
   }
 
 }

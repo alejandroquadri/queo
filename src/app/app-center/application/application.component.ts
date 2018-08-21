@@ -34,13 +34,31 @@ export class ApplicationComponent implements OnInit {
     // });
 
     // esto de abajo es mucho mas simple. Pregunta una sola vez cuando se entra en el componente
-    this.id = this.route.snapshot.paramMap.getAll('id');
+    this.id = this.whichApp(this.route.snapshot.paramMap.getAll('id')[0]);
     this.application = this.staticData.data.apps[this.id];
     this.products = this.staticData.data.products;
   }
 
   routeTo(prod) {
     this.router.navigate([`/productos/${prod}`]);
+  }
+
+  whichApp(route): String {
+    let app;
+    switch (route) {
+      case 'pisos-exteriores':
+        app = 'pisosExt';
+        break;
+
+      case 'pisos-interiores':
+        app = 'pisosInt';
+        break;
+
+      default:
+        app = route;
+        break;
+    }
+    return app;
   }
 
 }

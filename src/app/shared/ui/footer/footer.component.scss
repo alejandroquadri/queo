@@ -1,6 +1,10 @@
 
-.foot {
+.foot, .copy {
 	background-color: var(--black);
+	color: var(--light);
+}
+
+.foot {
   font-size: 0.8rem;
   font-weight: 100;
   color: var(--light);
@@ -8,7 +12,7 @@
 
 .title {
 	font-size: 1rem;
-	font-weight: 500;
+	font-weight: 100;
 }
 
 .links {

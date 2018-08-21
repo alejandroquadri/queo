@@ -10,6 +10,8 @@ import { StaticService } from '../../shared';
 export class AppMenuComponent implements OnInit {
 
   data: any;
+  appMenu: any;
+
   @ViewChild('pisosInt') pisosInt: ElementRef;
   @ViewChild('pisosExt') pisosExt: ElementRef;
   @ViewChild('paredInt') paredInt: ElementRef;
@@ -22,6 +24,8 @@ export class AppMenuComponent implements OnInit {
     private renderer: Renderer2
   ) {
     this.data = this.staticData.data;
+    this.appMenu = this.staticData.data.appMenu;
+    console.log(this.appMenu);
   }
 
   ngOnInit() {

@@ -12,6 +12,7 @@ export class StaticService {
   paredInt = './assets/icons/paredIntBlanco.png';
   pisoInt = './assets/icons/pisoIntBlanco.png';
   pisoExt = './assets/icons/pisoExtBlanco.png';
+  logo = './assets/icons/LogoQuadriFondoBlanco.png';
 
   constructor(
     private api: ApiService

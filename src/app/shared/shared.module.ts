@@ -20,6 +20,7 @@ import { BlendsComponent } from './components/blends/blends.component';
 // directives
 import { HoverDirective } from './directives/hover.directive';
 import { DimComponent } from './components/dim/dim.component';
+import { ApplicationsComponent } from './components/applications/applications.component';
 
 @NgModule({
   imports: [
@@ -42,7 +43,8 @@ import { DimComponent } from './components/dim/dim.component';
     TrustQuadriComponent,
     HoverDirective,
     BlendsComponent,
-    DimComponent
+    DimComponent,
+    ApplicationsComponent
   ],
   exports: [
     CommonModule,
@@ -58,7 +60,8 @@ import { DimComponent } from './components/dim/dim.component';
     TrustQuadriComponent,
     BlendsComponent,
     HoverDirective,
-    DimComponent
+    DimComponent,
+    ApplicationsComponent
   ]
 })
 export class SharedModule { }

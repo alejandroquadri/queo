@@ -1,0 +1,61 @@
+.app-container {
+  flex-direction: row;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+.app {
+  font-size: 1.1rem;
+  font-weight: 200;
+  margin: 2rem 3rem 2rem 3rem;
+  // border-radius: 15rem;
+}
+
+.titulo {
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+
+.app-img-container {
+  flex-grow: 1;
+}
+
+.app-img {
+  display: inline;
+}
+
+.w-app-img {
+  height: auto;
+  width: 10rem;
+}
+
+.h-app-img {
+  height: 10rem;
+  width: auto;
+}
+
+.app-text {
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+@media (max-width: 744px) {
+
+  .app-container {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .app {
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 2rem;
+  }
+
+  .app-text {
+    text-align: center;
+    padding-top: 1rem;
+  }
+
+}
