@@ -12,6 +12,7 @@ export class ProdMenuComponent implements OnInit {
   products: any;
   productsArray: Array<any>;
   ambients: any;
+  featured: any;
 
   constructor(
     private router: Router,
@@ -19,8 +20,10 @@ export class ProdMenuComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    this.products = this.staticData.data.products;
+    this.products = this.staticData.data.products.collections;
     this.productsArray = Object.keys(this.products);
+    this.featured = this.staticData.data.products.featured;
+
     this.ambients = this.staticData.data.ambients;
   }
 

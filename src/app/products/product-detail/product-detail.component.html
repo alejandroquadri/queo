@@ -1,3 +1,13 @@
-<p>
-  product-detail works!
-</p>
+<div class="prod-header-wrapper">
+  <div class="jumbotron jumbotron-fluid imagen-presentacion mb-0"
+    [ngStyle]="{'background-image': 'url(' + modelData.presentacion + ')'}"></div>
+  <div class="title-wrapper jumbotron mb-0 bg-transparent">
+    <div class="container">
+      <div class="title">{{ modelData.name }}</div>
+      <p class="sub-title">{{ modelData.text }}</p>
+    </div>
+  </div>
+</div>
+
+<app-blends *ngIf="modelData.colors"  [colors]="modelData.colors"></app-blends>
+<app-dim *ngIf="modelData.dim"  [dim]="modelData.dim" [thikness]="modelData.thickness"></app-dim>

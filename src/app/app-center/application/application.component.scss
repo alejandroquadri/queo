@@ -1,3 +1,7 @@
+.app-header-wrapper{
+  position: relative;
+}
+
 .imagen-presentacion, .imagen-segunda {
   height: 50vh;
   background-position: center;
@@ -5,9 +9,36 @@
   background-size: cover;
 }
 
-.imagen-segunda {
- height: 70vh;
+.imagen-presentacion {
+  -webkit-filter: brightness(70%);
+  -moz-filter: brightness(70%);
+  -o-filter: brightness(70%);
+  -ms-filter: brightness(70%);
+  filter: brightness(70%);
 }
+
+.title-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+
+.title {
+  font-size: 5rem;
+  font-weight: 100;
+}
+
+.sub-title {
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.imagen-segunda {
+  height: 70vh;
+ }
 
 .icon {
   height: 130%

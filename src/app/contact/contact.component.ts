@@ -8,6 +8,8 @@ import {
 } from '@angular/animations';
 import { Validators, FormGroup, FormArray, FormBuilder } from '@angular/forms';
 
+import { faMapMarker, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+
 import { ContactFormService } from './contact-form.service';
 
 @Component({
@@ -38,6 +40,10 @@ export class ContactComponent implements OnInit {
   title = 'My first AGM project';
   lat = -34.606176;
   lng = -58.424542;
+
+  public map = faMapMarker;
+  public envelope = faEnvelope;
+  public telephone = faPhone;
 
   constructor(
     private formData: ContactFormService,

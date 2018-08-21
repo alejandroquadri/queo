@@ -33,6 +33,42 @@
   font-weight: 100;
 }
 
+.model {
+  height: 21rem;
+  width: 21rem;
+  position: relative;
+}
+
+.background {
+  background-color: var(--green-dark);
+  height: 100%;
+  width: 100%;
+}
+
+.text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  font-size: 1.8rem;
+  font-weight: 130;
+  color: white;
+  height: 100%;
+  width: 100%;
+}
+
+.text-wrapper:hover {
+  cursor: pointer;
+}
+
+.model:hover>div.background {
+  -webkit-filter: brightness(80%);
+  -moz-filter: brightness(80%);
+  -o-filter: brightness(80%);
+  -ms-filter: brightness(80%);
+  filter: brightness(80%);
+}
+
 @media (max-width: 744px) {
 
   .sub-title {

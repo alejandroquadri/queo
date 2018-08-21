@@ -9,6 +9,19 @@
   </div>
 </div>
 
-<app-blends [colors]="product.colors"></app-blends>
-<app-dim [dim]="product.dim" [thikness]="product.thickness"></app-dim>
+<div *ngIf="models"  class="jumbotron jumbotron-fluid mb-0 bg-white">
+  <div class="container">
+    <div class="d-flex product-container flex-wrap">
+      <div *ngFor="let model of models" class="model m-3" (click)="routeTo(model)">
+        <div class="background"></div>
+        <div class="text-wrapper d-flex align-items-center">
+          <div class="text-center w-100 prod-name"> {{ product.models[model].name }} </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-blends *ngIf="product.colors"  [colors]="product.colors"></app-blends>
+<app-dim *ngIf="product.dim"  [dim]="product.dim" [thikness]="product.thickness"></app-dim>
 <app-applications [applications]="product.applications" ></app-applications>

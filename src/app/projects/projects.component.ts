@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { StaticService } from '../shared';
 
 @Component({
   selector: 'app-projects',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectsComponent implements OnInit {
 
-  constructor() { }
+  projectData: any;
+  projectArray: Array<any>;
+
+  constructor(
+    private staticData: StaticService
+  ) { }
 
   ngOnInit() {
+    this.projectData = this.staticData.data.inspiration;
+    this.projectArray = Object.keys(this.projectData.projects);
   }
 
 }

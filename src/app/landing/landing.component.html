@@ -14,7 +14,7 @@ Como el template de cada slide se crea dinamicamente por el componente de ng-boo
           <button type="button" class="ml-2 btn btn-lg btn-outline-secondary botonConocer" (click)= "more()">Conocer mas</button>
         </div>
       </div>
-      <img style="display:none;" [src]="data[1]" width="100" alt="">
+      <img style="display:none;" [src]="images[data.carrImgs[1]]" width="100" alt="">
       <div class="custom" [ngStyle]="{'background-image': 'url(' + images[data.carrImgs[0]].url + ')'}"></div>
     </ng-template>
     <ng-template ngbSlide #slide2>
@@ -25,7 +25,7 @@ Como el template de cada slide se crea dinamicamente por el componente de ng-boo
           <button type="button" class="ml-2 btn btn-lg btn-outline-secondary botonConocer" (click)= "more()">Conocer mas</button>
         </div>
       </div>
-      <img style="display:none;" [src]="data[2]" width="100" alt="">
+      <img style="display:none;" [src]="images[data.carrImgs[2]]" width="100" alt="">
       <div class="custom" [ngStyle]="{'background-image': 'url(' + images[data.carrImgs[1]].url + ')'}"></div>
     </ng-template>
     <ng-template ngbSlide #slide3>
@@ -36,7 +36,7 @@ Como el template de cada slide se crea dinamicamente por el componente de ng-boo
           <button type="button" class="ml-2 btn btn-lg btn-outline-secondary botonConocer" (click)= "more()">Conocer mas</button>
         </div>
       </div>
-      <img style="display:none;" [src]="data[3]" width="100" alt="">
+      <img style="display:none;" [src]="images[data.carrImgs[3]]" width="100" alt="">
       <div class="custom" [ngStyle]="{'background-image': 'url(' + images[data.carrImgs[2]].url + ')'}"></div>
     </ng-template>
     <ng-template ngbSlide #slide3>
@@ -47,7 +47,7 @@ Como el template de cada slide se crea dinamicamente por el componente de ng-boo
           <button type="button" class="ml-2 btn btn-lg btn-outline-secondary botonConocer" (click)= "more()">Conocer mas</button>
         </div>
       </div>
-      <img style="display:none;" [src]="data[0]" width="100" alt="">
+      <img style="display:none;" [src]="images[data.carrImgs[0]]" width="100" alt="">
       <div class="custom" [ngStyle]="{'background-image': 'url(' + images[data.carrImgs[3]].url + ')'}"></div>
     </ng-template>
   </ngb-carousel>

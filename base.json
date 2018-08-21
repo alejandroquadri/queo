@@ -124,6 +124,47 @@
       "width" : 200
     }
   },
+  "inspiration" : {
+    "featured" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FsobreJuguete.jpg?alt=media&token=352dc909-01a8-4eac-9c66-96391c298a0b",
+    "projects" : {
+      "banio" : {
+        "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Frayas2.jpg?alt=media&token=ed51373b-e87a-4944-84e0-407657f11f17" ],
+        "name" : "Baño de Maurito",
+        "products" : [ "solid", "3D" ],
+        "text" : "Aca es donde escribimos alguna pelotudez de lo increible que es la obra. Lo espectacular que son nuestros productos y la diferencia que hace el haberlos incluido"
+      },
+      "bar" : {
+        "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fdamero.jpg?alt=media&token=d5750057-214f-4514-8b3b-393088991619" ],
+        "name" : "Bar de Maurito",
+        "products" : [ "solid", "3D" ],
+        "text" : "Pero que fantastico queda ese damero. Fantasia, diria mi viejo. Lo hacemos hace 40 años. Lo que pasa es que le pones la mesita esa al lado, con el cartel pelotudo y parece distinto"
+      },
+      "patio" : {
+        "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fexterior.jpg?alt=media&token=c44051ee-dfea-49bf-b7af-18fa640d0f47" ],
+        "name" : "Patio de Maurito",
+        "products" : [ "solid", "3D" ],
+        "text" : "Me pregunto si esta cosa sera una ceramica o un porcelanato. En tal caso estariamos vendiendo gato por liebre. Bueno, esto hasta que hagamos nuestras propias fotos"
+      },
+      "cuarto" : {
+        "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fcuarto.jpg?alt=media&token=a14ac797-7f90-4558-9779-78156b9ce816" ],
+        "name" : "Cuarto de Maurito",
+        "products" : [ "solid", "3D" ],
+        "text" : "Ya se me acabaron las estupices para escribir"
+      },
+      "cocina" : {
+        "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fcocina%20terrazzo.jpg?alt=media&token=98aa4092-451e-4fd4-87df-b9ae3bf90176" ],
+        "name" : "Cocina de Maurito",
+        "products" : [ "solid", "3D" ],
+        "text" : "Lastima que es un vinilo ¿no?"
+      },
+      "banioNegro" : {
+        "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fbaniadera%20piso%20negro.jpg?alt=media&token=670bda28-d5fb-4223-a349-d0108f7e647a" ],
+        "name" : "Cocina de Maurito",
+        "products" : [ "solid", "3D" ],
+        "text" : "Ojala algun dia nos saliera hacer este color. O mejor aun, que sea real que una obra asi es nuestra"
+      }
+    }
+  },
   "landing" : {
     "carrImgs" : [ "fantasiaAnteojos", "extRio1", "grisCuarto", "chiampoLiving" ]
   },
@@ -133,106 +174,160 @@
     "quadriBlanco" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2FLogoQuadri%201024%20fondo%20blanco.png?alt=media&token=ef459896-b83d-43d7-8c20-811d9c925ce2"
   },
   "products" : {
-    "3d" : {
-      "applications" : [ "pisosInt", "pisosExt", "mesas", "revestimientos" ],
-      "colors" : [ "blanco", "dzek", "vaca-marciana", "rosa", "verde-alpe" ],
-      "dim" : [ "20x20", "20x60", "40x40", "50x50", "60x40" ],
-      "name" : "3D",
-      "order" : 5,
-      "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
-      "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses",
-      "thickness" : "20 mm"
+    "collections" : {
+      "3d" : {
+        "applications" : [ "revestimientos" ],
+        "models" : {
+          "16P" : {
+            "colors" : [ "blanco", "rosa", "verde-alpe" ],
+            "dim" : [ "40x40" ],
+            "name" : "16 panes",
+            "order" : 1,
+            "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
+            "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses",
+            "thickness" : "20 mm"
+          },
+          "64P" : {
+            "colors" : [ "blanco", "rosa", "verde-alpe" ],
+            "dim" : [ "40x40" ],
+            "name" : "64 panes",
+            "order" : 0,
+            "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
+            "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses",
+            "thickness" : "20 mm"
+          },
+          "8V" : {
+            "colors" : [ "blanco", "rosa", "verde-alpe" ],
+            "dim" : [ "40x40" ],
+            "name" : "8 vainillas",
+            "order" : 2,
+            "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
+            "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses",
+            "thickness" : "20 mm"
+          }
+        },
+        "name" : "3D",
+        "order" : 5,
+        "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
+        "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses"
+      },
+      "brick" : {
+        "applications" : [ "pisosInt", "pisosExt", "mesas", "revestimientos" ],
+        "colors" : [ "blanco", "dzek", "vaca-marciana", "rosa", "verde-alpe" ],
+        "dim" : [ "20x20", "20x60", "40x40", "50x50", "60x40" ],
+        "name" : "BRIC",
+        "order" : 7,
+        "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
+        "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses"
+      },
+      "calcareos" : {
+        "applications" : [ "pisosInt", "pisosExt", "mesas", "revestimientos" ],
+        "colors" : [ "blanco", "dzek", "vaca-marciana", "rosa", "verde-alpe" ],
+        "dim" : [ "20x20", "20x60", "40x40", "50x50", "60x40" ],
+        "name" : "Calcareos",
+        "order" : 2,
+        "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
+        "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses",
+        "thickness" : "20 mm"
+      },
+      "classic" : {
+        "applications" : [ "pisosInt", "pisosExt", "mesas", "revestimientos" ],
+        "colors" : [ "blanco", "dzek", "vaca-marciana", "rosa", "verde-alpe" ],
+        "dim" : [ "20x20", "20x60", "40x40", "50x50", "60x40" ],
+        "name" : "Clasica",
+        "order" : 0,
+        "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
+        "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses",
+        "thickness" : "20 mm"
+      },
+      "glass" : {
+        "applications" : [ "pisosInt", "pisosExt", "mesas", "revestimientos" ],
+        "colors" : [ "blanco", "dzek", "vaca-marciana", "rosa", "verde-alpe" ],
+        "dim" : [ "20x20", "20x60", "40x40", "50x50", "60x40" ],
+        "name" : "Vitro",
+        "order" : 1,
+        "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
+        "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses",
+        "thickness" : "20 mm"
+      },
+      "losetas" : {
+        "applications" : [ "pisosExt" ],
+        "models" : {
+          "16P" : {
+            "colors" : [ "blanco", "rosa", "verde-alpe" ],
+            "dim" : [ "40x40" ],
+            "name" : "16 panes",
+            "order" : 1,
+            "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
+            "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses",
+            "thickness" : "35 mm"
+          },
+          "64P" : {
+            "colors" : [ "blanco", "rosa", "verde-alpe" ],
+            "dim" : [ "40x40" ],
+            "name" : "64 panes",
+            "order" : 0,
+            "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
+            "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses",
+            "thickness" : "35 mm"
+          },
+          "8V" : {
+            "colors" : [ "blanco", "rosa", "verde-alpe" ],
+            "dim" : [ "40x40" ],
+            "name" : "8 vainillas",
+            "order" : 2,
+            "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
+            "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses",
+            "thickness" : "35 mm"
+          }
+        },
+        "name" : "Losetas",
+        "order" : 4,
+        "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
+        "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses"
+      },
+      "quarzo" : {
+        "applications" : [ "pisosInt", "pisosExt", "mesas", "revestimientos" ],
+        "colors" : [ "blanco", "dzek", "vaca-marciana", "rosa", "verde-alpe" ],
+        "dim" : [ "20x20", "20x60", "40x40", "50x50", "60x40" ],
+        "name" : "Quarzo",
+        "order" : 9,
+        "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
+        "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses",
+        "thickness" : "20 mm"
+      },
+      "rusticato" : {
+        "applications" : [ "pisosInt", "pisosExt", "mesas", "revestimientos" ],
+        "colors" : [ "blanco", "dzek", "vaca-marciana", "rosa", "verde-alpe" ],
+        "dim" : [ "20x20", "20x60", "40x40", "50x50", "60x40" ],
+        "name" : "Rusticato",
+        "order" : 6,
+        "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
+        "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses",
+        "thickness" : "20 mm"
+      },
+      "solid" : {
+        "applications" : [ "pisosInt", "pisosExt", "mesas", "revestimientos" ],
+        "colors" : [ "blanco", "dzek", "vaca-marciana", "rosa", "verde-alpe" ],
+        "dim" : [ "20x20", "20x60", "40x40", "50x50", "60x40" ],
+        "name" : "Solido",
+        "order" : 8,
+        "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
+        "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses",
+        "thickness" : "20 mm"
+      },
+      "vaca" : {
+        "applications" : [ "pisosInt", "pisosExt", "mesas", "revestimientos" ],
+        "colors" : [ "blanco", "dzek", "vaca-marciana", "rosa", "verde-alpe" ],
+        "dim" : [ "20x20", "20x60", "40x40", "50x50", "60x40" ],
+        "name" : "Vaca Loca",
+        "order" : 3,
+        "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
+        "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses",
+        "thickness" : "20 mm"
+      }
     },
-    "brick" : {
-      "applications" : [ "pisosInt", "pisosExt", "mesas", "revestimientos" ],
-      "colors" : [ "blanco", "dzek", "vaca-marciana", "rosa", "verde-alpe" ],
-      "dim" : [ "20x20", "20x60", "40x40", "50x50", "60x40" ],
-      "name" : "BRIC",
-      "order" : 7,
-      "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
-      "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses"
-    },
-    "calcareos" : {
-      "applications" : [ "pisosInt", "pisosExt", "mesas", "revestimientos" ],
-      "colors" : [ "blanco", "dzek", "vaca-marciana", "rosa", "verde-alpe" ],
-      "dim" : [ "20x20", "20x60", "40x40", "50x50", "60x40" ],
-      "name" : "Calcareos",
-      "order" : 2,
-      "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
-      "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses",
-      "thickness" : "20 mm"
-    },
-    "classic" : {
-      "applications" : [ "pisosInt", "pisosExt", "mesas", "revestimientos" ],
-      "colors" : [ "blanco", "dzek", "vaca-marciana", "rosa", "verde-alpe" ],
-      "dim" : [ "20x20", "20x60", "40x40", "50x50", "60x40" ],
-      "name" : "Clasica",
-      "order" : 0,
-      "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
-      "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses",
-      "thickness" : "20 mm"
-    },
-    "glass" : {
-      "applications" : [ "pisosInt", "pisosExt", "mesas", "revestimientos" ],
-      "colors" : [ "blanco", "dzek", "vaca-marciana", "rosa", "verde-alpe" ],
-      "dim" : [ "20x20", "20x60", "40x40", "50x50", "60x40" ],
-      "name" : "Vitro",
-      "order" : 1,
-      "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
-      "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses",
-      "thickness" : "20 mm"
-    },
-    "losetas" : {
-      "applications" : [ "pisosInt", "pisosExt", "mesas", "revestimientos" ],
-      "colors" : [ "blanco", "dzek", "vaca-marciana", "rosa", "verde-alpe" ],
-      "dim" : [ "20x20", "20x60", "40x40", "50x50", "60x40" ],
-      "name" : "Losetas",
-      "order" : 4,
-      "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
-      "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses",
-      "thickness" : "20 mm"
-    },
-    "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbotellasSobNegro.jpg?alt=media&token=be6b5702-1980-4a4a-87ab-43f5db845e7d",
-    "quarzo" : {
-      "applications" : [ "pisosInt", "pisosExt", "mesas", "revestimientos" ],
-      "colors" : [ "blanco", "dzek", "vaca-marciana", "rosa", "verde-alpe" ],
-      "dim" : [ "20x20", "20x60", "40x40", "50x50", "60x40" ],
-      "name" : "Quarzo",
-      "order" : 9,
-      "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
-      "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses",
-      "thickness" : "20 mm"
-    },
-    "rusticato" : {
-      "applications" : [ "pisosInt", "pisosExt", "mesas", "revestimientos" ],
-      "colors" : [ "blanco", "dzek", "vaca-marciana", "rosa", "verde-alpe" ],
-      "dim" : [ "20x20", "20x60", "40x40", "50x50", "60x40" ],
-      "name" : "Rusticato",
-      "order" : 6,
-      "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
-      "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses",
-      "thickness" : "20 mm"
-    },
-    "solid" : {
-      "applications" : [ "pisosInt", "pisosExt", "mesas", "revestimientos" ],
-      "colors" : [ "blanco", "dzek", "vaca-marciana", "rosa", "verde-alpe" ],
-      "dim" : [ "20x20", "20x60", "40x40", "50x50", "60x40" ],
-      "name" : "Solido",
-      "order" : 8,
-      "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
-      "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses",
-      "thickness" : "20 mm"
-    },
-    "vaca" : {
-      "applications" : [ "pisosInt", "pisosExt", "mesas", "revestimientos" ],
-      "colors" : [ "blanco", "dzek", "vaca-marciana", "rosa", "verde-alpe" ],
-      "dim" : [ "20x20", "20x60", "40x40", "50x50", "60x40" ],
-      "name" : "Vaca Loca",
-      "order" : 3,
-      "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
-      "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses",
-      "thickness" : "20 mm"
-    }
+    "featured" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbotellasSobNegro.jpg?alt=media&token=be6b5702-1980-4a4a-87ab-43f5db845e7d"
   },
   "projectImgs" : {
     "cepoBanio" : {
