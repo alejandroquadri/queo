@@ -49,17 +49,38 @@
   font-weight: 130;
 }
 
+// // el viejo
+// .prod {
+//   height: 15rem;
+//   width: 15rem;
+//   background-color: var(--green-dark);
+//   font-size: 1.8rem;
+//   font-weight: 130;
+//   color: white;
+// }
+
+// .prod:hover {
+//   cursor: pointer;
+//   -webkit-filter: brightness(80%);
+//   -moz-filter: brightness(80%);
+//   -o-filter: brightness(80%);
+//   -ms-filter: brightness(80%);
+//   filter: brightness(80%);
+// }
+
 .prod {
-  height: 15rem;
-  width: 15rem;
-  background-color: var(--green-dark);
-  font-size: 1.8rem;
-  font-weight: 130;
-  color: white;
+  height: 21rem;
+  width: 21rem;
+  position: relative;
 }
 
-.prod:hover {
-  cursor: pointer;
+.background {
+  background-color: var(--green-dark);
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   -webkit-filter: brightness(80%);
   -moz-filter: brightness(80%);
   -o-filter: brightness(80%);
@@ -67,15 +88,48 @@
   filter: brightness(80%);
 }
 
+.text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  font-size: 1.8rem;
+  font-weight: 130;
+  color: white;
+  height: 100%;
+  width: 100%;
+}
+
+.text-wrapper:hover {
+  cursor: pointer;
+}
+
+// hago target al hijo de la clase .prod cuando hoover. puntualente sobre div.background
+.prod:hover>div.background {
+  -webkit-filter: brightness(60%);
+  -moz-filter: brightness(60%);
+  -o-filter: brightness(60%);
+  -ms-filter: brightness(60%);
+  filter: brightness(60%);
+}
+
+.prod:hover>div.background {
+  -webkit-filter: brightness(60%);
+  -moz-filter: brightness(60%);
+  -o-filter: brightness(60%);
+  -ms-filter: brightness(60%);
+  filter: brightness(60%);
+}
+
 // esto no esta funcionando, xq el texto ya esta filtrado. 
 // La tecnico es una buena referencia para despues transferirla al app-menu. 
 // Tambien para usar aca con la misma tecnica de posicionamiento que use en el app-menu
-.prod:hover>div {
-  cursor: pointer;
-  // color: red;
-  -webkit-filter: brightness(130%);
-  -moz-filter: brightness(130%);
-  -o-filter: brightness(130%);
-  -ms-filter: brightness(130%);
-  filter: brightness(130%);
-}
+// .prod:hover>div {
+//   cursor: pointer;
+//   // color: red;
+//   -webkit-filter: brightness(130%);
+//   -moz-filter: brightness(130%);
+//   -o-filter: brightness(130%);
+//   -ms-filter: brightness(130%);
+//   filter: brightness(130%);
+// }
