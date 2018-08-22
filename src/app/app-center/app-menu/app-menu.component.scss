@@ -16,11 +16,12 @@
 
 .application {
   cursor: pointer;
+  position: relative;
 }
 
 .custom {
-	height:100%;
-  flex: 1;
+  height:100%;
+  width: 100%;
 	background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -31,14 +32,13 @@
   filter: brightness(80%);
 }
 
-.customDark{
-  -webkit-filter: brightness(50%);
-  -moz-filter: brightness(50%);
-  -o-filter: brightness(50%);
-  -ms-filter: brightness(50%);
-  filter: brightness(50%);
+.application:hover>div.custom {
+  -webkit-filter: brightness(60%);
+  -moz-filter: brightness(60%);
+  -o-filter: brightness(60%);
+  -ms-filter: brightness(60%);
+  filter: brightness(60%);
 }
-
 
 .iconsH {
   width: 10rem;
@@ -74,8 +74,12 @@
 // esto hay que arreglarlo para moviles
 @media (max-width: 767.98px) {
 
+  .apps {
+    height: auto;
+  }
+
   .row {
-    height: 50rem;
+    height: calc(100vh - var(--navbar-height));
   }
 
  }

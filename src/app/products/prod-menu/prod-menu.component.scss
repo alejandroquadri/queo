@@ -28,10 +28,16 @@
   color: white;
 }
 
+.product-container{
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .prod {
   height: 21rem;
   width: 21rem;
   position: relative;
+  margin: 1rem;
 }
 
 .background {
@@ -74,6 +80,16 @@
 }
 
 @media (max-width: 767.98px) {
+
+  .product-container{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .prod {
+    margin: 1rem auto 1rem auto;
+  }
 
   .title {
     font-size: 2rem;

@@ -11,8 +11,8 @@
 
 <div *ngIf="models"  class="jumbotron jumbotron-fluid mb-0 bg-white">
   <div class="container">
-    <div class="d-flex product-container flex-wrap">
-      <div *ngFor="let model of models" class="model m-3" (click)="routeTo(model)">
+    <div class="d-flex model-container">
+      <div *ngFor="let model of models" class="model" (click)="routeTo(model)">
         <div class="background"></div>
         <div class="text-wrapper d-flex align-items-center">
           <div class="text-center w-100 prod-name"> {{ product.models[model].name }} </div>

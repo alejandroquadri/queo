@@ -12,7 +12,7 @@ export class AppMenuComponent implements OnInit {
   data: any;
   appMenu: any;
 
-  @ViewChild('pisosInt') pisosInt: ElementRef;
+  // @ViewChild('pisosInt') pisosInt: ElementRef; lo dejo para tener de referencia como intervenir un elemento
   @ViewChild('pisosExt') pisosExt: ElementRef;
   @ViewChild('paredInt') paredInt: ElementRef;
   @ViewChild('paredExt') paredExt: ElementRef;
@@ -25,7 +25,6 @@ export class AppMenuComponent implements OnInit {
   ) {
     this.data = this.staticData.data;
     this.appMenu = this.staticData.data.appMenu;
-    console.log(this.appMenu);
   }
 
   ngOnInit() {
@@ -35,39 +34,40 @@ export class AppMenuComponent implements OnInit {
     this.router.navigate([path]);
   }
 
-  mouseIn(event, app: string) {
-    const el = this.wichApp(app);
-    this.renderer.addClass(el.nativeElement, 'customDark');
-  }
-  mouseOut(event, app: string) {
-    const el = this.wichApp(app);
-    this.renderer.removeClass(el.nativeElement, 'customDark');
-  }
+  // lo dejo de referencia para saber como intervenir un elemento
+  // mouseIn(event, app: string) {
+  //   const el = this.wichApp(app);
+  //   this.renderer.addClass(el.nativeElement, 'customDark');
+  // }
+  // mouseOut(event, app: string) {
+  //   const el = this.wichApp(app);
+  //   this.renderer.removeClass(el.nativeElement, 'customDark');
+  // }
 
-  wichApp(app: string) {
-    let result;
-    switch (app) {
-      case 'pisosInt':
-        result = this.pisosInt;
-        break;
+  // wichApp(app: string) {
+  //   let result;
+  //   switch (app) {
+  //     case 'pisosInt':
+  //       result = this.pisosInt;
+  //       break;
 
-      case 'pisosExt':
-        result = this.pisosExt;
-        break;
+  //     case 'pisosExt':
+  //       result = this.pisosExt;
+  //       break;
 
-      case 'paredInt':
-        result = this.paredInt;
-        break;
+  //     case 'paredInt':
+  //       result = this.paredInt;
+  //       break;
 
-      case 'paredExt':
-        result = this.paredExt;
-        break;
+  //     case 'paredExt':
+  //       result = this.paredExt;
+  //       break;
 
-      case 'mesas':
-        result = this.mesas;
-        break;
-    }
-    return result;
-  }
+  //     case 'mesas':
+  //       result = this.mesas;
+  //       break;
+  //   }
+  //   return result;
+  // }
 
 }

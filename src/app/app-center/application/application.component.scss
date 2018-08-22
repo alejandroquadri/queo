@@ -49,10 +49,16 @@
   font-weight: 130;
 }
 
+.product-container{
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .prod {
   height: 21rem;
   width: 21rem;
   position: relative;
+  margin: 1rem;
 }
 
 .background {
@@ -93,10 +99,26 @@
   filter: brightness(60%);
 }
 
-.prod:hover>div.background {
-  -webkit-filter: brightness(60%);
-  -moz-filter: brightness(60%);
-  -o-filter: brightness(60%);
-  -ms-filter: brightness(60%);
-  filter: brightness(60%);
+@media (max-width: 744px) {
+
+  .product-container{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .prod {
+    margin: 1rem auto 1rem auto;
+  }
+
+  .title {
+    font-size: 3rem;
+    font-weight: 100;
+  }
+
+  .sub-title {
+    font-size: 1rem;
+    font-weight: 100;
+  }
+
 }

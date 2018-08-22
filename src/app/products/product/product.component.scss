@@ -33,10 +33,16 @@
   font-weight: 100;
 }
 
+.model-container {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .model {
   height: 21rem;
   width: 21rem;
   position: relative;
+  margin: 1rem;
 }
 
 .background {
@@ -70,6 +76,16 @@
 }
 
 @media (max-width: 744px) {
+
+  .model-container{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .model {
+    margin: 1rem auto 1rem auto;
+  }
 
   .sub-title {
     font-size: 1rem;

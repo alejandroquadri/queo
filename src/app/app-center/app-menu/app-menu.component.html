@@ -1,84 +1,21 @@
-<!-- <div class="container-fluid">
-  <div class="apps">
+<div class="apps container-fluid">
+<!-- <div class="container-fluid"> -->
     
     <div class="row">
 
-      <div class="col-lg-4 col-sm-12 p-0 application" (click) = "goTo('/aplicaciones/pisos-interiores')" >
-        <div [ngStyle]="{'background-image': 'url(' + data.ambients[3] + ')'}"
-        class="custom" #pisosInt></div>
-        <div class="d-flex flex-column justify-content-center w-100 appText"  (mouseover)="mouseIn($event, 'pisosInt')" (mouseout)="mouseOut($event, 'pisosInt')" #application>
-          <div class="align-self-center w-100"><img [src]="staticData.pisoInt" class="iconsH p-2 mb-3" alt=""></div>
-          <div class="appNames text-center p-2 align-self-center">PISOS <br> INTERIORES</div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-sm-12 p-0 application" (click) = "goTo('/aplicaciones/pisos-exteriores')" >
-        <div [ngStyle]="{'background-image': 'url(' + data.ambients[3] + ')'}"
-        class="custom" #pisosExt></div>
-        <div class="d-flex flex-column justify-content-center w-100 appText"  (mouseover)="mouseIn($event, 'pisosExt')" (mouseout)="mouseOut($event, 'pisosExt')" #application>
-          <div class="align-self-center w-100"><img [src]="data.apps['pisos-exteriores'].icon" class="iconsH p-2 mb-3" alt=""></div>
-          <div class="appNames text-center p-2 align-self-center">PISOS <br> EXTERIORES</div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-sm-12 p-0 application" (click) = "goTo('/aplicaciones/paredes-interiores')" >
-        <div [ngStyle]="{'background-image': 'url(' + data.ambients[3] + ')'}"
-        class="custom" #paredInt></div>
-        <div class="d-flex flex-column justify-content-center w-100 appText"  (mouseover)="mouseIn($event, 'paredInt')" (mouseout)="mouseOut($event, 'paredInt')" #application>
-          <div class="align-self-center w-100"><img [src]="data.apps['paredes-interiores'].icon" class="iconsV p-2 mb-3" alt=""></div>
-          <div class="appNames text-center p-2 align-self-center">PAREDES<br>INTERIORES</div>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="row">
-
-      <div class="col-lg-4 col-sm-12 p-0 application" (click) = "goTo('/aplicaciones/paredes-exteriores')" >
-        <div [ngStyle]="{'background-image': 'url(' + data.ambients[3] + ')'}"
-        class="custom" #paredExt></div>
-        <div class="d-flex flex-column justify-content-center w-100 appText"  (mouseover)="mouseIn($event, 'paredExt')" (mouseout)="mouseOut($event, 'paredExt')" #application>
-          <div class="align-self-center w-100"><img [src]="data.apps['paredes-exteriores'].icon" class="iconsV p-2 mb-3" alt=""></div>
-          <div class="appNames text-center p-2 align-self-center">PAREDES <br> EXTERIORES</div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-sm-12 p-0 application" (click) = "goTo('/aplicaciones/mesas')" >
-        <div [ngStyle]="{'background-image': 'url(' + data.ambients[2] + ')'}"
-        class="custom" #mesas></div>
-        <div class="d-flex flex-column justify-content-center w-100 appText"  (mouseover)="mouseIn($event, 'mesas')" (mouseout)="mouseOut($event, 'mesas')" #application>
-          <div class="align-self-center w-100"><img [src]="data.apps['mesas'].icon" class="iconsH p-2 mb-3" alt=""></div>
-          <div class="appNames text-center p-2 align-self-center">MESAS<br>Y<br>BARRAS</div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-sm-12 texto d-flex flex-row align-items-center text-center">
-        Podemos ayudarte a crear un espacio especial con Terrazzo
-      </div>
-
-    </div>
-
-  </div>
-</div> -->
-
-<div class="container-fluid">
-  <div class="apps">
-    
-    <div class="row">
-
-      <div class="col-lg-6 col-sm-12 p-0 application" (click) = "goTo('/aplicaciones/pisos-interiores')" >
+      <div class="col-md-6 col-sm-12 p-0 application" (click) = "goTo('/aplicaciones/pisos-interiores')" >
         <div [ngStyle]="{'background-image': 'url(' + appMenu.pisosInt.img + ')'}"
-        class="custom" #pisosInt></div>
-        <div class="d-flex flex-column justify-content-center w-100 appText"  (mouseover)="mouseIn($event, 'pisosInt')" (mouseout)="mouseOut($event, 'pisosInt')" #application>
+        class="custom"></div>
+        <div class="d-flex flex-column justify-content-center w-100 appText">
           <div class="align-self-center w-100"><img [src]="appMenu.pisosInt.icon" class="iconsH p-2 mb-3" alt=""></div>
           <div class="appNames text-center p-2 align-self-center">{{ appMenu.pisosInt.text }}</div>
         </div>
       </div>
 
-      <div class="col-lg-6 col-sm-12 p-0 application" (click) = "goTo('/aplicaciones/pisos-exteriores')" >
+      <div class="col-md-6 col-sm-12 p-0 application" (click) = "goTo('/aplicaciones/pisos-exteriores')" >
         <div [ngStyle]="{'background-image': 'url(' + appMenu.pisosExt.img + ')'}"
-        class="custom" #pisosExt></div>
-        <div class="d-flex flex-column justify-content-center w-100 appText"  (mouseover)="mouseIn($event, 'pisosExt')" (mouseout)="mouseOut($event, 'pisosExt')" #application>
+        class="custom"></div>
+        <div class="d-flex flex-column justify-content-center w-100 appText">
           <div class="align-self-center w-100"><img [src]="appMenu.pisosExt.icon" class="iconsH p-2 mb-3" alt=""></div>
           <div class="appNames text-center p-2 align-self-center">{{ appMenu.pisosExt.text }}</div>
         </div>
@@ -88,19 +25,19 @@
     
     <div class="row">
 
-      <div class="col-lg-6 col-sm-12 p-0 application" (click) = "goTo('/aplicaciones/revestimientos')" >
+      <div class="col-md-6 col-sm-12 p-0 application" (click) = "goTo('/aplicaciones/revestimientos')" >
         <div [ngStyle]="{'background-image': 'url(' + appMenu.revestimientos.img + ')'}"
-        class="custom" #paredInt></div>
-        <div class="d-flex flex-column justify-content-center w-100 appText"  (mouseover)="mouseIn($event, 'paredInt')" (mouseout)="mouseOut($event, 'paredInt')" #application>
+        class="custom"></div>
+        <div class="d-flex flex-column justify-content-center w-100 appText">
           <div class="align-self-center w-100"><img [src]="appMenu.revestimientos.icon" class="iconsV p-2 mb-3" alt=""></div>
           <div class="appNames text-center p-2 align-self-center">{{ appMenu.revestimientos.text }}</div>
         </div>
       </div>
 
-      <div class="col-lg-6 col-sm-12 p-0 application" (click) = "goTo('/aplicaciones/mesas')" >
+      <div class="col-md-6 col-sm-12 p-0 application" (click) = "goTo('/aplicaciones/mesas')" >
         <div [ngStyle]="{'background-image': 'url(' + appMenu.mesas.img + ')'}"
-        class="custom" #mesas></div>
-        <div class="d-flex flex-column justify-content-center w-100 appText"  (mouseover)="mouseIn($event, 'mesas')" (mouseout)="mouseOut($event, 'mesas')" #application>
+        class="custom"></div>
+        <div class="d-flex flex-column justify-content-center w-100 appText">
           <div class="align-self-center w-100"><img [src]="appMenu.mesas.icon" class="iconsH p-2 mb-3" alt=""></div>
           <div class="appNames text-center p-2 align-self-center">{{ appMenu.mesas.text }}</div>
         </div>
@@ -109,7 +46,7 @@
     </div>
 
   </div>
-</div>
+<!-- </div> -->
 
 <app-steps></app-steps>
 <app-trust-quadri></app-trust-quadri>

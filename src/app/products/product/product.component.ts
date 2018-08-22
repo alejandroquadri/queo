@@ -25,7 +25,6 @@ export class ProductComponent implements OnInit {
     if (this.product.models) {
       this.models = Object.keys(this.product.models);
     }
-    console.log(this.staticData.data.products);
   }
 
   routeTo(model) {
