@@ -7,11 +7,11 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-filter: brightness(80%);
-  -moz-filter: brightness(80%);
-  -o-filter: brightness(80%);
-  -ms-filter: brightness(80%);
-  filter: brightness(80%);
+  -webkit-filter: brightness(60%);
+  -moz-filter: brightness(60%);
+  -o-filter: brightness(60%);
+  -ms-filter: brightness(60%);
+  filter: brightness(60%);
 }
 
 .title-wrapper {
@@ -38,6 +38,14 @@
   background-color: var(--green-dark);
   height: 100%;
   width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-filter: brightness(80%);
+  -moz-filter: brightness(80%);
+  -o-filter: brightness(80%);
+  -ms-filter: brightness(80%);
+  filter: brightness(80%);
 }
 
 .text-wrapper {
@@ -58,11 +66,11 @@
 
 // hago target al hijo de la clase .prod cuando hoover. puntualente sobre div.background
 .prod:hover>div.background {
-  -webkit-filter: brightness(80%);
-  -moz-filter: brightness(80%);
-  -o-filter: brightness(80%);
-  -ms-filter: brightness(80%);
-  filter: brightness(80%);
+  -webkit-filter: brightness(60%);
+  -moz-filter: brightness(60%);
+  -o-filter: brightness(60%);
+  -ms-filter: brightness(60%);
+  filter: brightness(60%);
 }
 
 @media (max-width: 767.98px) {
