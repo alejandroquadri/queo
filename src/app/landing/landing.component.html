@@ -6,64 +6,33 @@ Como el template de cada slide se crea dinamicamente por el componente de ng-boo
 
 <div  *ngIf="carrousel"  class="carousel-wrapper d-flex">
   <ngb-carousel [interval]="0"  [showNavigationArrows]="false" (slide)="cambio($event)">
-    <ng-template ngbSlide #slide1>
+  
+    <ng-template ngbSlide *ngFor="let slide of slidesArray" >
+
       <div class="carousel-caption">
-        <div class="oneliner">Metaselo en el orto viejo</div>
-        <div class="botones">
-          <button type="button" class="btn btn-lg botonComprar" (click)= "toProducts()">Comprar</button>
-          <button type="button" class="ml-2 btn btn-lg btn-outline-secondary botonConocer" (click)= "more()">Conocer mas</button>
+        <div class="custom" [ngStyle]="{'background-image': 'url(' + images[slidesData[slide].img].url + ')'}"></div>
+        <div class="caption-wrapper d-flex flex-column justify-content-center jumbotron bg-transparent m-0">
+          <div class="text-wrapper">
+            <div class="oneliner">{{ slidesData[slide].title }}</div>
+            <div class="sub-liner">{{ slidesData[slide].subTitle }}</div>
+          </div>
+          <div class="button-wrapper">
+            <button type="button" class="btn btn-lg botonComprar" (click)= "toProducts()">Comprar</button>
+            <button type="button" class="ml-2 btn btn-lg btn-outline-secondary botonConocer" (click)= "more()">Conocer mas</button>
+          </div>
         </div>
       </div>
-      <!-- <div class="jumbotron bg-transparent">
-        <h1 class="display-4">Hello, world!</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-        <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <button type="button" class="ml-2 btn btn-lg btn-outline-secondary botonConocer" (click)= "more()">Conocer mas</button>
-      </div> -->
       <img style="display:none;" [src]="images[data.carrImgs[1]]" width="100" alt="">
-      <div class="custom" [ngStyle]="{'background-image': 'url(' + images[data.carrImgs[0]].url + ')'}"></div>
+
     </ng-template>
-    <ng-template ngbSlide #slide2>
-      <div class="carousel-caption">
-        <div class="oneliner">Metaselo en el orto viejo</div>
-        <div class="botones">
-          <button type="button" class="btn btn-lg botonComprar" (click)= "toProducts()">Comprar</button>
-          <button type="button" class="ml-2 btn btn-lg btn-outline-secondary botonConocer" (click)= "more()">Conocer mas</button>
-        </div>
-      </div>
-      <img style="display:none;" [src]="images[data.carrImgs[2]]" width="100" alt="">
-      <div class="custom" [ngStyle]="{'background-image': 'url(' + images[data.carrImgs[1]].url + ')'}"></div>
-    </ng-template>
-    <ng-template ngbSlide #slide3>
-      <div class="carousel-caption">
-        <div class="oneliner">Metaselo en el orto viejo</div>
-        <div class="botones">
-          <button type="button" class="btn btn-lg botonComprar" (click)= "toProducts()">Comprar</button>
-          <button type="button" class="ml-2 btn btn-lg btn-outline-secondary botonConocer" (click)= "more()">Conocer mas</button>
-        </div>
-      </div>
-      <img style="display:none;" [src]="images[data.carrImgs[3]]" width="100" alt="">
-      <div class="custom" [ngStyle]="{'background-image': 'url(' + images[data.carrImgs[2]].url + ')'}"></div>
-    </ng-template>
-    <ng-template ngbSlide #slide3>
-      <div class="carousel-caption">
-        <div class="oneliner">Metaselo en el orto viejo</div>
-        <div class="botones">
-          <button type="button" class="btn btn-lg botonComprar" (click)= "toProducts()">Comprar</button>
-          <button type="button" class="ml-2 btn btn-lg btn-outline-secondary botonConocer" (click)= "more()">Conocer mas</button>
-        </div>
-      </div>
-      <img style="display:none;" [src]="images[data.carrImgs[0]]" width="100" alt="">
-      <div class="custom" [ngStyle]="{'background-image': 'url(' + images[data.carrImgs[3]].url + ')'}"></div>
-    </ng-template>
+
   </ngb-carousel>
 </div>
 
 <!-- El div de abajo sirve en caso de querer usar de una imagen f.urlull screen -->
 <div *ngIf="!carrousel"  class="carousel-wrapper d-flex">
 
-  <div class="custom desktop" [ngStyle]="{'background-image': 'url(' + images[data.carrImgs[3]].url + ')'}">
+  <div class="custom desktop" [ngStyle]="{'background-image': 'url(' + images[slidesData[0].img].url + ')'}">
     <div class="titulos">
       <!-- <img class="logo ml-4" [src]="logo"> -->
       <div class="oneliner">MÉTASELO EN EL ORTO</div>

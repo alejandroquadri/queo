@@ -18,7 +18,10 @@ export class LandingComponent implements OnInit {
   carouselItems: any;
   active: any;
 
-  @ViewChild('slide1') slide1;
+  slidesData: any;
+  slidesArray: Array<any>;
+
+  // @ViewChild('slide1') slide1;
 
   constructor(
     private staticData: StaticService,
@@ -26,6 +29,9 @@ export class LandingComponent implements OnInit {
   ) {
     this.data = this.staticData.data.landing;
     this.images = this.staticData.data.projectImgs;
+
+    this.slidesData = this.staticData.data.landing.slides;
+    this.slidesArray = Object.keys(this.slidesData);
   }
 
   ngOnInit() {

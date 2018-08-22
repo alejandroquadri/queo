@@ -1,15 +1,9 @@
 
 .container-fluid {
-  // background-color: var(--grey-light);
   min-height: calc(100vh - 56px)
 }
 
-// .carousel-wrapper {
-// 	height: 100vh;
-// }
-
 .carousel-wrapper {
-  // height: 100%;
   height: calc(100vh - var(--navbar-height));
   background-color: var(--green-light);
 }
@@ -28,8 +22,8 @@
 }
 
 .custom {
-	height:100%;
-	flex: 1;
+	height: 100%;
+  width: 100%;
 	background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -44,39 +38,38 @@
   right: 0;
   bottom: 0;
   left: 0;
-  top: 20%;
-  text-align: start;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding: 0px;
 }
 
-// .carousel-caption {
-//   right: 0;
-//   bottom: 0;
-//   left: 0;
-//   top: 0;
-//   height: 100%;
-//   width: 100%;
-//   // text-align: start;
-// }
+.caption-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  height: 100%;
+  width: 100%;
+}
+
+.text-wrapper {
+  padding-bottom: 2rem;
+}
 
 .oneliner {
 	color: white;
-	width: 100%;
-  max-width: 90%;
-  // min-width: 17rem;
-  // position: relative;
-  // top: 2em;
-  // left: 4rem;
   font-size: 5rem;
   font-weight: 100;
   line-height: 1.6;
-  padding-left: 7rem;
 }
 
-.botones {
-  padding-left: 7rem;
-	// position: relative;
-  // top: 9rem;
-  // left: 4rem;
+.sub-liner {
+	color: white;
+  font-size: 2rem;
+  font-weight: 100;
+  // line-height: 1;
 }
 
 .botonComprar {
@@ -109,105 +102,6 @@
 }
 
 
-
-// esto es para foto de pantalla completa
-
-// .titulos {
-// 	position: absolute;
-//   top: 10%;
-//   left: 5%;
-//   // width: 40%;
-// }
-
-// .logo {
-//   width: 100%;
-//   max-width: 30rem;
-//   min-width: 17rem;
-//   // position: absolute;
-//   // top: 10%;
-//   // left: 5%;
-// }
-
-// .oneliner {
-// 	color: white;
-// 	width: 100%;
-//   // max-width: 90%;
-//   // min-width: 17rem;
-//   position: relative;
-//   top: 2em;
-//   left: 4rem;
-//   font-size: 4rem;
-//   font-weight: 400;
-//   line-height: 1.6;
-// }
-
-// .botones {
-// 	position: relative;
-//   top: 9rem;
-//   left: 4rem;
-// }
-
-// .botonComprar {
-// 	color: white;
-// 	background-color: var(--green-dark);
-// 	border-color: var(--green-dark);
-// }
-
-// .botonComprar:hover {
-// 	color: white;
-// 	background-color: var(--green-light);
-// 	border-color: var(--green-light);
-// 	cursor: pointer;
-// }
-
-// .botonComprar:active {
-//   color: #fff;
-//   background-color: var(--green-light);
-// 	border-color: var(--green-light);
-//   box-shadow: 0 0 0 0.2rem hsla(290, 100%, 50%, 0.5);
-// }
-
-// .botonConocer {
-// 	color: white;
-// 	border-color: white;
-// }
-
-// .botonConocer:hover {
-// 	cursor: pointer;
-// }
-
-.titulosMobile {
-	position: absolute;
-  top: 5%;
-  left: 5%;
-  width: 80%;
-}
-
-.logoMobile {
-  width: 80%;
-  position: relative;
-}
-
-.onelinerMobile {
-  color: white;
-  width: 90%;
-  max-width: 90%;
-  // min-width: 17rem;
-  position: relative;
-  top: 1em;
-  left: 10%;
-  font-size: 1.5rem;
-  font-weight: 100;
-  line-height: 1.5;
-}
-
-.botonesMobile {
-	position: absolute;
-    /* top: 19em; */
-  left: 10%;
-  bottom: 2rem;
-}
-
 @media (min-width : 768px) {
 
 	.mobile {
@@ -222,21 +116,6 @@
 		display: none;
 	}
 
-}
-
-
-// esto para hacer la barra transparente
-.navbar-trans {
-  background: transparent; 
-}
-
-.terrazzo {
-	color: #FF00FF;
-}
-
-.terrazzo:hover {
-	font-weight: 400;
-	text-decoration: none;
 }
 
 
