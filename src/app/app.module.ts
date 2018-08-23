@@ -1,6 +1,6 @@
 // Angular
 // comento el BrowserModule porque queda reemplazado por el BrowserAnimationsModule. Sino traer kilombo al usar lazyloading
-// import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule, APP_INITIALIZER } from '@angular/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
@@ -43,7 +43,7 @@ export function DataProviderFactory(provider: StaticService) {
     LandingComponent,
   ],
   imports: [
-    // BrowserModule,
+    BrowserModule,
     BrowserAnimationsModule,
     HttpModule,
     RouterModule,
