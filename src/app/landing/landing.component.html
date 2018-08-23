@@ -22,11 +22,15 @@ Como el template de cada slide se crea dinamicamente por el componente de ng-boo
           </div>
         </div>
       </div>
-      <img style="display:none;" [src]="images[data.carrImgs[1]]" width="100" alt="">
 
     </ng-template>
 
   </ngb-carousel>
+</div>
+
+<!-- esto de abajo es un truquito para que se carguen las imagenes rapido -->
+<div style="display:none;">
+  <img alt="" *ngFor="let img of slidesArray" style="display:none;" [src]="images[slidesData[img].img].url">
 </div>
 
 <!-- El div de abajo sirve en caso de querer usar de una imagen f.urlull screen -->
