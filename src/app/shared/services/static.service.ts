@@ -7,6 +7,8 @@ import { ApiService } from './api.service';
 export class StaticService {
 
   data: any;
+  dataSubs: any;
+
   mesa = './assets/icons/mesaBlanco.png';
   paredExt = './assets/icons/paredExtBlanco.png';
   paredInt = './assets/icons/paredIntBlanco.png';
@@ -18,16 +20,27 @@ export class StaticService {
     private api: ApiService
   ) { }
 
-  getStaticData(): Promise<any> {
+  // getStaticData2(): Promise<any> {
+  //   return new Promise( (resolve, reject) => {
+  //     this.api.getObjectOnce('quadri')
+  //     .then( ret => {
+  //       this.data = ret.val();
+  //       console.log('static data available', this.data);
+  //       resolve(this.data);
+  //     })
+  //     .catch( err => {
+  //       reject( err );
+  //     });
+  //   });
+  // }
+
+  getStaticData() {
+    this.dataSubs = this.api.getObject('quadri');
     return new Promise( (resolve, reject) => {
-      this.api.getObjectOnce('quadri')
-      .then( ret => {
-        this.data = ret.val();
+      this.dataSubs.subscribe( data => {
+        this.data = data;
         console.log('static data available', this.data);
         resolve(this.data);
-      })
-      .catch( err => {
-        reject( err );
       });
     });
   }

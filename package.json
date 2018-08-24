@@ -9,7 +9,11 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "prestart": "ng build --prod && ngc",
-    "start2": "ts-node src/server.ts"
+    "start2": "ts-node src/server.ts",
+    "webpack:prerender": "webpack --config webpack.prerender.config.js",
+    "build:prerender": "node dist/quadri-web/prerender.js",
+    "serve:prerender": "http-server dist/quadri-web -o",
+    "build:all": "ng build --prod && ng run quadri-web:server && npm run webpack:prerender && npm run build:prerender"
   },
   "private": true,
   "dependencies": {
@@ -54,6 +58,8 @@
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~8.9.4",
     "codelyzer": "~4.2.1",
+    "fs-extra": "^7.0.0",
+    "http-server": "^0.11.1",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~1.7.1",
@@ -62,8 +68,10 @@
     "karma-jasmine": "~1.1.1",
     "karma-jasmine-html-reporter": "^0.2.2",
     "protractor": "~5.3.0",
+    "ts-loader": "^4.5.0",
     "ts-node": "~5.0.1",
     "tslint": "~5.9.1",
-    "typescript": "~2.9.2"
+    "typescript": "~2.9.2",
+    "webpack-cli": "^3.1.0"
   }
 }

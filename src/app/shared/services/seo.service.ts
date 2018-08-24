@@ -8,13 +8,13 @@ export class SeoService {
 
   generateTags(tags) {
     // default values
-    tags = { 
-      title: 'Angular SSR', 
-      description: 'My SEO friendly Angular Component', 
+    tags = {
+      title: 'Angular SSR',
+      description: 'My SEO friendly Angular Component',
       image: 'https://angularfirebase.com/images/logo.png',
       slug: '',
       ...tags
-    }
+    };
 
     // Set a title
     this.titleService.setTitle(tags.title);
