@@ -74,11 +74,11 @@ export class LandingComponent implements OnInit {
   }
 
   toProducts() {
-    this.router.navigate(['/']);
+    this.router.navigate(['/productos']);
   }
 
   more() {
-    this.router.navigate(['/']);
+    this.router.navigate(['/aplicaciones']);
   }
 
 }
