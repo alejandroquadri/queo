@@ -1,4 +1,5 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild, Inject } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
 import { Router } from '@angular/router';
 
 import { StaticService } from '../shared';
@@ -13,6 +14,7 @@ export class LandingComponent implements OnInit {
   carrousel = true;
   data: any;
   images: any;
+  doc: any;
 
   carouselInner: any;
   carouselItems: any;
@@ -25,8 +27,10 @@ export class LandingComponent implements OnInit {
 
   constructor(
     private staticData: StaticService,
-    private router: Router
+    private router: Router,
+    @Inject(DOCUMENT) document
   ) {
+    this.doc = document;
     this.data = this.staticData.data.landing;
     this.images = this.staticData.data.projectImgs;
 
@@ -39,7 +43,8 @@ export class LandingComponent implements OnInit {
     // !! el codigo de abajo sirve para cambiar el css para que el carousel quede fullscreen
     if (this.carrousel) {
       setTimeout( () => {
-        this.carouselInner = document.getElementsByClassName('carousel-inner');
+        // this.carouselInner = document.getElementsByClassName('carousel-inner');
+        this.carouselInner = this.doc.getElementsByClassName('carousel-inner');
         this.carouselInner[0].style.cssText = `
             height: 100%;
         `;
@@ -57,11 +62,11 @@ export class LandingComponent implements OnInit {
   // esta funcion es para que el carousel quede full screen
   changeCSS() {
     setTimeout( () => {
-      this.carouselItems = document.querySelectorAll('.carousel-item');
+      this.carouselItems = this.doc.querySelectorAll('.carousel-item');
       for (let i = 0; i < this.carouselItems.length; i++) {
         this.carouselItems[i].style.display = 'none';
       }
-      this.active = document.querySelectorAll('.carousel-item.active');
+      this.active = this.doc.querySelectorAll('.carousel-item.active');
 
       this.active[0].style.height = '100%';
       this.active[0].style.display = 'flex';
