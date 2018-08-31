@@ -10,13 +10,13 @@ Como el template de cada slide se crea dinamicamente por el componente de ng-boo
     <ng-template ngbSlide *ngFor="let slide of slidesArray" >
 
       <div class="carousel-caption">
-        <div class="custom" [ngStyle]="{'background-image': 'url(' + images[slidesData[slide].img].url + ')'}"></div>
+        <div class="custom" [ngStyle]="{'background-image': 'url(' + slidesData[slide].img + ')'}"></div>
         <div class="caption-wrapper d-flex flex-column justify-content-center jumbotron bg-transparent m-0">
-          <div class="text-wrapper">
+          <div class="text-wrapper pl-5">
             <div class="oneliner">{{ slidesData[slide].title }}</div>
-            <div class="sub-liner">{{ slidesData[slide].subTitle }}</div>
+            <!-- <div class="sub-liner">{{ slidesData[slide].subTitle }}</div> -->
           </div>
-          <div class="button-wrapper">
+          <div class="button-wrapper pl-5">
             <button type="button" class="btn btn-lg botonComprar" (click)= "toProducts()">Comprar</button>
             <button type="button" class="ml-2 btn btn-lg btn-outline-secondary botonConocer" (click)= "more()">Conocer mas</button>
           </div>
@@ -30,7 +30,7 @@ Como el template de cada slide se crea dinamicamente por el componente de ng-boo
 
 <!-- esto de abajo es un truquito para que se carguen las imagenes rapido -->
 <div style="display:none;">
-  <img alt="" *ngFor="let img of slidesArray" style="display:none;" [src]="images[slidesData[img].img].url">
+  <img alt="" *ngFor="let img of slidesArray" style="display:none;" [src]="slidesData[img].img">
 </div>
 
 <!-- El div de abajo sirve en caso de querer usar de una imagen f.urlull screen -->

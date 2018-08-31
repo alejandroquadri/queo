@@ -9,14 +9,15 @@ export class StaticService {
   data: any;
   dataSubs: any;
 
-  logo = './assets/icons/LogoQuadriFondoBlanco.png';
+  logo = './assets/icons/logoQueoBlancoLimpio.png';
+  logoNegro = './assets/icons/logoQueoNegroLimpio.png';
 
   constructor(
     private api: ApiService
   ) { }
 
   getStaticData() {
-    this.dataSubs = this.api.getObject('quadri');
+    this.dataSubs = this.api.getObject('queo');
     return new Promise( (resolve, reject) => {
       this.dataSubs.subscribe( data => {
         this.data = data;

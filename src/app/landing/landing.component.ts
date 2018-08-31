@@ -31,10 +31,11 @@ export class LandingComponent implements OnInit {
     @Inject(DOCUMENT) document
   ) {
     this.doc = document;
-    this.data = this.staticData.data.landing;
-    this.images = this.staticData.data.projectImgs;
+    // this.data = this.staticData.data.landing;
+    // this.images = this.staticData.data.projectImgs;
 
     this.slidesData = this.staticData.data.landing.slides;
+    console.log(this.slidesData);
     this.slidesArray = Object.keys(this.slidesData);
   }
 

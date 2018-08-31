@@ -1,11 +1,20 @@
 
+// .container-fluid {
+//   min-height: calc(100vh - 56px)
+// }
+
+// .carousel-wrapper {
+//   height: calc(100vh - var(--navbar-height));
+//   background-color: var(--pink-light);
+// }
+
 .container-fluid {
-  min-height: calc(100vh - 56px)
+  min-height: 100%;
 }
 
 .carousel-wrapper {
-  height: calc(100vh - var(--navbar-height));
-  background-color: var(--green-light);
+  height: 100%;
+  background-color: var(--pink-light);
 }
 
 .carousel {
@@ -56,39 +65,46 @@
 
 .text-wrapper {
   padding-bottom: 2rem;
+  max-width: 40%;
 }
 
 .oneliner {
 	color: white;
-  font-size: 5rem;
+  font-size: 3vw;
   font-weight: 100;
   line-height: 1.6;
+  text-align: start;
 }
 
 .sub-liner {
 	color: white;
   font-size: 2rem;
   font-weight: 100;
-  // line-height: 1;
+  text-align: start;
+}
+
+.button-wrapper {
+  display: block;
+  text-align: start;
 }
 
 .botonComprar {
 	color: white;
-	background-color: var(--green-dark);
-	border-color: var(--green-dark);
+	background-color: var(--pink-dark);
+	border-color: var(--pink-dark);
 }
 
 .botonComprar:hover {
 	color: white;
-	background-color: var(--green-light);
-	border-color: var(--green-light);
+	background-color: var(--pink-light);
+	border-color: var(--pink-light);
 	cursor: pointer;
 }
 
 .botonComprar:active {
   color: white;
-  background-color: var(--green-light);
-	border-color: var(--green-light);
+  background-color: var(--pink-light);
+	border-color: var(--pink-light);
   box-shadow: 0 0 0 0.2rem hsla(290, 100%, 50%, 0.5);
 }
 

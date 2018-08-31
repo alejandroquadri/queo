@@ -1,11 +1,11 @@
 export const environment = {
   production: true,
   firebase: {
-    apiKey: 'AIzaSyBYSbvYyni4W7foNBjOQ8JS8aCYFHaWHq4',
-    authDomain: 'designweb-249da.firebaseapp.com',
-    databaseURL: 'https://designweb-249da.firebaseio.com',
-    projectId: 'designweb-249da',
-    storageBucket: 'designweb-249da.appspot.com',
-    messagingSenderId: '629553616379'
+    apiKey: 'AIzaSyAlL2G2rHRFUjRV7FlHjKMuZH7iguJdVfo',
+    authDomain: 'livelinks-62c79.firebaseapp.com',
+    databaseURL: 'https://livelinks-62c79.firebaseio.com',
+    projectId: 'livelinks-62c79',
+    storageBucket: 'livelinks-62c79.appspot.com',
+    messagingSenderId: '786324050894'
   }
 };
