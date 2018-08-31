@@ -9,7 +9,7 @@ export class StaticService {
   data: any;
   dataSubs: any;
 
-  logo = './assets/icons/logoQueoBlancoLimpio.png';
+  logoBlanco = './assets/icons/logoQueoBlancoLimpio.png';
   logoNegro = './assets/icons/logoQueoNegroLimpio.png';
 
   constructor(

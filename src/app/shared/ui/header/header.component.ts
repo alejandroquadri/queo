@@ -30,14 +30,14 @@ export class HeaderComponent implements OnInit {
   ) { }
 
   isExpanded = false;
-  logo: any;
+  logoBlanco: any;
+  logoNegro: any;
 
   scrollValue: any;
   scrollDir = 'up';
 
   @HostListener('window:scroll', ['$event'])
     doSomething(event) {
-      console.log(window.innerWidth, window.outerWidth);
       const oldScrollValue = this.scrollValue;
       this.scrollValue = window.pageYOffset;
       if (this.scrollValue <= oldScrollValue) {
@@ -48,7 +48,8 @@ export class HeaderComponent implements OnInit {
     }
 
   ngOnInit() {
-    this.logo = this.staticData.logo;
+    this.logoBlanco = this.staticData.logoBlanco;
+    this.logoNegro = this.staticData.logoNegro;
   }
 
 }

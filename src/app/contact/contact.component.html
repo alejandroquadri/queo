@@ -1,6 +1,6 @@
 <div class="contenedor d-flex flex-column flex-md-row align-items-md-stretch">
     
-  <div class="p-4 item mx-auto">
+  <div class="p-4 item mx-auto columnas">
       <h5 class="estilo">
         Consultas
       </h5>
@@ -35,7 +35,7 @@
       </div>
     </div>
 
-    <div class="p-4 item d-flex flex-column">
+    <div class="p-4 item d-flex flex-column columnas">
       <agm-map class="" [latitude]="lat" [longitude]="lng" [zoom]=17 [scrollwheel] = false>
         <agm-marker #map class="mapa" [latitude]="lat" [longitude]="lng"></agm-marker>
       </agm-map>

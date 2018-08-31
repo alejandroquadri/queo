@@ -1,5 +1,4 @@
 // Angular
-// comento el BrowserModule porque queda reemplazado por el BrowserAnimationsModule. Sino traer kilombo al usar lazyloading
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserTransferStateModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -26,7 +25,6 @@ import {
 } from './shared';
 
 import { ContactComponent } from './contact/contact.component';
-// import { ProductsComponent } from './products/products.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { LandingComponent } from './landing/landing.component';
 
@@ -39,7 +37,6 @@ export function DataProviderFactory(provider: StaticService) {
   declarations: [
     AppComponent,
     ContactComponent,
-    // ProductsComponent,
     ProjectsComponent,
     LandingComponent,
   ],

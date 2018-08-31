@@ -1,5 +1,13 @@
+// .contenedor {
+// 	min-height: calc(100vh - var(--navbar-height));
+// }
+
 .contenedor {
-	min-height: calc(100vh - var(--navbar-height));
+	min-height: 100vh;
+}
+
+.columnas {
+	margin-top: var(--navbar-height);
 }
 
 .sebm-google-map-container {

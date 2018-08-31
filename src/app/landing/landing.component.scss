@@ -1,20 +1,11 @@
 
-// .container-fluid {
-//   min-height: calc(100vh - 56px)
-// }
-
-// .carousel-wrapper {
-//   height: calc(100vh - var(--navbar-height));
-//   background-color: var(--pink-light);
-// }
-
 .container-fluid {
   min-height: 100%;
 }
 
 .carousel-wrapper {
   height: 100%;
-  background-color: var(--pink-light);
+  background-color: white;
 }
 
 .carousel {
