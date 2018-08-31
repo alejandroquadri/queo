@@ -18,8 +18,7 @@ import { StaticService } from '../../services/static.service';
         visibility: 'visible',
         opacity: 1
       })),
-      transition('hide => show', animate('3s')),
-      transition('show => hide', animate('3s'))
+      transition('up <=> down', animate('2s ease-out')),
     ])
   ]
 })
@@ -38,14 +37,13 @@ export class HeaderComponent implements OnInit {
 
   @HostListener('window:scroll', ['$event'])
     doSomething(event) {
+      console.log(window.innerWidth, window.outerWidth);
       const oldScrollValue = this.scrollValue;
       this.scrollValue = window.pageYOffset;
       if (this.scrollValue <= oldScrollValue) {
         this.scrollDir = 'up';
-        console.log('up');
       } else {
         this.scrollDir = 'down';
-        console.log('down');
       }
     }
 
