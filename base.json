@@ -1,409 +1,199 @@
 {
-  "appMenu" : {
-    "mesas" : {
-      "icon" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2FmesaBlanco.png?alt=media&token=4356b2c5-b62d-4335-9ce4-a504ec96fd4d",
-      "img" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FmesitasTerrazzo.jpg?alt=media&token=1ab8ae24-747a-430a-915c-8751e759cf3b",
-      "text" : "Mesas y barras"
+  "queo" : {
+    "landing" : {
+      "slides" : [ {
+        "img" : "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/ambients%2FlandingDesktop.jpg?alt=media&token=5effc5d1-921e-4feb-ab51-d8bb0aaba4e9",
+        "subTitle" : "pero muy caras",
+        "title" : "Pelotudeses hechas en cemento y a veces pulidas que te haran feliz un dia de lluvia"
+      } ]
     },
-    "pisosExt" : {
-      "icon" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2FpisoExtBlanco.png?alt=media&token=72a5aa77-a73e-4d06-9cae-eb0f25ea2f35",
-      "img" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fpatrones.JPG?alt=media&token=4d30177f-fe0d-45b3-a6c2-213a467656bd",
-      "text" : "Pisos Exteriores"
-    },
-    "pisosInt" : {
-      "icon" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2FpisoIntBlanco.png?alt=media&token=ec5f3472-5203-45db-b0ad-5249b3bc0911",
-      "img" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fviolin.jpg?alt=media&token=c0ac97c9-3a39-46c2-88a8-31f9fdcbccfc",
-      "text" : "Pisos interiores"
-    },
-    "revestimientos" : {
-      "icon" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2FparedExtBlanco.png?alt=media&token=b73166fe-e68c-4ee8-a108-64d0b90f56ec",
-      "img" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Frayas2.jpg?alt=media&token=ed51373b-e87a-4944-84e0-407657f11f17",
-      "text" : "Revestimientos"
-    }
-  },
-  "apps" : {
-    "mesas" : {
-      "icon" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2FmesaBlanco.png?alt=media&token=4356b2c5-b62d-4335-9ce4-a504ec96fd4d",
-      "icon-black" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2FmesaNegro.png?alt=media&token=0526a772-1742-4684-ae42-b90b78bd6a7a",
-      "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FmesitasTerrazzo.jpg?alt=media&token=1ab8ae24-747a-430a-915c-8751e759cf3b",
-      "products" : [ "classic", "glass", "solid", "vaca" ],
-      "texto" : "Terrazzo, un material versatil y en plena tendencia. Este material espectacular y totalmente customizable convertira tus mesas en un elemento de singular destaque y originalidad",
-      "titulo" : "Mesas y barras"
-    },
-    "pisosExt" : {
-      "icon" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2FpisoExtBlanco.png?alt=media&token=72a5aa77-a73e-4d06-9cae-eb0f25ea2f35",
-      "icon-black" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2FpisoExtNegro.png?alt=media&token=3eb65e93-d2ae-4db8-8c3f-a35dcef324fa",
-      "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fpatrones2.JPG?alt=media&token=51ddca61-65b2-4701-835c-8e8250610885",
-      "products" : [ "classic", "glass", "solid", "vaca", "losetas", "rusticato", "calcareos" ],
-      "texto" : "Terrazzo, un material versatil y en plena tendencia. Este material espectacular y totalmente customizable convertira tus mesas en un elemento de singular destaque y originalidad",
-      "titulo" : "Pisos exteriores"
-    },
-    "pisosInt" : {
-      "icon" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2FparedIntBlanco.png?alt=media&token=ccffd480-9897-4138-bbab-a37cbad30fa6",
-      "icon-black" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2FpisoIntNegro.png?alt=media&token=98ecdf99-6ace-4a35-b94b-24ad67d5b02e",
-      "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fcuarto.jpg?alt=media&token=a14ac797-7f90-4558-9779-78156b9ce816",
-      "products" : [ "classic", "glass", "solid", "vaca", "quarzo" ],
-      "texto" : "Terrazzo, un material versatil y en plena tendencia. Este material espectacular y totalmente customizable convertira tus mesas en un elemento de singular destaque y originalidad",
-      "titulo" : "Pisos Interiores"
-    },
-    "revestimientos" : {
-      "icon" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2FparedExtBlanco.png?alt=media&token=b73166fe-e68c-4ee8-a108-64d0b90f56ec",
-      "icon-black" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2FparedExtNegro.png?alt=media&token=71433fca-a3d3-4077-b45d-398b316cad87",
-      "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fcocina.jpg?alt=media&token=ec71ebc7-5ca4-489f-8963-18434f1be485",
-      "products" : [ "rusticato", "3d", "brick" ],
-      "texto" : "Terrazzo, un material versatil y en plena tendencia. Este material espectacular y totalmente customizable convertira tus mesas en un elemento de singular destaque y originalidad",
-      "titulo" : "Revestimientos"
-    }
-  },
-  "colors" : {
-    "blanco" : {
-      "name" : "Blanco",
-      "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/colors%2FBlanco.jpg?alt=media&token=5ab8f3c5-f218-4fae-846b-fdb5aa355226"
-    },
-    "blanco-espuma" : {
-      "name" : "Blanco espuma",
-      "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/colors%2FB%20Espuma.jpg?alt=media&token=997a5d4b-a315-46e8-83a2-b653bc727254"
-    },
-    "brechiato" : {
-      "name" : "Brechiato",
-      "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/colors%2FBrechiato.jpg?alt=media&token=98e12940-ccf1-4f15-968d-873ffcc9e2b7"
-    },
-    "dzek" : {
-      "name" : "Vaca loca",
-      "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/colors%2FDzek.JPG?alt=media&token=ab8541fd-f8fa-4ca2-9597-46a4b6c55b55"
-    },
-    "grafito" : {
-      "name" : "Grafito",
-      "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/colors%2FNegroCemento.jpg?alt=media&token=10761666-c124-453c-8a67-fe2ab7633527"
-    },
-    "gris-cemento" : {
-      "name" : "Plata",
-      "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/colors%2FGrisCemento.jpg?alt=media&token=bf7975a9-28e0-41f2-a1bf-42173efa5ffe"
-    },
-    "gris-plomo" : {
-      "name" : "Acero",
-      "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/colors%2FGris%20Plomo.jpg?alt=media&token=a099e900-cb2e-49eb-b06b-d60fb6606c4f"
-    },
-    "rosa" : {
-      "name" : "Rosa",
-      "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/colors%2FRosa.jpg?alt=media&token=1a3e856e-07b1-4ea2-af51-504174718a51"
-    },
-    "vaca-marciana" : {
-      "name" : "Vaca marciana",
-      "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/colors%2Fmarciana.jpg?alt=media&token=17bcff4a-d396-4795-8acd-3f98883598d6"
-    },
-    "verde-alpe" : {
-      "name" : "Negro",
-      "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/colors%2FVerde%20Alpe.jpg?alt=media&token=3841faff-6f5b-4cf7-83df-5fe69e0f6f06"
-    }
-  },
-  "dim" : {
-    "20x20" : {
-      "name" : "200 x 200",
-      "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2F20x20.png?alt=media&token=7de56e3c-8bfc-47cd-9564-cee7a03f4bb8",
-      "width" : 67
-    },
-    "20x60" : {
-      "name" : "200 x 600",
-      "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2F60x20.png?alt=media&token=47da325a-3db6-48bc-9609-3a1b90b48017",
-      "width" : 200
-    },
-    "40x40" : {
-      "name" : "400 x 400",
-      "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2F40x40.png?alt=media&token=e538d8e1-11d9-4436-b346-8f9c5c8af273",
-      "width" : 133
-    },
-    "50x50" : {
-      "name" : "500 x 500",
-      "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2F50x50.png?alt=media&token=4e3669dd-c079-4f05-a8cf-17b2a081e67c",
-      "width" : 167
-    },
-    "60x40" : {
-      "name" : "600 x 400",
-      "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2F60x40.png?alt=media&token=13025e22-89c3-4fd1-94e9-127d1967a4a2",
-      "width" : 200
-    }
-  },
-  "inspiration" : {
-    "featured" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FsobreJuguete.jpg?alt=media&token=352dc909-01a8-4eac-9c66-96391c298a0b",
-    "projects" : {
-      "banio" : {
-        "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Frayas2.jpg?alt=media&token=ed51373b-e87a-4944-84e0-407657f11f17" ],
-        "name" : "Baño de Maurito",
-        "products" : [ "solid", "3D" ],
-        "text" : "Aca es donde escribimos alguna pelotudez de lo increible que es la obra. Lo espectacular que son nuestros productos y la diferencia que hace el haberlos incluido"
-      },
-      "bar" : {
-        "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fdamero.jpg?alt=media&token=d5750057-214f-4514-8b3b-393088991619" ],
-        "name" : "Bar de Maurito",
-        "products" : [ "solid", "3D" ],
-        "text" : "Pero que fantastico queda ese damero. Fantasia, diria mi viejo. Lo hacemos hace 40 años. Lo que pasa es que le pones la mesita esa al lado, con el cartel pelotudo y parece distinto"
-      },
-      "patio" : {
-        "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fexterior.jpg?alt=media&token=c44051ee-dfea-49bf-b7af-18fa640d0f47" ],
-        "name" : "Patio de Maurito",
-        "products" : [ "solid", "3D" ],
-        "text" : "Me pregunto si esta cosa sera una ceramica o un porcelanato. En tal caso estariamos vendiendo gato por liebre. Bueno, esto hasta que hagamos nuestras propias fotos"
-      },
-      "cuarto" : {
-        "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fcuarto.jpg?alt=media&token=a14ac797-7f90-4558-9779-78156b9ce816" ],
-        "name" : "Cuarto de Maurito",
-        "products" : [ "solid", "3D" ],
-        "text" : "Ya se me acabaron las estupices para escribir"
-      },
-      "cocina" : {
-        "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fcocina%20terrazzo.jpg?alt=media&token=98aa4092-451e-4fd4-87df-b9ae3bf90176" ],
-        "name" : "Cocina de Maurito",
-        "products" : [ "solid", "3D" ],
-        "text" : "Lastima que es un vinilo ¿no?"
-      },
-      "banioNegro" : {
-        "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fbaniadera%20piso%20negro.jpg?alt=media&token=670bda28-d5fb-4223-a349-d0108f7e647a" ],
-        "name" : "Cocina de Maurito",
-        "products" : [ "solid", "3D" ],
-        "text" : "Ojala algun dia nos saliera hacer este color. O mejor aun, que sea real que una obra asi es nuestra"
-      }
-    }
-  },
-  "landing" : {
-    "carrImgs" : [ "fantasiaAnteojos", "extRio1", "grisCuarto", "chiampoLiving" ]
-  },
-  "logos" : {
-    "pisoInteriorBlanco" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2FmesaBlanco.png?alt=media&token=82c43109-90c9-4f95-abcc-85610b86aaa5",
-    "quadri" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2FLogo%20Quadri%201024.png?alt=media&token=3b95e687-2a41-47b2-9087-362dbce7bc88",
-    "quadriBlanco" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Flogos%2FLogoQuadri%201024%20fondo%20blanco.png?alt=media&token=ef459896-b83d-43d7-8c20-811d9c925ce2"
-  },
-  "products" : {
-    "collections" : {
-      "3d" : {
-        "applications" : [ "revestimientos" ],
-        "models" : {
-          "16P" : {
-            "colors" : [ "blanco", "rosa", "verde-alpe" ],
-            "dim" : [ "40x40" ],
-            "name" : "16 panes",
-            "order" : 1,
-            "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
-            "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses",
-            "thickness" : "20 mm"
+    "collections" : [
+      {
+        "products": [
+          {
+            "presentations": [
+              {
+                "name":"chico",
+                "text": "el mas quiquito",
+                "img": [1,2,3],
+                "order": 4,
+                "price": 1000
+              },
+              {
+                "name":"mediano",
+                "text": "el mediano",
+                "img": [1,2,3],
+                "order": 3,
+                "price": 1000
+              },
+              {
+                "name":"grande",
+                "text": "el mas quiquito",
+                "img": [1,2,3],
+                "order": 2,
+                "price": 1000
+              },
+              {
+                "name": "Set de 3 macetas",
+                "text": "1 grande, 1 mediano, 3 chicos",
+                "img": [1,2,3],
+                "order": 1,
+                "price": 1000
+              }
+            ],
+            "name" : "Macetas cilindricas",
+            "text" : "Set dd 3 macetas lindas",
+            "bgImg": "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FtresMacetas.jpg?alt=media&token=75971113-d3f4-45bd-bfe2-a29db6da80f9"
           },
-          "64P" : {
-            "colors" : [ "blanco", "rosa", "verde-alpe" ],
-            "dim" : [ "40x40" ],
-            "name" : "64 panes",
-            "order" : 0,
-            "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
-            "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses",
-            "thickness" : "20 mm"
-          },
-          "8V" : {
-            "colors" : [ "blanco", "rosa", "verde-alpe" ],
-            "dim" : [ "40x40" ],
-            "name" : "8 vainillas",
-            "order" : 2,
-            "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
-            "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses",
-            "thickness" : "20 mm"
+          {
+            "presentations": [
+              {
+                "name":"Maceta escritorio",
+                "text": "Si sos bien puto, te va a encantar ponerla con una planta del estilo de la suculenta, o posiblemente un cactus, en el baño, sobre el escriotorio o en algun ambiente de trolo",
+                "img": [1,2,3],
+                "order": 1,
+                "price": 1000
+              }
+            ],
+            "name" : "Maceta Mini",
+            "text" : "Maceta mini para gente ",
+            "bgImg": "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FmacetaMiniNegra.jpg?alt=media&token=9ad228c9-6dc1-417d-abc3-9a3cf87cdc92"
           }
-        },
-        "name" : "3D",
-        "order" : 5,
-        "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
-        "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses"
+        ],
+        "colName" : "Macetas",
+        "order": 3
       },
-      "brick" : {
-        "applications" : [ "pisosInt", "pisosExt", "mesas", "revestimientos" ],
-        "colors" : [ "blanco", "dzek", "vaca-marciana", "rosa", "verde-alpe" ],
-        "dim" : [ "20x20", "20x60", "40x40", "50x50", "60x40" ],
-        "name" : "BRIC",
-        "order" : 7,
-        "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
-        "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses"
-      },
-      "calcareos" : {
-        "applications" : [ "pisosInt", "pisosExt", "mesas", "revestimientos" ],
-        "colors" : [ "blanco", "dzek", "vaca-marciana", "rosa", "verde-alpe" ],
-        "dim" : [ "20x20", "20x60", "40x40", "50x50", "60x40" ],
-        "name" : "Calcareos",
-        "order" : 2,
-        "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
-        "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses",
-        "thickness" : "20 mm"
-      },
-      "classic" : {
-        "applications" : [ "pisosInt", "pisosExt", "mesas", "revestimientos" ],
-        "colors" : [ "blanco", "dzek", "vaca-marciana", "rosa", "verde-alpe" ],
-        "dim" : [ "20x20", "20x60", "40x40", "50x50", "60x40" ],
-        "name" : "Clasica",
-        "order" : 0,
-        "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
-        "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses",
-        "thickness" : "20 mm"
-      },
-      "glass" : {
-        "applications" : [ "pisosInt", "pisosExt", "mesas", "revestimientos" ],
-        "colors" : [ "blanco", "dzek", "vaca-marciana", "rosa", "verde-alpe" ],
-        "dim" : [ "20x20", "20x60", "40x40", "50x50", "60x40" ],
-        "name" : "Vitro",
-        "order" : 1,
-        "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
-        "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses",
-        "thickness" : "20 mm"
-      },
-      "losetas" : {
-        "applications" : [ "pisosExt" ],
-        "models" : {
-          "16P" : {
-            "colors" : [ "blanco", "rosa", "verde-alpe" ],
-            "dim" : [ "40x40" ],
-            "name" : "16 panes",
-            "order" : 1,
-            "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
-            "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses",
-            "thickness" : "35 mm"
+      {
+        "colName" : "Iluminacion",
+        "order": 1,
+        "products": [
+          {
+            "name" : "Colgante",
+            "text" : "Lampara colgante. Es un cilindro largo",
+            "bgImg": "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fcolgantes.jpg?alt=media&token=aed084cf-5fca-4d47-96a1-44dcd783e7b6"
           },
-          "64P" : {
-            "colors" : [ "blanco", "rosa", "verde-alpe" ],
-            "dim" : [ "40x40" ],
-            "name" : "64 panes",
-            "order" : 0,
-            "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
-            "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses",
-            "thickness" : "35 mm"
+          {
+            "name" : "Lampara grande",
+            "text" : "Esta ya viene con pantalla. Seguramente sea cara",
+            "bgImg": "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FlamparaGrande.jpg?alt=media&token=ab22bcee-3ffa-4986-9bc1-b6c29956dec2"
           },
-          "8V" : {
-            "colors" : [ "blanco", "rosa", "verde-alpe" ],
-            "dim" : [ "40x40" ],
-            "name" : "8 vainillas",
-            "order" : 2,
-            "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
-            "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses",
-            "thickness" : "35 mm"
+          {
+            "name" : "Lampara chica",
+            "text" : "Para velador o como adorno en una biblioteca. Con la lampara edison seria cool",
+            "bgImg": "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fvelador.jpeg?alt=media&token=604c837f-b443-44f2-856c-0d7bd624dfdc"
           }
-        },
-        "name" : "Losetas",
-        "order" : 4,
-        "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
-        "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses"
+        ]
       },
-      "quarzo" : {
-        "applications" : [ "pisosInt", "pisosExt", "mesas", "revestimientos" ],
-        "colors" : [ "blanco", "dzek", "vaca-marciana", "rosa", "verde-alpe" ],
-        "dim" : [ "20x20", "20x60", "40x40", "50x50", "60x40" ],
-        "name" : "Quarzo",
-        "order" : 9,
-        "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
-        "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses",
-        "thickness" : "20 mm"
+      {
+        "colName" : "Mesas",
+        "order": 2,
+        "products": [
+          {
+            "name" : "Chica redonda",
+            "text" : "Como la que tiene nico en su casa",
+            "bgImg": "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FmesaRedondaBaja2.jpg?alt=media&token=73e053af-7030-4e35-94a1-d6ae81810c71"
+          },
+          {
+            "name" : "Mesa de arrime cuadrada",
+            "text" : "Para mi es medio tosca",
+            "bgImg": "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FmesaArrime0.jpg?alt=media&token=3eb8fd60-5830-4aa7-b64a-3c18e5daf7a9"
+          },
+          {
+            "name" : "Escritorio",
+            "text" : "Con patas de madera. Nos inspiramos vilmente en la de Gravelli",
+            "bgImg": "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fescritorio.jpeg?alt=media&token=91b4c86d-9959-497e-bede-7d27204429a0"
+          }
+        ]
       },
-      "rusticato" : {
-        "applications" : [ "pisosInt", "pisosExt", "mesas", "revestimientos" ],
-        "colors" : [ "blanco", "dzek", "vaca-marciana", "rosa", "verde-alpe" ],
-        "dim" : [ "20x20", "20x60", "40x40", "50x50", "60x40" ],
-        "name" : "Rusticato",
-        "order" : 6,
-        "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
-        "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses",
-        "thickness" : "20 mm"
-      },
-      "solid" : {
-        "applications" : [ "pisosInt", "pisosExt", "mesas", "revestimientos" ],
-        "colors" : [ "blanco", "dzek", "vaca-marciana", "rosa", "verde-alpe" ],
-        "dim" : [ "20x20", "20x60", "40x40", "50x50", "60x40" ],
-        "name" : "Solido",
-        "order" : 8,
-        "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
-        "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses",
-        "thickness" : "20 mm"
-      },
-      "vaca" : {
-        "applications" : [ "pisosInt", "pisosExt", "mesas", "revestimientos" ],
-        "colors" : [ "blanco", "dzek", "vaca-marciana", "rosa", "verde-alpe" ],
-        "dim" : [ "20x20", "20x60", "40x40", "50x50", "60x40" ],
-        "name" : "Vaca Loca",
-        "order" : 3,
-        "presentacion" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432",
-        "text" : "Revestimientos con personalidad. Se distinto, creete copado. La realidad es que seguramente seas un pelotudo infeliz que no tiene nada mejor para hacer con su plata que gastarla en estas boludeses",
-        "thickness" : "20 mm"
+      {
+        "colName" : "Accesorios",
+        "order": 4,
+        "products": [
+          {
+            "presentations": [
+              {
+                "name":"chico",
+                "text": "el mas quiquito",
+                "img": [
+                  {
+                    "order":1,
+                    "url":"https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fpercheros5.jpg?alt=media&token=d76fb510-ade8-4b2a-8e53-d31e5ab5f339"
+                  },
+                  {
+                    "order":2,
+                    "url":"https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fpercheros1.jpg?alt=media&token=ba21da1c-176b-449c-ae80-f7ce19199803"
+                  }
+                ],
+                "order": 4,
+                "price": 1000
+              },
+              {
+                "name":"mediano",
+                "text": "el mediano",
+                "img": [
+                  {
+                    "order":1,
+                    "url":"https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fpercheros4.jpg?alt=media&token=2a846ccf-bf4e-403d-99e1-2f8449d6f032"
+                  },
+                  {
+                    "order":2,
+                    "url":"https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fpercheros1.jpg?alt=media&token=ba21da1c-176b-449c-ae80-f7ce19199803"
+                  }
+                ],
+                "order": 3,
+                "price": 1000
+              },
+              {
+                "name":"grande",
+                "text": "el mas quiquito",
+                "img": [
+                  {
+                    "order":1,
+                    "url":"https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fpercheros3.jpg?alt=media&token=8a75a060-956a-4c28-a683-753100da142f"
+                  },
+                  {
+                    "order":2,
+                    "url":"https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fpercheros1.jpg?alt=media&token=ba21da1c-176b-449c-ae80-f7ce19199803"
+                  }
+                ],
+                "order": 2,
+                "price": 1000
+              },
+              {
+                "name": "Set de 5 botones",
+                "text": "1 grande, 1 mediano, 3 chicos",
+                "img": [
+                  {
+                    "order":1,
+                    "url":"https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fpercheros1.jpg?alt=media&token=ba21da1c-176b-449c-ae80-f7ce19199803"
+                  }
+                ],
+                "order": 1,
+                "price": 1000
+              }
+            ],
+            "name" : "Botones",
+            "text" : "Boton chiquito para cuelgues boludeses",
+            "bgImg": "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fpercheros1.jpg?alt=media&token=ba21da1c-176b-449c-ae80-f7ce19199803"
+          },
+          {
+            "name" : "Tablas de apoyo",
+            "text" : "Set de 3 tablas redondas",
+            "bgImg": "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fbandejas.jpg?alt=media&token=490be678-a6b3-4528-bef3-647cc95835c6"
+          },
+          {
+            "name" : "Tabla cuadrada",
+            "text" : "Tablita cuadrada como para picada o algun adorno",
+            "bgImg": "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FtablitaRosa.jpg?alt=media&token=8010206b-f923-48e9-b52b-ca29897d48a4"
+          },
+          {
+            "name" : "Apoya vasos",
+            "text" : "Set de 6 apoya vasos",
+            "bgImg": "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FPosaVasos1.jpg?alt=media&token=89d0b329-f877-47fb-8206-e3ddd74d5fdc"
+          }
+        ]
       }
-    },
-    "featured" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbotellasSobNegro.jpg?alt=media&token=be6b5702-1980-4a4a-87ab-43f5db845e7d"
-  },
-  "projectImgs" : {
-    "cepoBanio" : {
-      "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbanioCepo.jpg?alt=media&token=353c2bf9-8ef3-4bd3-b243-fcadf5812432"
-    },
-    "chiampoLiving" : {
-      "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FTerrazzo-Levantina.jpg?alt=media&token=f66c6ecc-0779-4f3b-8e43-90b84f778e91"
-    },
-    "dameroBar" : {
-      "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fcuarto.jpg?alt=media&token=a14ac797-7f90-4558-9779-78156b9ce816"
-    },
-    "extColores" : {
-      "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fexterior.jpg?alt=media&token=c44051ee-dfea-49bf-b7af-18fa640d0f47"
-    },
-    "extDamero" : {
-      "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fexterior.jpg?alt=media&token=c44051ee-dfea-49bf-b7af-18fa640d0f47"
-    },
-    "extRio1" : {
-      "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FextRio1.jpg?alt=media&token=020705cf-1311-4d2e-b714-5e0166d9daaf"
-    },
-    "extRio2" : {
-      "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FextRio2.jpg?alt=media&token=294121ac-4e4c-4969-8b25-3fd9a8026d1e"
-    },
-    "fantasiaAnteojos" : {
-      "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fanteojos.jpg?alt=media&token=dcf4e5e2-126a-4219-9f5f-f70f0782c8f1"
-    },
-    "fantasiaCamara" : {
-      "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FcamaraRopa.jpg?alt=media&token=384710de-12b8-4000-88be-facc75f9d4b7"
-    },
-    "fantasiaJuguete" : {
-      "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FsobreJuguete.jpg?alt=media&token=352dc909-01a8-4eac-9c66-96391c298a0b"
-    },
-    "fantasiaLibro" : {
-      "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FcamaraLibro.jpg?alt=media&token=f1e61759-1479-4222-aa3b-cc6a88a1a23d"
-    },
-    "fantasiaViolin" : {
-      "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fviolin.jpg?alt=media&token=c0ac97c9-3a39-46c2-88a8-31f9fdcbccfc"
-    },
-    "fantasiaZapa" : {
-      "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fzapatillas.jpg?alt=media&token=27e6d7e2-2d61-4dcd-8bc1-921a3f308336"
-    },
-    "grisCuarto" : {
-      "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fcuarto.jpg?alt=media&token=a14ac797-7f90-4558-9779-78156b9ce816"
-    },
-    "hexa3D" : {
-      "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FBanio.jpg?alt=media&token=718e0cd8-bf98-4369-a575-49fceb414550"
-    },
-    "mesaDetalle" : {
-      "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FdetalleMesa.jpg?alt=media&token=0372af7c-be6b-49a3-832c-8c96e4ea6351"
-    },
-    "mesadaCocina" : {
-      "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fcocina.jpg?alt=media&token=ec71ebc7-5ca4-489f-8963-18434f1be485"
-    },
-    "mesasaTerrazzo" : {
-      "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FmesitasTerrazzo.jpg?alt=media&token=1ab8ae24-747a-430a-915c-8751e759cf3b"
-    },
-    "negroBaniadera" : {
-      "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fbaniadera%20piso%20negro.jpg?alt=media&token=670bda28-d5fb-4223-a349-d0108f7e647a"
-    },
-    "negroBot" : {
-      "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FbotellasSobNegro.jpg?alt=media&token=be6b5702-1980-4a4a-87ab-43f5db845e7d"
-    },
-    "negroComedor" : {
-      "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fcomedor.jpg?alt=media&token=cf1f5589-e9a2-4191-bd65-3dcab1dc0bea"
-    },
-    "patrones" : {
-      "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fpatrones.JPG?alt=media&token=4d30177f-fe0d-45b3-a6c2-213a467656bd"
-    },
-    "patrones2" : {
-      "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fpatrones2.JPG?alt=media&token=51ddca61-65b2-4701-835c-8e8250610885"
-    },
-    "revRayas1" : {
-      "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Frayas.jpg?alt=media&token=a302530d-33c0-4eda-9f77-fd367c987dee"
-    },
-    "revRayas2" : {
-      "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Frayas2.jpg?alt=media&token=ed51373b-e87a-4944-84e0-407657f11f17"
-    }
+    ]
   }
 }
+

@@ -1,31 +1,18 @@
-.prod-header-wrapper{
-  position: relative;
-}
-
-.imagen-presentacion, {
-  height: 30vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-filter: brightness(60%);
-  -moz-filter: brightness(60%);
-  -o-filter: brightness(60%);
-  -ms-filter: brightness(60%);
-  filter: brightness(60%);
-}
 
 .title-wrapper {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
+  height: 32vh;
 }
 
 .title {
-  font-size: 2.5rem;
+  font-size: 6vh;
+  font-weight: 200;
+  // color: white;
+}
+
+.sub-title {
+  margin-top: 1vh;
+  font-size: 3.5vh;
   font-weight: 100;
-  color: white;
 }
 
 .product-container{
@@ -33,9 +20,18 @@
   flex-wrap: wrap;
 }
 
+.col-title {
+  margin: 2vh 2vh 2vh 0;
+  cursor: pointer;
+}
+
+.col-title:hover {
+  text-decoration: underline;
+}
+
 .prod {
-  height: 21rem;
-  width: 21rem;
+  height: 15rem;
+  width: 15rem;
   position: relative;
   margin: 1rem;
 }
@@ -47,11 +43,20 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-filter: brightness(80%);
-  -moz-filter: brightness(80%);
-  -o-filter: brightness(80%);
-  -ms-filter: brightness(80%);
-  filter: brightness(80%);
+  -webkit-filter: brightness(100%);
+  -moz-filter: brightness(100%);
+  -o-filter: brightness(100%);
+  -ms-filter: brightness(100%);
+  filter: brightness(100%);
+}
+
+// hago target al hijo de la clase .prod cuando hoover. puntualente sobre div.background
+.prod:hover>div.background {
+  -webkit-filter: brightness(70%);
+  -moz-filter: brightness(70%);
+  -o-filter: brightness(70%);
+  -ms-filter: brightness(70%);
+  filter: brightness(70%);
 }
 
 .text-wrapper {
@@ -59,10 +64,7 @@
   top: 0;
   left: 0;
   height: 100%;
-  font-size: 1.8rem;
-  // font-weight: 100;
   color: white;
-  height: 100%;
   width: 100%;
 }
 
@@ -70,13 +72,10 @@
   cursor: pointer;
 }
 
-// hago target al hijo de la clase .prod cuando hoover. puntualente sobre div.background
-.prod:hover>div.background {
-  -webkit-filter: brightness(60%);
-  -moz-filter: brightness(60%);
-  -o-filter: brightness(60%);
-  -ms-filter: brightness(60%);
-  filter: brightness(60%);
+.prod-name {
+  background-color: var(--grey);
+  font-size: 1rem;
+  font-weight: 100;
 }
 
 @media (max-width: 767.98px) {
@@ -95,6 +94,12 @@
     font-size: 2rem;
     font-weight: 130;
     color: white;
+  }
+
+  .sub-title {
+    margin-top: 5vh;
+    font-size: 2.3vh;
+    font-weight: 100;
   }
 
  }
