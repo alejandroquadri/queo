@@ -1,5 +1,47 @@
 {
   "queo" : {
+    "colors": {
+      "blanco" : {
+        "name" : "Blanco",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/colors%2FBlanco.jpg?alt=media&token=5ab8f3c5-f218-4fae-846b-fdb5aa355226"
+      },
+      "blancoEspuma" : {
+        "name" : "Blanco espuma",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/colors%2FB%20Espuma.jpg?alt=media&token=997a5d4b-a315-46e8-83a2-b653bc727254"
+      },
+      "brechiato" : {
+        "name" : "Brechiato",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/colors%2FBrechiato.jpg?alt=media&token=98e12940-ccf1-4f15-968d-873ffcc9e2b7"
+      },
+      "dzek" : {
+        "name" : "Vaca loca",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/colors%2FDzek.JPG?alt=media&token=ab8541fd-f8fa-4ca2-9597-46a4b6c55b55"
+      },
+      "grafito" : {
+        "name" : "Grafito",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/colors%2FNegroCemento.jpg?alt=media&token=10761666-c124-453c-8a67-fe2ab7633527"
+      },
+      "grisCemento" : {
+        "name" : "Plata",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/colors%2FGrisCemento.jpg?alt=media&token=bf7975a9-28e0-41f2-a1bf-42173efa5ffe"
+      },
+      "grisPlomo" : {
+        "name" : "Acero",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/colors%2FGris%20Plomo.jpg?alt=media&token=a099e900-cb2e-49eb-b06b-d60fb6606c4f"
+      },
+      "rosa" : {
+        "name" : "Rosa",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/colors%2FRosa.jpg?alt=media&token=1a3e856e-07b1-4ea2-af51-504174718a51"
+      },
+      "vacaMarciana" : {
+        "name" : "Vaca marciana",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/colors%2Fmarciana.jpg?alt=media&token=17bcff4a-d396-4795-8acd-3f98883598d6"
+      },
+      "negro" : {
+        "name" : "Negro",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/colors%2FVerde%20Alpe.jpg?alt=media&token=3841faff-6f5b-4cf7-83df-5fe69e0f6f06"
+      }
+    },    
     "landing" : {
       "slides" : [ {
         "img" : "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/ambients%2FlandingDesktop.jpg?alt=media&token=5effc5d1-921e-4feb-ab51-d8bb0aaba4e9",
@@ -7,110 +49,170 @@
         "title" : "Pelotudeses hechas en cemento y a veces pulidas que te haran feliz un dia de lluvia"
       } ]
     },
-    "collections" : [
-      {
-        "products": [
-          {
-            "presentations": [
+    "collections" : {
+      "macetas": {
+        "products": {
+          "macetaCilindrica": {
+            "format": [
               {
-                "name":"chico",
+                "name":"chica",
                 "text": "el mas quiquito",
-                "img": [1,2,3],
+                "colors":[
+                  {
+                    "name": "negro",
+                    "imgs":[
+                      "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FtresMacetas.jpg?alt=media&token=75971113-d3f4-45bd-bfe2-a29db6da80f9"
+                    ]
+                  },
+                  {
+                    "name": "vacaMarciana",
+                    "imgs":[
+                      "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FrosaChica.jpg?alt=media&token=a780ecba-716a-4255-b05a-80220c1ccd5e",
+                      "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FtresMacetas.jpg?alt=media&token=75971113-d3f4-45bd-bfe2-a29db6da80f9"
+                    ]
+                  }
+                ],
                 "order": 4,
                 "price": 1000
               },
               {
-                "name":"mediano",
+                "name":"mediana",
                 "text": "el mediano",
-                "img": [1,2,3],
+                "colors":[
+                  {
+                    "name": "dzek",
+                    "imgs":[
+                      "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FnegraMediana.jpg?alt=media&token=b67b4957-5a2a-4ec4-a69d-79eb5ef34a27",
+                      "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FtresMacetas.jpg?alt=media&token=75971113-d3f4-45bd-bfe2-a29db6da80f9"
+                    ]
+                  }
+                ],
                 "order": 3,
                 "price": 1000
               },
               {
                 "name":"grande",
-                "text": "el mas quiquito",
-                "img": [1,2,3],
+                "text": "Maceta grande. Podes meter un arbol ahi adentro",
+                "colors":[
+                  {
+                    "name": "rosa",
+                    "imgs":[
+                      "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fmaseta3.jpg?alt=media&token=66cbde90-49e6-42b9-8e1b-91461050dc60",
+                      "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FtresMacetas.jpg?alt=media&token=75971113-d3f4-45bd-bfe2-a29db6da80f9"
+                    ]
+                  }
+                ],
                 "order": 2,
                 "price": 1000
               },
               {
-                "name": "Set de 3 macetas",
+                "name": "set de 3 macetas",
                 "text": "1 grande, 1 mediano, 3 chicos",
-                "img": [1,2,3],
+                "colors":[
+                  {
+                    "name": "rosa"
+                  },
+                  {
+                    "name": "vacaMarciana"
+                  },
+                  {
+                    "name": "dzek"
+                  }
+                ],
+                "set": {
+                  "imgs": [
+                    "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FtresMacetas.jpg?alt=media&token=75971113-d3f4-45bd-bfe2-a29db6da80f9",
+                    "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fmaseta1.jpg?alt=media&token=59728f3c-47e3-44b1-bb3c-e301c3db72bd",
+                    "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FmacetasBlancaNegra.JPG?alt=media&token=6e476fa9-678b-4037-b381-50b2e7d07bfe"
+                  ],
+                  "sizes":["Grande", "Mediana", "Chica"]
+                },
                 "order": 1,
                 "price": 1000
               }
             ],
             "name" : "Macetas cilindricas",
-            "text" : "Set dd 3 macetas lindas",
+            "text" : "Set de 3 macetas lindas",
             "bgImg": "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FtresMacetas.jpg?alt=media&token=75971113-d3f4-45bd-bfe2-a29db6da80f9"
           },
-          {
-            "presentations": [
+          "macetaEscritorio" : {
+            "format": [
               {
                 "name":"Maceta escritorio",
                 "text": "Si sos bien puto, te va a encantar ponerla con una planta del estilo de la suculenta, o posiblemente un cactus, en el baño, sobre el escriotorio o en algun ambiente de trolo",
-                "img": [1,2,3],
+                "colors":[
+                  {
+                    "name": "negro",
+                    "imgs":[
+                      "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FmacetaMiniNegra.jpg?alt=media&token=9ad228c9-6dc1-417d-abc3-9a3cf87cdc92",
+                      "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FmacetasMini.jpg?alt=media&token=a634359c-df68-42d9-badb-45b1f659d48e"
+                    ]
+                  }
+                ],
+                "img": [
+                  "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FmacetaMiniNegra.jpg?alt=media&token=9ad228c9-6dc1-417d-abc3-9a3cf87cdc92",
+                  "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FmacetasMini.jpg?alt=media&token=a634359c-df68-42d9-badb-45b1f659d48e"
+                ],
                 "order": 1,
                 "price": 1000
               }
             ],
-            "name" : "Maceta Mini",
-            "text" : "Maceta mini para gente ",
+            "name" : "Maceta escritorio",
+            "text" : "Maceta escritorio o para algun estante ",
             "bgImg": "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FmacetaMiniNegra.jpg?alt=media&token=9ad228c9-6dc1-417d-abc3-9a3cf87cdc92"
           }
-        ],
+        },
         "colName" : "Macetas",
         "order": 3
       },
-      {
+      "iluminacion": {
         "colName" : "Iluminacion",
         "order": 1,
-        "products": [
-          {
+        "products": {
+          "colgante": {
             "name" : "Colgante",
             "text" : "Lampara colgante. Es un cilindro largo",
             "bgImg": "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fcolgantes.jpg?alt=media&token=aed084cf-5fca-4d47-96a1-44dcd783e7b6"
           },
-          {
-            "name" : "Lampara grande",
+          "lamparaGrande" : {
+            "name" : "Lampara Sasy",
             "text" : "Esta ya viene con pantalla. Seguramente sea cara",
             "bgImg": "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FlamparaGrande.jpg?alt=media&token=ab22bcee-3ffa-4986-9bc1-b6c29956dec2"
           },
-          {
-            "name" : "Lampara chica",
+          "lamparaChica": {
+            "name" : "Lampara Fesa",
             "text" : "Para velador o como adorno en una biblioteca. Con la lampara edison seria cool",
             "bgImg": "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fvelador.jpeg?alt=media&token=604c837f-b443-44f2-856c-0d7bd624dfdc"
           }
-        ]
+        }
       },
-      {
+      "mesas": {
         "colName" : "Mesas",
         "order": 2,
-        "products": [
-          {
-            "name" : "Chica redonda",
+        "products": {
+          "redondaChica": {
+            "name" : "Mesa ratona",
             "text" : "Como la que tiene nico en su casa",
             "bgImg": "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FmesaRedondaBaja2.jpg?alt=media&token=73e053af-7030-4e35-94a1-d6ae81810c71"
           },
-          {
-            "name" : "Mesa de arrime cuadrada",
+          "arrime": {
+            "name" : "Mesa arrime",
             "text" : "Para mi es medio tosca",
             "bgImg": "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FmesaArrime0.jpg?alt=media&token=3eb8fd60-5830-4aa7-b64a-3c18e5daf7a9"
           },
-          {
+          "escritorio": {
             "name" : "Escritorio",
             "text" : "Con patas de madera. Nos inspiramos vilmente en la de Gravelli",
             "bgImg": "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fescritorio.jpeg?alt=media&token=91b4c86d-9959-497e-bede-7d27204429a0"
           }
-        ]
+        }
       },
-      {
+      "accesorios": {
         "colName" : "Accesorios",
         "order": 4,
-        "products": [
-          {
-            "presentations": [
+        "products": {
+          "botones": {
+            "format": [
               {
                 "name":"chico",
                 "text": "el mas quiquito",
@@ -176,24 +278,24 @@
             "text" : "Boton chiquito para cuelgues boludeses",
             "bgImg": "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fpercheros1.jpg?alt=media&token=ba21da1c-176b-449c-ae80-f7ce19199803"
           },
-          {
-            "name" : "Tablas de apoyo",
+          "bandejaRedonda": {
+            "name" : "Bandeja redonda",
             "text" : "Set de 3 tablas redondas",
             "bgImg": "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fbandejas.jpg?alt=media&token=490be678-a6b3-4528-bef3-647cc95835c6"
           },
-          {
+          "bandejaCuadrada": {
             "name" : "Tabla cuadrada",
             "text" : "Tablita cuadrada como para picada o algun adorno",
             "bgImg": "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FtablitaRosa.jpg?alt=media&token=8010206b-f923-48e9-b52b-ca29897d48a4"
           },
-          {
+          "apoyaVasos": {
             "name" : "Apoya vasos",
             "text" : "Set de 6 apoya vasos",
             "bgImg": "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FPosaVasos1.jpg?alt=media&token=89d0b329-f877-47fb-8206-e3ddd74d5fdc"
           }
-        ]
+        }
       }
-    ]
+    }
   }
 }
 

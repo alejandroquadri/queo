@@ -10,11 +10,15 @@ const routes: Routes = [
   { path: 'productos', loadChildren: './products/products.module#ProductsModule' },
   { path: 'inspiracion', component: ProjectsComponent },
   { path: 'contacto', component: ContactComponent },
+  { path: '**', component: LandingComponent }
 ];
 
 @NgModule({
   imports: [
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes, {
+      // esta opcion es para que cuando cambie la ruta, scrollee al tope de pagina
+      scrollPositionRestoration: 'enabled',
+    })
   ],
   exports: [
     RouterModule

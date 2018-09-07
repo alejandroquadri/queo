@@ -11,12 +11,8 @@ const routes: Routes = [
     component: ProdMenuComponent
   },
   {
-    path: ':id',
+    path: ':col/:prod',
     component: ProductComponent
-  },
-  {
-    path: ':id/:prod',
-    component: ProductDetailComponent
   }
 ];
 

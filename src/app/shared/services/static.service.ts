@@ -26,4 +26,8 @@ export class StaticService {
       });
     });
   }
+
+  getColList() {
+    return this.api.getListMeta('queo/collections');
+  }
 }

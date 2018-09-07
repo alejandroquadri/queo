@@ -12,6 +12,7 @@ import { StaticService } from '../../shared';
 export class ProdMenuComponent implements OnInit {
 
   products: any;
+  collections$: any;
   collections: Array<any>;
   ambients: any;
   featured: any;
@@ -27,7 +28,6 @@ export class ProdMenuComponent implements OnInit {
 
   ngOnInit() {
     this.collections = this.staticData.data.collections;
-    this.ambients = this.staticData.data.ambients;
   }
 
   scrollCol(collection) {
@@ -36,8 +36,9 @@ export class ProdMenuComponent implements OnInit {
     el.scrollIntoView({ block: 'start', inline: 'nearest',  behavior: 'smooth' });
   }
 
-  routeTo(prod) {
-    this.router.navigate([`/productos/${prod}`]);
+  routeTo(col, prod) {
+    console.log(col, prod);
+    this.router.navigate([`/productos/${col}/${prod}`]);
   }
 
 }

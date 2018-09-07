@@ -4,7 +4,7 @@
     <!-- <div class="title">Nuestros productos</div> -->
     <p class="sub-title">Diseñados para sorprender. Fabricados con maxima dedicacion. Llevamos el estudio de los materiales a su mayor exponente. Chamullo del estilo apple</p>
     <div class="collection-menu d-flex">
-      <div class="col-title" *ngFor="let col of collections | sort:'order':true:false"
+      <div class="col-title" *ngFor="let col of (collections | toArray)  | sort:'order':true:false"
       (click)="scrollCol(col.colName)" >
         {{ col.colName }}
       </div>
@@ -15,13 +15,13 @@
 <div class="jumbotron jumbotron-fluid mb-0 pt-3 bg-light">
   <div class="container">
     <div class="collection-menu">
-      <div class="col-title2" *ngFor="let col of collections | sort:'order':true:false">
+      <div class="col-title2" *ngFor="let col of (collections | toArray) | sort:'order':true:false">
         <div [id]="col.colName" class="col-title-line d-flex align-items-center">
           <span class="pr-3"> {{ col.colName }} </span> <hr class="my-4 w-100">
         </div>
 
         <div class="d-flex product-container">
-          <div *ngFor="let prod of col.products | sort:'order':true:false" class="prod" (click)="routeTo(prod)">
+          <div *ngFor="let prod of (col.products | toArray) | sort:'order':true:false" class="prod" (click)="routeTo(col.$key, prod.$key)">
             <div class="background" 
             [ngStyle]="{'background-image': 'url(' + prod.bgImg + ')'}"></div>
             <div class="text-wrapper d-flex align-items-end">

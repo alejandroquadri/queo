@@ -6,6 +6,7 @@ import { DataSnapshot } from '@firebase/database-types';
 import * as firebase from 'firebase/app';
 
 import { Observable } from 'rxjs';
+import { map } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
@@ -83,7 +84,7 @@ export class ApiService {
   }
 
   getList(path: string): Observable<{}[]> {
-    return this.db.list(path).valueChanges();
+    return this.db.list(path).valueChanges()
   }
 
   getListQuery(path, offset, startKey?): Observable<{}[]> {
@@ -91,7 +92,18 @@ export class ApiService {
   }
 
   getListMeta(path: string, events?): Observable<AngularFireAction<DataSnapshot>[]> {
-    return this.db.list(path).snapshotChanges(events);
+    return this.db.list(path).snapshotChanges(events)
+    .pipe(
+      map( (fbList: Array<any>) => {
+        const list = [];
+        fbList.forEach( (col: any) => {
+          const form = col.payload.val();
+          form['$key'] = col.key;
+          list.push(form);
+        });
+        return list;
+      })
+    );
   }
 
   push(path: string, form: any): firebase.database.ThenableReference {

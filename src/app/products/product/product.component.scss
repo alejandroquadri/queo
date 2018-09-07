@@ -1,95 +1,89 @@
-.prod-header-wrapper{
+.prod-wrapper {
+  min-height: calc(100vh - var(--navbar-height));
+  margin-top: calc(var(--navbar-height) + 2rem);
+}
+
+.prod-imgs, .prod-data {
+  height: 100%
+}
+
+.carousel {
+  width: 100%;
+}
+
+.carousel-inner {
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-item {
+  height: 100%;
+}
+
+.carousel-caption {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
   position: relative;
+  padding: 0px;
 }
 
-.imagen-presentacion {
-  height: 50vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-filter: brightness(70%);
-  -moz-filter: brightness(70%);
-  -o-filter: brightness(70%);
-  -ms-filter: brightness(70%);
-  filter: brightness(70%);
-}
-
-.title-wrapper {
+.caption-wrapper {
   position: absolute;
   top: 0;
   left: 0;
+  color: white;
   height: 100%;
   width: 100%;
-  color: white;
+}
+
+.custom {
+	height: 33rem;
+  width: 100%;
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .title {
-  font-size: 5rem;
+  font-size: 3rem;
   font-weight: 100;
 }
 
-.sub-title {
-  font-size: 3.5vh;
+.price {
+  font-size: 1.5rem;
+  color: var(--grey);
   font-weight: 100;
 }
 
-.model-container {
-  flex-direction: row;
-  flex-wrap: wrap;
+.qty {
+  width: 5rem;
 }
 
-.model {
-  height: 21rem;
-  width: 21rem;
-  position: relative;
-  margin: 1rem;
+.botonComprar {
+	color: white;
+	background-color: var(--pink-dark);
+	border-color: var(--pink-dark);
 }
 
-.background {
-  background-color: var(--green-dark);
-  height: 100%;
-  width: 100%;
+.botonComprar:hover {
+	color: white;
+	background-color: var(--pink-light);
+	border-color: var(--pink-light);
+	cursor: pointer;
 }
 
-.text-wrapper {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  font-size: 1.8rem;
-  // font-weight: 100;
+.botonComprar:active {
   color: white;
-  height: 100%;
-  width: 100%;
-}
-
-.text-wrapper:hover {
-  cursor: pointer;
-}
-
-.model:hover>div.background {
-  -webkit-filter: brightness(80%);
-  -moz-filter: brightness(80%);
-  -o-filter: brightness(80%);
-  -ms-filter: brightness(80%);
-  filter: brightness(80%);
+  background-color: var(--pink-light);
+	border-color: var(--pink-light);
+  box-shadow: 0 0 0 0.2rem hsla(290, 100%, 50%, 0.5);
 }
 
 @media (max-width: 744px) {
 
-  .model-container{
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-  }
-
-  .model {
-    margin: 1rem auto 1rem auto;
-  }
-
-  .sub-title {
-    font-size: 1rem;
-    font-weight: 100;
-  }
 
 }
