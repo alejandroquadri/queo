@@ -44,6 +44,7 @@ export class ProductComponent implements OnInit {
     this.colKey = this.route.snapshot.paramMap.getAll('col');
     this.prodKey = this.route.snapshot.paramMap.getAll('prod');
     this.product = this.staticData.data.collections[this.colKey].products[this.prodKey];
+    console.log(this.product);
     if (!this.product) {
       this.router.navigate(['/']);
     }

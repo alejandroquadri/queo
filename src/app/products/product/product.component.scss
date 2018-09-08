@@ -83,6 +83,20 @@
   box-shadow: 0 0 0 0.2rem hsla(290, 100%, 50%, 0.5);
 }
 
+.desc-esp {
+  font-weight: 100;
+}
+
+.desc-title {
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+
+.descripcion {
+  white-space: pre-wrap; 
+  // esto hace que con nueva linea (\n) lo haga y tambien cuando no hay espacio
+}
+
 @media (max-width: 744px) {
 
 

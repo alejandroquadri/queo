@@ -132,7 +132,19 @@
               }
             ],
             "name" : "Macetas cilindricas",
-            "text" : "Set de 3 macetas lindas",
+            "text" : "Macetas cilindricas fabricadas en terrazzo.\nFabricadas con aditivos especiales para asegurar impermeabilizacion.\nPulidas a mano para lograr detalles de terminacion",
+            "mant": "Limpiar con un trapo humedo, agua y jabon",
+            "designer": "La mujer de Thomas",
+            "dim":[
+              "chica: diametro 10 cm, altura 20cm",
+              "mediana: diametro 12 cm, altura 25cm",
+              "grande: diametro 15 cm, altura 30cm"
+            ],
+            "weight":[
+              "chica: 5 kg",
+              "mediana: 7 kg",
+              "grande: 10 kg"
+            ],
             "bgImg": "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FtresMacetas.jpg?alt=media&token=75971113-d3f4-45bd-bfe2-a29db6da80f9"
           },
           "macetaEscritorio" : {

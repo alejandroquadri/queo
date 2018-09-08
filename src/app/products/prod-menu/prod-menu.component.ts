@@ -31,13 +31,11 @@ export class ProdMenuComponent implements OnInit {
   }
 
   scrollCol(collection) {
-    console.log(collection);
     const el = this.doc.getElementById(collection);
     el.scrollIntoView({ block: 'start', inline: 'nearest',  behavior: 'smooth' });
   }
 
   routeTo(col, prod) {
-    console.log(col, prod);
     this.router.navigate([`/productos/${col}/${prod}`]);
   }
 

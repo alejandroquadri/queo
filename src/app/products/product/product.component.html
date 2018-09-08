@@ -70,4 +70,42 @@
   <div class="row">
       <app-blends class="mb-2" [colors]="currentFormat.colors" (selected)="changeColor($event)" ></app-blends>
   </div>
+
+  <div class="row desc-esp mb-5">
+    <div class="col-12 desc-title mb-4">
+      Descripcion + Especificaciones
+    </div>
+
+    <div class="col-sm-12 col-md-6 py-4">
+      <div class="descripcion mb-4">{{ product.text}}</div>
+
+      <div class="dim">
+        Dimensiones:
+        <ul>
+          <li *ngFor="let dim of product.dim">{{ dim }}</li>
+        </ul>
+      </div>
+
+      <div class="weight">
+        Peso:
+        <ul>
+          <li *ngFor="let w of product.weight">{{ w }}</li>
+        </ul>
+      </div>
+
+      <div class="mant mb-3">
+        {{ product.mant }}
+      </div>
+
+      <div class="designer" *ngIf="product.designer">
+        Diseñado por {{ product.designer }}
+      </div>
+
+    </div>
+
+    <div class="col-sm-12 col-md-6">
+        <div class="custom" [ngStyle]="{'background-image': 'url(' + product.bgImg + ')'}"></div>
+    </div>
+
+  </div>
 </div>
