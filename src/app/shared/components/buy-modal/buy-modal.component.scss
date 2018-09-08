@@ -1,0 +1,47 @@
+.titulo {
+	font-size: 1.5rem;
+	font-weight: 100;
+}
+
+.detalleProducto, .textoConfirmacion {
+	font-size: 0.9rem;
+	font-weight: 100;
+}
+
+.modal-footer {
+	display: block;
+}
+
+.missing {
+	background-color: hsl(355, 70%, 91%);;
+}
+
+.logo {
+	max-width: 20%;
+}
+
+.botonComprar {
+	color: white;
+	background-color: hsla(300, 100%, 50%, 1);
+	border-color: hsla(300, 100%, 50%, 1);
+}
+
+.botonComprar:hover {
+	color: white;
+	background-color: hsla(290, 100%, 50%, 1);
+	border-color: hsla(290, 100%, 50%, 1);
+	cursor: pointer;
+}
+
+.botonComprar:active {
+  color: #fff;
+  background-color: hsla(290, 100%, 50%, 1);
+	border-color: hsla(290, 100%, 50%, 1);
+  box-shadow: 0 0 0 0.2rem hsla(290, 100%, 50%, 0.5);
+}
+
+.missing-text {
+  color: rgb(80%, 20%, 21.2%);
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}

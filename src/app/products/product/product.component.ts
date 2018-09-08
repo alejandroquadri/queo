@@ -3,7 +3,9 @@ import { Component, OnInit, Inject, ViewChild } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
 import { Validators, FormGroup, FormArray, FormBuilder } from '@angular/forms';
 
-import { StaticService } from '../../shared';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+
+import { StaticService, BuyModalComponent } from '../../shared';
 
 @Component({
   selector: 'app-product',
@@ -19,7 +21,6 @@ export class ProductComponent implements OnInit {
   currentFormat: any;
   currentColor: any;
   imgArray: Array<any>;
-  showFormat: any;
 
   @ViewChild('carousel') carousel;
   carouselInner: any;
@@ -33,6 +34,7 @@ export class ProductComponent implements OnInit {
     private router: Router,
     private staticData: StaticService,
     public fb: FormBuilder,
+    private modalService: NgbModal,
     @Inject(DOCUMENT) document
   ) {
     this.doc = document;
@@ -52,7 +54,7 @@ export class ProductComponent implements OnInit {
   }
 
   cambio(event) {
-    console.log('slide', event);
+    // console.log('slide', event);
   }
 
   buildForm() {
@@ -66,7 +68,6 @@ export class ProductComponent implements OnInit {
   }
 
   addSet() {
-    console.log('viene al addSet');
     if (this.currentFormat.set) {
       this.buyForm.get('color').clearValidators();
       this.currentFormat.set.sizes.forEach( (size, index) => {
@@ -108,12 +109,9 @@ export class ProductComponent implements OnInit {
     this.buyForm.controls['format'].valueChanges.subscribe(val => {
       this.currentFormat = val;
       this.currentColor = this.currentFormat.colors[0];
-      console.log('cambio formato', this.currentFormat, this.currentColor);
       this.addSet();
-      // this.buyForm.get('color').updateValueAndValidity();
     });
     this.buyForm.controls['color'].valueChanges.subscribe(val => {
-      console.log('cambio color');
       this.currentColor = val;
       this.setColorArray();
     });
@@ -126,7 +124,31 @@ export class ProductComponent implements OnInit {
   }
 
   buy() {
-    console.log(this.buyForm.value);
+    const buyForm = this.buyForm.value;
+    console.log(buyForm);
+    const sendForm = {
+      product: this.product.name,
+      format: buyForm.format.name,
+      price: buyForm.format.price,
+      qty: buyForm.qty
+    };
+    if (buyForm.set.length > 0) {
+      const colors = [];
+      buyForm.format.set.sizes.forEach( (size, index) => {
+        const color = {
+          size: size,
+          color: buyForm.set[index].name
+        };
+        colors.push(color);
+      });
+      sendForm['color'] = colors;
+      sendForm['set'] = true;
+    } else {
+      sendForm['color'] = buyForm.color.name;
+      sendForm['set'] = false;
+    }
+    const modalRef = this.modalService.open(BuyModalComponent, {size: 'lg'});
+    modalRef.componentInstance.data = JSON.stringify(sendForm);
   }
 
 }

@@ -25,6 +25,7 @@ import { HoverDirective } from './directives/hover.directive';
 // Pipes
 import { ToArrayPipe } from './pipes/to-array.pipe';
 import { SortPipe } from './pipes/sort.pipe';
+import { BuyModalComponent } from './components/buy-modal/buy-modal.component';
 
 @NgModule({
   imports: [
@@ -50,7 +51,8 @@ import { SortPipe } from './pipes/sort.pipe';
     DimComponent,
     ApplicationsComponent,
     ToArrayPipe,
-    SortPipe
+    SortPipe,
+    BuyModalComponent
   ],
   exports: [
     CommonModule,
@@ -69,7 +71,8 @@ import { SortPipe } from './pipes/sort.pipe';
     DimComponent,
     ApplicationsComponent,
     ToArrayPipe,
-    SortPipe
+    SortPipe,
+    BuyModalComponent
   ]
 })
 export class SharedModule { }
