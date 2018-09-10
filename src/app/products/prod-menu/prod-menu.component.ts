@@ -1,6 +1,7 @@
 import { Router } from '@angular/router';
 import { Component, OnInit, Inject } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
+import { faSpinner } from '@fortawesome/free-solid-svg-icons';
 
 import { StaticService } from '../../shared';
 
@@ -17,6 +18,7 @@ export class ProdMenuComponent implements OnInit {
   ambients: any;
   featured: any;
   doc: any;
+  spinner = faSpinner;
 
   constructor(
     private router: Router,

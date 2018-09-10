@@ -4,6 +4,7 @@ import { DOCUMENT } from '@angular/common';
 import { Validators, FormGroup, FormArray, FormBuilder } from '@angular/forms';
 
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { faSpinner } from '@fortawesome/free-solid-svg-icons';
 
 import { StaticService, BuyModalComponent } from '../../shared';
 
@@ -21,6 +22,7 @@ export class ProductComponent implements OnInit {
   currentFormat: any;
   currentColor: any;
   imgArray: Array<any>;
+  spinner = faSpinner;
 
   @ViewChild('carousel') carousel;
   carouselInner: any;

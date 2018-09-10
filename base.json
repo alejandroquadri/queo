@@ -307,6 +307,32 @@
           }
         }
       }
+    },
+    "inspiration": {
+      "featured" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FsobreJuguete.jpg?alt=media&token=352dc909-01a8-4eac-9c66-96391c298a0b",
+      "projects" : {
+        "escavio" : {
+          "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FmesaArrime0.jpg?alt=media&token=3eb8fd60-5830-4aa7-b64a-3c18e5daf7a9" ],
+          "name" : "Rincon de escavio de Maurito",
+          "products" : [ "mesa de arrime" ],
+          "height": "25rem",
+          "text" : "Aca es donde escribimos alguna pelotudez de lo increible que es la obra. Lo espectacular que son nuestros productos y la diferencia que hace el haberlos incluido"
+        },
+        "cuadrito" : {
+          "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FmesaRedondaBaja0.jpg?alt=media&token=02b261c7-d1ad-4814-8a6e-a0e794b9796f" ],
+          "name" : "Rincon con hoja de elefante",
+          "products" : [ "mesa redonda baja" ],
+          "text" : "Ojala algun dia nos saliera hacer este color. O mejor aun, que sea real que una obra asi es nuestra",
+          "height": "33rem"
+        },
+        "bandejas" : {
+          "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fbandejas.jpg?alt=media&token=490be678-a6b3-4528-bef3-647cc95835c6" ],
+          "name" : "Mesa con onda",
+          "products" : [ "bandejas" ],
+          "height": "25rem",
+          "text" : "Pero que fantastico queda esta mesa. Blanco espuma, diria mi viejo. Lo hacemos hace 40 años. Lo que pasa es que le pones la mesita esa al lado, con el cartel pelotudo y parece distinto"
+        }
+      }
     }
   }
 }

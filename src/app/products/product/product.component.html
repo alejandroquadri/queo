@@ -7,6 +7,11 @@
         <ng-template ngbSlide *ngFor="let img of imgArray" >
           <div class="carousel-caption">
             <div class="custom" [ngStyle]="{'background-image': 'url(' + img + ')'}"></div>
+            <div class="spinner-wrapper d-flex align-items-center">
+              <div class="text-center w-100 spinner">
+                <fa-icon class="icons p-3" [icon]="spinner" [spin]="true"></fa-icon>
+              </div>
+            </div>
           </div>
         </ng-template>
       </ngb-carousel>

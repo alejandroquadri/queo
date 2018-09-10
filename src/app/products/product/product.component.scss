@@ -43,9 +43,25 @@
 .custom {
 	height: 33rem;
   width: 100%;
+  background-color: transparent;
 	background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.spinner-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  color: white;
+  width: 100%;
+  z-index: -1
+}
+
+.spinner {
+  font-size: 3rem;
+  color: black;
 }
 
 .title {

@@ -1,20 +1,20 @@
-<div class="project-header-wrapper">
+<!-- <div class="project-header-wrapper">
   <div class="project-presentacion" [ngStyle]="{'background-image': 'url(' + projectData.featured + ')'}"></div>
   <div class="title-wrapper jumbotron mb-0 bg-transparent">
     <div class="container">
       <div class="title">INSPIRACION</div>
     </div>
   </div>
-</div>
+</div> -->
 
 <div class="card-wrapper container">
-  <div class="card-columns">
-    <div class="card" *ngFor="let project of projectArray">
-      <!-- <img class="card-img-top" [src]="projectData.projects[project].imgs[0]" alt="Card image cap"> -->
-      <div class="card-img-div" [ngStyle]="{'background-image': 'url(' + projectData.projects[project].imgs[0] + ')'}"></div>
+  <div class="card-columns mb-5">
+    <div class="card" *ngFor="let project of projectData.projects | toArray">
+        <div class="card-img-div" 
+        [ngStyle]="{'height':''+project.height+'', 'background-image': 'url(' + project.imgs[0] + ')'}"></div>
       <div class="card-body">
-        <h5 class="card-title"> {{ projectData.projects[project].name }} </h5>
-        <p class="card-text"> {{ projectData.projects[project].text }} </p>
+        <h5 class="card-title"> {{ project.name }} </h5>
+        <p class="card-text"> {{ project.text }} </p>
       </div>
     </div>
   </div>

@@ -3,6 +3,9 @@
   <div class="container">
     <!-- <div class="title">Nuestros productos</div> -->
     <p class="sub-title">Diseñados para sorprender. Fabricados con maxima dedicacion. Llevamos el estudio de los materiales a su mayor exponente. Chamullo del estilo apple</p>
+    <div>
+        <fa-icon class="icons p-3" [icon]="spinner" [spin]="true"></fa-icon>
+    </div>
     <div class="collection-menu d-flex">
       <div class="col-title" *ngFor="let col of (collections | toArray)  | sort:'order':true:false"
       (click)="scrollCol(col.colName)" >
@@ -22,6 +25,11 @@
 
         <div class="d-flex product-container">
           <div *ngFor="let prod of (col.products | toArray) | sort:'order':true:false" class="prod" (click)="routeTo(col.$key, prod.$key)">
+            <div class="spinner-wrapper d-flex align-items-center">
+              <div class="text-center w-100 spinner">
+                <fa-icon class="icons p-3" [icon]="spinner" [spin]="true"></fa-icon>
+              </div>
+            </div>
             <div class="background" 
             [ngStyle]="{'background-image': 'url(' + prod.bgImg + ')'}"></div>
             <div class="text-wrapper d-flex align-items-end">

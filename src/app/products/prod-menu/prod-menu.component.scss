@@ -37,7 +37,7 @@
 }
 
 .background {
-  background-color: var(--green-dark);
+  background-color: transparent;
   height: 100%;
   width: 100%;
   background-position: center;
@@ -59,7 +59,7 @@
   filter: brightness(70%);
 }
 
-.text-wrapper {
+.text-wrapper, .spinner-wrapper {
   position: absolute;
   top: 0;
   left: 0;
@@ -76,6 +76,11 @@
   background-color: var(--grey);
   font-size: 1rem;
   font-weight: 100;
+}
+
+.spinner {
+  font-size: 3rem;
+  color: black;
 }
 
 @media (max-width: 767.98px) {

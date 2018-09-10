@@ -29,12 +29,12 @@
 }
 
 .card-wrapper {
-  padding-top: 2rem;
-  margin-bottom: 2rem;
+  min-height: calc(100vh - var(--navbar-height));
+  margin-top: calc(var(--navbar-height) + 2rem);
 }
 
 .card-img-div {
-  height: 300px;
+  // height: 300px; lo setie para que se cargue la altura dinamicamente segun la foto
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

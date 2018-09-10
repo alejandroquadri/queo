@@ -17,7 +17,6 @@ export class ProjectsComponent implements OnInit {
 
   ngOnInit() {
     this.projectData = this.staticData.data.inspiration;
-    this.projectArray = Object.keys(this.projectData.projects);
   }
 
 }

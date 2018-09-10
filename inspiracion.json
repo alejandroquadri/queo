@@ -1,0 +1,23 @@
+{
+  "featured" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2FsobreJuguete.jpg?alt=media&token=352dc909-01a8-4eac-9c66-96391c298a0b",
+  "projects" : {
+    "banio" : {
+      "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Frayas2.jpg?alt=media&token=ed51373b-e87a-4944-84e0-407657f11f17" ],
+      "name" : "Baño de Maurito",
+      "products" : [ "solid", "3D" ],
+      "text" : "Aca es donde escribimos alguna pelotudez de lo increible que es la obra. Lo espectacular que son nuestros productos y la diferencia que hace el haberlos incluido"
+    },
+    "banioNegro" : {
+      "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fbaniadera%20piso%20negro.jpg?alt=media&token=670bda28-d5fb-4223-a349-d0108f7e647a" ],
+      "name" : "Cocina de Maurito",
+      "products" : [ "solid", "3D" ],
+      "text" : "Ojala algun dia nos saliera hacer este color. O mejor aun, que sea real que una obra asi es nuestra"
+    },
+    "bar" : {
+      "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fdamero.jpg?alt=media&token=d5750057-214f-4514-8b3b-393088991619" ],
+      "name" : "Bar de Maurito",
+      "products" : [ "solid", "3D" ],
+      "text" : "Pero que fantastico queda ese damero. Fantasia, diria mi viejo. Lo hacemos hace 40 años. Lo que pasa es que le pones la mesita esa al lado, con el cartel pelotudo y parece distinto"
+    }
+  }
+}
