@@ -45,6 +45,7 @@
     "landing" : {
       "slides" : [ {
         "img" : "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/ambients%2FlandingDesktop.jpg?alt=media&token=5effc5d1-921e-4feb-ab51-d8bb0aaba4e9",
+        "imgMobile": "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/ambients%2FlandingMobile.jpg?alt=media&token=971a9bb5-436c-4c79-bd20-e68ac36f7e07",
         "subTitle" : "pero muy caras",
         "title" : "Pelotudeses hechas en cemento y a veces pulidas que te haran feliz un dia de lluvia"
       } ]

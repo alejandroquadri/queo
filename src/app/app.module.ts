@@ -23,6 +23,7 @@ import {
   SharedModule,
   StaticService,
 } from './shared';
+import { WINDOW_PROVIDERS } from './shared/services/window.service';
 
 import { ContactComponent } from './contact/contact.component';
 import { ProjectsComponent } from './projects/projects.component';
@@ -41,7 +42,7 @@ export function DataProviderFactory(provider: StaticService) {
     LandingComponent,
   ],
   imports: [
-    BrowserModule.withServerTransition({ appId: 'quadri-web' }),
+    BrowserModule.withServerTransition({ appId: 'queo' }),
     BrowserTransferStateModule,
     BrowserAnimationsModule,
     HttpModule,
@@ -56,7 +57,8 @@ export function DataProviderFactory(provider: StaticService) {
     SharedModule,
   ],
   providers: [
-    { provide: APP_INITIALIZER, useFactory: DataProviderFactory, deps: [StaticService], multi: true }
+    { provide: APP_INITIALIZER, useFactory: DataProviderFactory, deps: [StaticService], multi: true },
+    WINDOW_PROVIDERS
   ],
   bootstrap: [AppComponent]
 })

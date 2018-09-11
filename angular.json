@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "quadri-web": {
+    "queo": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -36,7 +36,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/quadri-web",
+            "outputPath": "dist/queo",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -73,18 +73,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "quadri-web:build"
+            "browserTarget": "queo:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "quadri-web:build:production"
+              "browserTarget": "queo:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "quadri-web:build"
+            "browserTarget": "queo:build"
           }
         },
         "test": {
@@ -119,14 +119,14 @@
         "server": {
           "builder": "@angular-devkit/build-angular:server",
           "options": {
-            "outputPath": "dist/quadri-web-server",
+            "outputPath": "dist/queo-server",
             "main": "src/main.server.ts",
             "tsConfig": "src/tsconfig.server.json"
           }
         }
       }
     },
-    "quadri-web-e2e": {
+    "queo-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "architect": {
@@ -134,11 +134,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "quadri-web:serve"
+            "devServerTarget": "queo:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "quadri-web:serve:production"
+              "devServerTarget": "queo:serve:production"
             }
           }
         },
@@ -154,5 +154,5 @@
       }
     }
   },
-  "defaultProject": "quadri-web"
+  "defaultProject": "queo"
 }

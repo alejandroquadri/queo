@@ -7,14 +7,18 @@
 	background-color: hsla(0, 0%, 13%, 0.8);
 }
 
-.expandedMobile {
+.expandedMobileLndg {
 	background-color: hsla(0, 0%, 13%, 0.8) !important;
 }
 
-nav {
-	// min-height: var(--navbar-height);
+.expandedMobile {
+	background-color: hsla(0, 0%, 100%, 0.9) !important;
 }
 
 .nav-item {
 	font-weight: 100;
+}
+
+.white {
+	background-color: white;
 }

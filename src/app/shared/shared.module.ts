@@ -72,7 +72,9 @@ import { BuyModalComponent } from './components/buy-modal/buy-modal.component';
     ApplicationsComponent,
     ToArrayPipe,
     SortPipe,
-    BuyModalComponent
+    BuyModalComponent,
+  ],
+  providers: [
   ]
 })
 export class SharedModule { }

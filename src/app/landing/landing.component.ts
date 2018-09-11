@@ -35,7 +35,6 @@ export class LandingComponent implements OnInit {
     // this.images = this.staticData.data.projectImgs;
 
     this.slidesData = this.staticData.data.landing.slides;
-    console.log(this.slidesData);
     this.slidesArray = Object.keys(this.slidesData);
   }
 

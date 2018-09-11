@@ -11,9 +11,9 @@
     "prestart": "ng build --prod && ngc",
     "start2": "ts-node src/server.ts",
     "webpack:prerender": "webpack --config webpack.prerender.config.js",
-    "build:prerender": "node dist/quadri-web/prerender.js",
-    "serve:prerender": "http-server dist/quadri-web -o",
-    "build:all": "ng build --prod && ng run quadri-web:server && npm run webpack:prerender && npm run build:prerender"
+    "build:prerender": "node dist/queo/prerender.js",
+    "serve:prerender": "http-server dist/queo -o",
+    "build:all": "ng build --prod && ng run queo:server && npm run webpack:prerender && npm run build:prerender"
   },
   "private": true,
   "dependencies": {

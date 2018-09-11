@@ -1,7 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 
-const APP_NAME = 'quadri-web';
+const APP_NAME = 'queo';
 
 module.exports = {
   entry: {  prerender: './prerender.ts' },

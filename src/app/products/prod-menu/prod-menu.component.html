@@ -3,9 +3,6 @@
   <div class="container">
     <!-- <div class="title">Nuestros productos</div> -->
     <p class="sub-title">Diseñados para sorprender. Fabricados con maxima dedicacion. Llevamos el estudio de los materiales a su mayor exponente. Chamullo del estilo apple</p>
-    <div>
-        <fa-icon class="icons p-3" [icon]="spinner" [spin]="true"></fa-icon>
-    </div>
     <div class="collection-menu d-flex">
       <div class="col-title" *ngFor="let col of (collections | toArray)  | sort:'order':true:false"
       (click)="scrollCol(col.colName)" >

@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/quadri-web",
+    "public": "dist/queo",
     "ignore": [
       "firebase.json",
       "**/.*",

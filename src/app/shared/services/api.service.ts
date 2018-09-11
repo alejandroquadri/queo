@@ -84,7 +84,7 @@ export class ApiService {
   }
 
   getList(path: string): Observable<{}[]> {
-    return this.db.list(path).valueChanges()
+    return this.db.list(path).valueChanges();
   }
 
   getListQuery(path, offset, startKey?): Observable<{}[]> {

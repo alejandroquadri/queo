@@ -17,13 +17,12 @@ import * as fs from 'fs-extra';
 // Add routes manually that you need rendered
 const ROUTES = [
   '/',
-  '/aplicaciones',
   '/productos',
   '/inspiracion',
   '/contacto'
 ];
 
-const APP_NAME = 'quadri-web';
+const APP_NAME = 'queo';
 
 // leave this as require(), imported via webpack
 const {
