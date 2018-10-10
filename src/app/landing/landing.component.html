@@ -27,22 +27,45 @@ Como el template de cada slide se crea dinamicamente por el componente de ng-boo
     </ng-template>
 
   </ngb-carousel>
+  <!-- esto de abajo es un truquito para que se carguen las imagenes rapido -->
+  <div style="display:none;">
+    <img alt="" *ngFor="let img of slidesArray" style="display:none;" [src]="slidesData[img].img">
+    <img alt="" *ngFor="let img of slidesArray" style="display:none;" [src]="slidesData[img].imgMobile">
+  </div>
 </div>
 
-<!-- esto de abajo es un truquito para que se carguen las imagenes rapido -->
-<div style="display:none;">
-  <img alt="" *ngFor="let img of slidesArray" style="display:none;" [src]="slidesData[img].img">
-  <img alt="" *ngFor="let img of slidesArray" style="display:none;" [src]="slidesData[img].imgMobile">
-</div>
 
 <!-- El div de abajo sirve en caso de querer usar de una imagen f.urlull screen -->
-<div *ngIf="!carrousel"  class="carousel-wrapper d-flex">
+<div *ngIf="imgFs"  class="carousel-wrapper d-flex">
 
   <div class="custom desktop" [ngStyle]="{'background-image': 'url(' + images[slidesData[0].img].url + ')'}">
     <div class="titulos">
       <!-- <img class="logo ml-4" [src]="logo"> -->
       <div class="oneliner">MÉTASELO EN EL ORTO</div>
       <div class="botones">
+        <button type="button" class="btn btn-lg botonComprar" (click)= "toProducts()">Comprar</button>
+        <button type="button" class="ml-2 btn btn-lg btn-outline-secondary botonConocer" (click)= "more()">Conocer mas</button>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+<div *ngIf="videoBg"  class="carousel-wrapper d-flex">
+
+  <div class="custom mobile" [ngStyle]="{'background-image': 'url(' + slidesData[0].imgMobile + ')'}"></div>
+  <div class="desktop">
+    <video playsinline autoplay muted loop id="bgvid">
+        <source [src]="videoWebm" type="video/webm">
+        <source [src]="videoMp4" type="video/mp4">
+    </video>
+  </div>
+
+
+  <div class="caption-wrapper d-flex flex-column justify-content-center jumbotron bg-transparent m-0">
+    <div class="video-text">
+      <div class="oneliner">MÉTASELO EN EL ORTO</div>
+      <div class="button-wrapper">
         <button type="button" class="btn btn-lg botonComprar" (click)= "toProducts()">Comprar</button>
         <button type="button" class="ml-2 btn btn-lg btn-outline-secondary botonConocer" (click)= "more()">Conocer mas</button>
       </div>

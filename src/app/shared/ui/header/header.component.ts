@@ -30,7 +30,7 @@ export class HeaderComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    private router: Router,
+    public router: Router,
     public staticData: StaticService,
     @Inject(WINDOW) private window: Window,
     @Inject(PLATFORM_ID) private platformId: Object
@@ -49,11 +49,11 @@ export class HeaderComponent implements OnInit {
   scrollDir = 'up';
 
   @HostListener('window:scroll', ['$event'])
-    doSomething(event) {
+    calcPosition(event) {
       if (isPlatformBrowser(this.platformId)) {
         const oldScrollValue = this.scrollValue;
         this.scrollValue = this.win.pageYOffset;
-        if (this.scrollValue <= oldScrollValue) {
+        if ((this.scrollValue <= oldScrollValue) || this.win.pageYOffset < 30) {
           this.scrollDir = 'up';
         } else {
           this.scrollDir = 'down';

@@ -12,6 +12,8 @@ import { StaticService } from '../shared';
 export class LandingComponent implements OnInit {
 
   carrousel = true;
+  videoBg = false;
+  imgFs = false;
   data: any;
   images: any;
   doc: any;
@@ -24,6 +26,8 @@ export class LandingComponent implements OnInit {
   slidesArray: Array<any>;
 
   // @ViewChild('slide1') slide1;
+  videoWebm = 'https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fprueba.webm?alt=media&token=d12839ad-798e-43ff-a32d-bc04f415d4da';
+  videoMp4 = 'https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fprueba.mp4?alt=media&token=c4e6153c-c13a-4578-8ef9-2b9599486549';
 
   constructor(
     private staticData: StaticService,
