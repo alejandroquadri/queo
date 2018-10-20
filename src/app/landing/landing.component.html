@@ -53,7 +53,7 @@ Como el template de cada slide se crea dinamicamente por el componente de ng-boo
 
 <div *ngIf="videoBg"  class="carousel-wrapper d-flex">
 
-  <div class="custom mobile" [ngStyle]="{'background-image': 'url(' + slidesData[0].imgMobile + ')'}"></div>
+  <div class="custom mobile" [ngStyle]="{'background-image': 'url(' + slidesData[0 ].imgMobile + ')'}"></div>
   <div class="desktop">
     <video playsinline autoplay muted loop id="bgvid">
         <source [src]="videoWebm" type="video/webm">

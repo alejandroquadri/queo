@@ -36,8 +36,15 @@
     </div>
 
     <div class="p-4 item d-flex flex-column columnas">
-      <agm-map class="" [latitude]="lat" [longitude]="lng" [zoom]=17 [scrollwheel] = false>
-        <agm-marker #map class="mapa" [latitude]="lat" [longitude]="lng"></agm-marker>
+      <agm-map *ngIf="showMap" class="" [latitude]="lat" [longitude]="lng" [zoom]=17 [scrollwheel] = false>
+        <agm-marker #map class="mapa" [latitude]="lat" [longitude]="lng">
+            <agm-info-window [isOpen]="true">
+              <strong>Queo</strong><br>
+              11 4861 0450 <br>
+              Gascon 483 <br>
+              Estacionamiento libre para clientes
+            </agm-info-window>
+        </agm-marker>
       </agm-map>
     </div>
 

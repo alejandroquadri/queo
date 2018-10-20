@@ -17,13 +17,13 @@
     <div class="text-muted">Tu compra:</div>
     <div class="detalleProducto">
       <div *ngIf="!datos.set">
-        {{ datos.qty }} {{ datos.product }} {{ datos.format }} color {{ datos.color }}
+        {{ datos.qty }} {{ datos.product }} {{ datos.format }} color {{ colors[datos.color].name }}
       </div>
       <div class="mt-2" *ngIf="datos.set">
           {{ datos.qty }} {{ datos.format }}
           <ul>
             <li *ngFor="let color of datos.color">
-              {{ color.size }} color {{ color.color }}
+              {{ color.size }} color {{ colors[color.color].name }}
             </li>
           </ul>
       </div>

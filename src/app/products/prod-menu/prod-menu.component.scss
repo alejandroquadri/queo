@@ -1,10 +1,10 @@
 
 .title-wrapper {
-  height: 32vh;
+  height: calc(var(--vh, 1vh) * 32);
 }
 
 .title {
-  font-size: 6vh;
+  font-size: calc(var(--vh, 1vh) * 6);
   font-weight: 200;
   // color: white;
 }

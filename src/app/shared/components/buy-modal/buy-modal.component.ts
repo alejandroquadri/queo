@@ -16,6 +16,7 @@ export class BuyModalComponent implements OnInit {
   myForm: FormGroup;
   datos: any;
   logoNegro: any;
+  colors: any;
 
   constructor(
     private staticData: StaticService,
@@ -23,6 +24,7 @@ export class BuyModalComponent implements OnInit {
     public activeModal: NgbActiveModal
   ) {
     this.logoNegro = this.staticData.logoNegro;
+    this.colors = this.staticData.data.colors;
   }
 
   ngOnInit() {

@@ -30,6 +30,7 @@ export class ProductComponent implements OnInit {
   active: any;
 
   buyForm: FormGroup;
+  colors: any;
 
   constructor(
     private route: ActivatedRoute,
@@ -46,6 +47,7 @@ export class ProductComponent implements OnInit {
     this.colKey = this.route.snapshot.paramMap.getAll('col');
     this.prodKey = this.route.snapshot.paramMap.getAll('prod');
     this.product = this.staticData.data.collections[this.colKey].products[this.prodKey];
+    this.colors = this.staticData.data.colors;
     console.log(this.product);
     if (!this.product) {
       this.router.navigate(['/']);
@@ -67,6 +69,7 @@ export class ProductComponent implements OnInit {
       set: this.fb.array([]),
       qty: [ 1, Validators.required],
     });
+    this.addSet();
     this.formChanges();
   }
 
@@ -89,7 +92,7 @@ export class ProductComponent implements OnInit {
     }
   }
 
-  // esta funcion de aca abajo es un getter. La so para poder hacer referencia con
+  // esta funcion de aca abajo es un getter. La uso para poder hacer referencia con
   // mas facilidad. Abajo la referencia
   // https://angular.io/guide/reactive-forms#dynamic-controls-using-form-arrays
   get setControls() {

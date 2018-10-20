@@ -11,8 +11,8 @@ import { StaticService } from '../shared';
 })
 export class LandingComponent implements OnInit {
 
-  carrousel = true;
-  videoBg = false;
+  carrousel = false;
+  videoBg = true;
   imgFs = false;
   data: any;
   images: any;

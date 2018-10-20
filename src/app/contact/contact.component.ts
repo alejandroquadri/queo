@@ -1,4 +1,5 @@
-import { Component, OnInit, Renderer } from '@angular/core';
+import { Component, OnInit, Renderer, Inject, PLATFORM_ID } from '@angular/core';
+import { isPlatformBrowser, isPlatformServer } from '@angular/common';
 import {
   trigger,
   state,
@@ -34,7 +35,7 @@ import { ContactFormService } from './contact-form.service';
 export class ContactComponent implements OnInit {
 
   myForm: FormGroup;
-
+  showMap: boolean;
   thanks = 'hide';
 
   title = 'My first AGM project';
@@ -48,8 +49,16 @@ export class ContactComponent implements OnInit {
   constructor(
     private formData: ContactFormService,
     private fb: FormBuilder,
-    private renderer: Renderer
-  ) { }
+    private renderer: Renderer,
+    @Inject(PLATFORM_ID) private platformId: Object
+  ) {
+    if (isPlatformBrowser(this.platformId)) {
+      this.showMap = true;
+    }
+    if (isPlatformServer(this.platformId)) {
+      this.showMap = false;
+    }
+  }
 
   ngOnInit() {
     this.buildForm();
@@ -63,7 +72,7 @@ export class ContactComponent implements OnInit {
     });
   }
 
-  submit(){
+  submit() {
     console.log(this.myForm.value);
     // this.formData.saveReq(this.myForm.value);
     this.myForm.reset();
