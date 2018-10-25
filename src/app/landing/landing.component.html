@@ -5,22 +5,25 @@ Como el template de cada slide se crea dinamicamente por el componente de ng-boo
 -->
 
 <div  *ngIf="carrousel"  class="carousel-wrapper d-flex">
-  <ngb-carousel [interval]="0"  [showNavigationArrows]="false" (slide)="cambio($event)">
+  <ngb-carousel [interval]="0"  [showNavigationArrows]="slidesArray.lenght > 1" [showNavigationIndicators]="slidesArray.lenght > 1" (slide)="cambio($event)">
   
     <ng-template ngbSlide *ngFor="let slide of slidesArray" >
 
       <div class="carousel-caption">
         <div class="custom desktop" [ngStyle]="{'background-image': 'url(' + slidesData[slide].img + ')'}"></div>
         <div class="custom mobile" [ngStyle]="{'background-image': 'url(' + slidesData[slide].imgMobile + ')'}"></div>
-        <div class="caption-wrapper d-flex flex-column justify-content-sm-start justify-content-md-center jumbotron bg-transparent m-0">
+        <div class="caption-wrapper d-flex flex-column justify-content-center jumbotron bg-transparent m-0">
           <div class="text-wrapper">
-            <div class="oneliner">{{ slidesData[slide].title }}</div>
-            <!-- <div class="sub-liner">{{ slidesData[slide].subTitle }}</div> -->
+            <!-- <div class="oneliner">{{ slidesData[slide].title }}</div> -->
+            <img class="logo" [src]="logoBlanco">
+            <div class="sub-liner">{{ slidesData[slide].subTitle }}</div>
           </div>
-          <div class="button-wrapper pl-5">
-            <button type="button" class="btn btn-lg botonComprar" (click)= "toProducts()">Comprar</button>
-            <button type="button" class="ml-2 btn btn-lg btn-outline-secondary botonConocer" (click)= "more()">Conocer mas</button>
-          </div>
+          <app-cta-buttons 
+          [primary]="true" [pText]="'Comprar'" 
+          [terciary]="true" [tText]="'Conocer +'"
+          [changeTheme]="false"
+          (prim)="toProducts()" (ter)="more()">
+          </app-cta-buttons>
         </div>
       </div>
 
@@ -74,10 +77,11 @@ Como el template de cada slide se crea dinamicamente por el componente de ng-boo
   
 </div>
 
+<div #terrazzo>
+  <app-terrazzo></app-terrazzo>
+</div>
+
 <app-steps></app-steps>
-
-<app-trust-quadri></app-trust-quadri>
-
 
 
   

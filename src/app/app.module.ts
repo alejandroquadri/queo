@@ -28,6 +28,7 @@ import { WINDOW_PROVIDERS } from './shared/services/window.service';
 import { ContactComponent } from './contact/contact.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { LandingComponent } from './landing/landing.component';
+import { AboutComponent } from './about/about.component';
 
 // esto es para precargar la data antes que se inicie la aplicacion
 export function DataProviderFactory(provider: StaticService) {
@@ -40,6 +41,7 @@ export function DataProviderFactory(provider: StaticService) {
     ContactComponent,
     ProjectsComponent,
     LandingComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'queo' }),

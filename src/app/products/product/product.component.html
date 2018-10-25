@@ -85,7 +85,7 @@
       </div>
   </div>
 
-  <div class="py-5 bg-light">
+  <div class="py-5 bg-light especificaciones">
     <div class="container">
 
       <div class="row">
@@ -105,14 +105,14 @@
             </ul>
           </div>
 
-          <div class="weight">
+          <div *ngIf="product.weight" class="weight">
             Peso:
             <ul>
               <li *ngFor="let w of product.weight">{{ w }}</li>
             </ul>
           </div>
 
-          <div class="mant mb-3">
+          <div *ngIf="product.mant" class="mant mb-3">
             {{ product.mant }}
           </div>
 

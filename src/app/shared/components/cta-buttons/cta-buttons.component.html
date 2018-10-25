@@ -1,0 +1,17 @@
+<div class="button-wrapper" [ngClass]="{ 'button-wrapper-start': buttonsStart, 'button-wrapper-v': vertical }">
+  <div class="first-button" [ngClass]="{ 'first-button-v': vertical }" *ngIf="primary" >
+    <button type="button" class="btn btn-lg botonComprar" (click)="getPim()" >
+      {{ pText || data.primary }}
+    </button>
+  </div>
+  <div class="button" [ngClass]="{ 'button-v': vertical }" *ngIf="secondary">
+    <button [ngClass]="{ 'botonConocer': lightTheme }" type="button" class="btn btn-lg btn-outline-secondary" (click)= "getSec()">
+        {{ sText || data.secondary }}
+    </button>   
+  </div>
+  <div class="button" [ngClass]="{ 'button-v': vertical }" *ngIf="terciary">
+    <button [ngClass]="{ 'botonConocer': lightTheme }"  type="button" class="btn btn-lg btn-outline-secondary" (click)= "getTer()">
+        {{ tText || terButton }}
+    </button>
+  </div>
+</div>

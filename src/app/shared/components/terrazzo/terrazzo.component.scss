@@ -1,0 +1,82 @@
+.title {
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.text {
+  font-size: 1.2rem;
+  font-weight: 100;
+  padding-top: 3rem;
+  padding-bottom:3rem;
+  // white-space: pre-wrap;
+}
+
+.p {
+  padding-bottom: 1rem;
+}
+
+.botones {
+  text-align: center;
+}
+
+.botonComprar {
+	color: white;
+	background-color: var(--green-dark);
+	border-color: var(--green-dark);
+}
+
+.botonComprar:hover {
+	color: white;
+	background-color: var(--green-light);
+	border-color: var(--green-light);
+	cursor: pointer;
+}
+
+.botonComprar:active {
+  color: white;
+  background-color: var(--green-light);
+	border-color: var(--green-light);
+  box-shadow: 0 0 0 0.2rem hsla(290, 100%, 50%, 0.5);
+}
+
+.botonConocer {
+	color: white;
+  border-color: white;
+  background-color: var(--grey-light);
+}
+
+.botonConocer:hover {
+  cursor: pointer;
+  background-color: var(--grey);
+}
+
+@media (max-width : 415px) {
+
+  .item-wrapper{
+    padding-top: 1rem;
+    padding-bottom:1rem;
+  }
+
+  .title {
+    font-size: 2rem;
+    padding-bottom: 1rem; 
+  }
+
+  .text {
+    padding: 1rem 3rem 1rem 3rem;
+  }
+
+}
+
+@media (max-width: 320px) {
+
+  .title {
+    padding-bottom: 0px;
+  }
+
+  .p {
+    font-size: 1rem;
+  }
+
+
+}

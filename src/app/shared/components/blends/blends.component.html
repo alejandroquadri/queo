@@ -1,12 +1,13 @@
-
-  <div class="jumbotron jumbotron-fluid mb-0 bg-white">
-    <div class="container">
-      <div class="titulo mb-4">Descubre nuestros blends</div>
-      <div class=" color-container d-flex">
-        <div *ngFor="let color of colors" class="color m-3 align-self-center d-flex align-items-center" 
+<div class="jumbotron jumbotron-fluid mb-0 bg-white">
+  <div class="container">
+    <div class="titulo mb-4">Descubre nuestros blends</div>
+    <div class=" color-container d-flex">
+      <div *ngFor="let color of colors" class="align-self-center d-flex flex-column align-items-center">
+        <div  class="color mx-3 mt-3 mb-1" 
         (click)="select(color)" [ngStyle]="{'background-image': 'url(' + colorsUrl[color.name].url + ')'}">
-          <div class="text-center w-100"> {{ colorsUrl[color.name].name }} </div>
         </div>
+        <div class="text-center w-100 color-names"> {{ colorsUrl[color.name].name }} </div>
       </div>
     </div>
   </div>
+</div>

@@ -1,0 +1,79 @@
+.btn {
+  font-weight: 100;
+  letter-spacing: 0.05rem;
+  border-radius: 0rem;
+}
+
+.botonComprar {
+	color: white;
+	background-color: var(--pink-dark);
+	border-color: var(--pink-dark);
+}
+
+.botonComprar:hover {
+	color: white;
+	background-color: var(--pink-light);
+	border-color: var(--pink-light);
+	cursor: pointer;
+}
+
+.botonComprar:active {
+  color: white;
+  background-color: var(--pink-light);
+	border-color: var(--pink-light);
+  box-shadow: 0 0 0 0.2rem hsla(290, 100%, 50%, 0.5);
+}
+
+.botonConocer {
+	color: white;
+	border-color: white;
+}
+
+.botonConocer:hover {
+  cursor: pointer;
+  color: black;
+  background-color: var(--light);
+	border-color: var(--light);
+}
+
+.button-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.button-wrapper-start {
+  justify-content: start;
+}
+
+.button, .first-button {
+  margin-right: 1rem;
+}
+
+@media (max-width : 576px) {
+
+	.button-wrapper-v {
+    flex-direction: column;
+  }
+
+  .first-button-v {
+    margin-right: 0px;
+  }
+  
+  .button-v {
+    margin-top: 1rem;
+    margin-right: 0px;
+  }
+
+}
+
+@media (max-width: 375px) {
+
+  button {
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+  }
+
+}

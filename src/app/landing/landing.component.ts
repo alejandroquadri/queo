@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild, Inject } from '@angular/core';
+import { Component, OnInit, ViewChild, Inject, ElementRef } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
 import { Router } from '@angular/router';
 
@@ -11,8 +11,9 @@ import { StaticService } from '../shared';
 })
 export class LandingComponent implements OnInit {
 
-  carrousel = false;
-  videoBg = true;
+  logoBlanco: any;
+  carrousel = true;
+  videoBg = false;
   imgFs = false;
   data: any;
   images: any;
@@ -26,8 +27,12 @@ export class LandingComponent implements OnInit {
   slidesArray: Array<any>;
 
   // @ViewChild('slide1') slide1;
+  // tslint:disable-next-line:max-line-length
   videoWebm = 'https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fprueba.webm?alt=media&token=d12839ad-798e-43ff-a32d-bc04f415d4da';
+  // tslint:disable-next-line:max-line-length
   videoMp4 = 'https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fprueba.mp4?alt=media&token=c4e6153c-c13a-4578-8ef9-2b9599486549';
+
+  @ViewChild('terrazzo') terrazzo: ElementRef;
 
   constructor(
     private staticData: StaticService,
@@ -40,6 +45,7 @@ export class LandingComponent implements OnInit {
 
     this.slidesData = this.staticData.data.landing.slides;
     this.slidesArray = Object.keys(this.slidesData);
+    this.logoBlanco = this.staticData.logoBlanco;
   }
 
   ngOnInit() {
@@ -82,7 +88,7 @@ export class LandingComponent implements OnInit {
   }
 
   more() {
-    this.router.navigate(['/aplicaciones']);
+    this.terrazzo.nativeElement.scrollIntoView({ block: 'start', inline: 'nearest',  behavior: 'smooth' });
   }
 
 }

@@ -6,132 +6,96 @@
         "order" : 4,
         "products" : {
           "apoyaVasos" : {
-            "bgImg" : "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FPosaVasos1.jpg?alt=media&token=89d0b329-f877-47fb-8206-e3ddd74d5fdc",
-            "name" : "Apoya vasos",
-            "text" : "Set de 4 apoya vasos",
-            "dim" : [ "diametro 7 cm, espesor 1cm"],
-            "designer" : "Mauro Ccetto",
-            "format" : [
-              {
-              "colors" : [ {
-                "name" : "blancoVidrio"
-              }, {
-                "name" : "rosaVidrio"
-              }, {
-                "name" : "negroVidrio"
-              } ],
-              "name" : "set de 6 apoya vasos",
+            "bgImg" : "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FapoyaVasos2.jpg?alt=media&token=6bf8ec03-e1b0-4379-96e7-f67443b978b4",
+            "designer" : "Mauro Cetto",
+            "mant" : "Limpiar con un trapo humedo, agua y jabon neutro",
+            "dim" : [ "diametro 9,5 cm", "espesor 1cm" ],
+            "format" : [ {
+              "colors" : [ 
+                {
+                  "name" : "blancoVidrio"
+                }, 
+                {
+                  "name" : "rosaVidrio"
+                }, 
+                {
+                  "name" : "negroVidrio"
+                },
+                {
+                  "name" : "napoleon"
+                }, 
+                {
+                  "name" : "rosaCordoba"
+                }, 
+                {
+                  "name" : "bardiglio"
+                } 
+              ],
+              "name" : "set de 4 apoya vasos",
               "order" : 1,
-              "price" : 1000,
+              "price" : 850,
               "set" : {
-                "imgs" : [
-                  "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FPosaVasos1.jpg?alt=media&token=89d0b329-f877-47fb-8206-e3ddd74d5fdc", 
-                  "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FPosaVasos1.jpg?alt=media&token=89d0b329-f877-47fb-8206-e3ddd74d5fdc"
-                ],
-                "sizes" : [ "1", "2", "3", "4" ]
+                "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FapoyaVasos.jpg?alt=media&token=f9cae9c7-13e1-4350-acef-1a19b52527bc", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FapoyaVasos2.jpg?alt=media&token=6bf8ec03-e1b0-4379-96e7-f67443b978b4" ],
+                "sizes" : [ "#1", "#2", "#3", "#4" ]
               },
               "text" : "Lindos apoya vasos"
-            } ]
-          },
-          "bandejaCuadrada" : {
-            "bgImg" : "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FtablitaRosa.jpg?alt=media&token=8010206b-f923-48e9-b52b-ca29897d48a4",
-            "name" : "Tabla cuadrada",
-            "text" : "Tablita cuadrada como para picada o algun adorno",
-            "format" : [ 
-              {
-                "colors" : 
-                [ 
-                  {
-                    "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FtablitaRosa.jpg?alt=media&token=8010206b-f923-48e9-b52b-ca29897d48a4" ],
-                    "name" : "negroVidrio"
-                  }, 
-                  {
-                    "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FtablitaRosa.jpg?alt=media&token=8010206b-f923-48e9-b52b-ca29897d48a4" ],
-                    "name" : "rosaVidrio"
-                  },
-                  {
-                    "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FtablitaRosa.jpg?alt=media&token=8010206b-f923-48e9-b52b-ca29897d48a4" ],
-                    "name" : "blancoVidrio"
-                  } 
-                ],
-                "name" : "Tabla cuadrada",
-                "order" : 4,
-                "price" : 1000,
-                "text" : "el mas quiquito"
-              } 
-            ],
-            "dim" : [ "30 x 40 x 2 cm" ],
-            "designer" : "Mauro Ccetto"
+            } ],
+            "name" : "Set de 4 apoya vasos",
+            "text" : "Un detalle fascinante para la presentación de una mesa. Un accesorio colorido para acompañar vasos de trago. Con variadas posibilidades colores y tonalidades"
           },
           "bandejaRedonda" : {
             "bgImg" : "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fbandejas.jpg?alt=media&token=490be678-a6b3-4528-bef3-647cc95835c6",
-            "name" : "Bandeja redonda",
-            "text" : "Set de 3 tablas redondas",
+            "designer" : "Mauro Cetto",
+            "mant" : "Limpiar con un trapo humedo, agua y jabon neutro",
+            "dim" : [ "chica: diametro 235 mm, espesor 10 mm", "mediana: diametro 280 mm, espesor 10 mm", "grande: diametro 35 mm, espesor 10 mm" ],
             "format" : [ 
-              {
-                "colors" : 
-                [ 
-                  {
-                    "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FbandejaNegra.JPG?alt=media&token=3951c9d3-4cb6-44dc-ba4c-a8bacc3a6a1d" ],
-                    "name" : "negroVidrio"
-                  }, 
-                  {
-                    "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FbandejaRosa.JPG?alt=media&token=4134a0ce-f66f-4cd1-9d31-302214da1d4d" ],
-                    "name" : "rosaVidrio"
-                  },
-                  {
-                    "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FbandejaBlanca.JPG?alt=media&token=fb318f1f-1332-4d36-b8e9-dc9aafbac612" ],
-                    "name" : "blancoVidrio"
-                  } 
-                ],
+                {
+                "colors" : [ {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FbandejaNegra.JPG?alt=media&token=3951c9d3-4cb6-44dc-ba4c-a8bacc3a6a1d" ],
+                  "name" : "negroVidrio"
+                }, {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FbandejaRosa.JPG?alt=media&token=4134a0ce-f66f-4cd1-9d31-302214da1d4d" ],
+                  "name" : "rosaVidrio"
+                }, {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FbandejaBlanca.JPG?alt=media&token=fb318f1f-1332-4d36-b8e9-dc9aafbac612" ],
+                  "name" : "blancoVidrio"
+                } ],
                 "name" : "chica",
                 "order" : 4,
-                "price" : 1000,
+                "price" : 900,
                 "text" : "el mas quiquito"
-              }, 
-              {
-                "colors" : 
-                [ 
-                  {
-                    "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FbandejaNegra.JPG?alt=media&token=3951c9d3-4cb6-44dc-ba4c-a8bacc3a6a1d" ],
-                    "name" : "negroVidrio"
-                  }, 
-                  {
-                    "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FbandejaRosa.JPG?alt=media&token=4134a0ce-f66f-4cd1-9d31-302214da1d4d" ],
-                    "name" : "rosaVidrio"
-                  },
-                  {
-                    "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FbandejaBlanca.JPG?alt=media&token=fb318f1f-1332-4d36-b8e9-dc9aafbac612" ],
-                    "name" : "blancoVidrio"
-                  } 
-                ],
+              }, {
+                "colors" : [ {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FbandejaNegra.JPG?alt=media&token=3951c9d3-4cb6-44dc-ba4c-a8bacc3a6a1d" ],
+                  "name" : "negroVidrio"
+                }, {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FbandejaRosa.JPG?alt=media&token=4134a0ce-f66f-4cd1-9d31-302214da1d4d" ],
+                  "name" : "rosaVidrio"
+                }, {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FbandejaBlanca.JPG?alt=media&token=fb318f1f-1332-4d36-b8e9-dc9aafbac612" ],
+                  "name" : "blancoVidrio"
+                } ],
                 "name" : "mediana",
                 "order" : 3,
-                "price" : 1000,
+                "price" : 1100,
                 "text" : "el mediano"
-              }, 
-              {
-                "colors" : 
-                [ 
-                  {
-                    "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FbandejaNegra.JPG?alt=media&token=3951c9d3-4cb6-44dc-ba4c-a8bacc3a6a1d" ],
-                    "name" : "negroVidrio"
-                  }, 
-                  {
-                    "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FbandejaRosa.JPG?alt=media&token=4134a0ce-f66f-4cd1-9d31-302214da1d4d" ],
-                    "name" : "rosaVidrio"
-                  },
-                  {
-                    "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FbandejaBlanca.JPG?alt=media&token=fb318f1f-1332-4d36-b8e9-dc9aafbac612" ],
-                    "name" : "blancoVidrio"
-                  } 
-                ],
-                "name" : "grande",
-                "order" : 2,
-                "price" : 1000,
-                "text" : "Maceta grande. Podes meter un arbol ahi adentro"
-              }, 
-              {
+              }, {
+                "colors" : [ {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FbandejaNegra.JPG?alt=media&token=3951c9d3-4cb6-44dc-ba4c-a8bacc3a6a1d" ],
+                  "name" : "negroVidrio"
+                }, {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FbandejaRosa.JPG?alt=media&token=4134a0ce-f66f-4cd1-9d31-302214da1d4d" ],
+                  "name" : "rosaVidrio"
+                }, {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FbandejaBlanca.JPG?alt=media&token=fb318f1f-1332-4d36-b8e9-dc9aafbac612" ],
+                  "name" : "blancoVidrio"
+                } 
+              ],
+              "name" : "grande",
+              "order" : 2,
+              "price" : 1300,
+              "text" : "Maceta grande. Podes meter un arbol ahi adentro"
+            }, {
               "colors" : [ {
                 "name" : "blancoVidrio"
               }, {
@@ -141,104 +105,105 @@
               } ],
               "name" : "set de 3 bandejas",
               "order" : 1,
-              "price" : 1000,
+              "price" : 3100,
               "set" : {
-                "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FbandejaNegra.JPG?alt=media&token=3951c9d3-4cb6-44dc-ba4c-a8bacc3a6a1d", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FbandejaRosa.JPG?alt=media&token=4134a0ce-f66f-4cd1-9d31-302214da1d4d", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FbandejaBlanca.JPG?alt=media&token=fb318f1f-1332-4d36-b8e9-dc9aafbac612",
-                "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2F3bandejasVidrio.JPG?alt=media&token=413fd56b-a5e2-4cf9-885c-8797e21016b6" ],
+                "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FbandejaNegra.JPG?alt=media&token=3951c9d3-4cb6-44dc-ba4c-a8bacc3a6a1d", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FbandejaRosa.JPG?alt=media&token=4134a0ce-f66f-4cd1-9d31-302214da1d4d", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FbandejaBlanca.JPG?alt=media&token=fb318f1f-1332-4d36-b8e9-dc9aafbac612", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2F3bandejasVidrio.JPG?alt=media&token=413fd56b-a5e2-4cf9-885c-8797e21016b6" ],
                 "sizes" : [ "Grande", "Mediana", "Chica" ]
               },
               "text" : "1 grande, 1 mediano, 1 chica"
             } ],
-            "dim" : [ "chica: diametro 10 cm, altura 20cm", "mediana: diametro 12 cm, altura 25cm", "grande: diametro 15 cm, altura 30cm" ],
-            "designer" : "Frances Querio"
+            "name" : "Bandejas circulares",
+            "text" : "Versatil y funcional accesorio. Ideal para presentar frutas, adornos o picadas con elegancia. Perfecta como adorno o centro de mesa. Son fabricadas y pulidas a mano. Con maxima atencion y detalle sobre bordes y biseles para lograr una terminacion perfecta. Estan tratadas con aditivos especiales para asegurar maxima impermeabilizacion y facil mantenimiento"
           },
           "botones" : {
-            "bgImg" : "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fpercheros1.jpg?alt=media&token=ba21da1c-176b-449c-ae80-f7ce19199803",
-            "format" : [ 
-              {
-                "colors" : 
-                [
-                  {
-                    "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fpercheros1.jpg?alt=media&token=ba21da1c-176b-449c-ae80-f7ce19199803" ],
-                    "name" : "negroVidrio"
-                  }, 
-                  {
-                    "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fpercheros1.jpg?alt=media&token=ba21da1c-176b-449c-ae80-f7ce19199803" ],
-                    "name" : "rosaVidrio"
-                  },
-                  {
-                    "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fpercheros1.jpg?alt=media&token=ba21da1c-176b-449c-ae80-f7ce19199803" ],
-                    "name" : "blancoVidrio"
-                  } 
-                ],
-                "name" : "chica",
-                "order" : 4,
-                "price" : 1000,
-                "text" : "el mas quiquito"
-              }, 
-              {
-                "colors" : 
-                [ 
-                  {
-                    "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fpercheros1.jpg?alt=media&token=ba21da1c-176b-449c-ae80-f7ce19199803" ],
-                    "name" : "negroVidrio"
-                  }, 
-                  {
-                    "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fpercheros1.jpg?alt=media&token=ba21da1c-176b-449c-ae80-f7ce19199803" ],
-                    "name" : "rosaVidrio"
-                  },
-                  {
-                    "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fpercheros1.jpg?alt=media&token=ba21da1c-176b-449c-ae80-f7ce19199803" ],
-                    "name" : "blancoVidrio"
-                  } 
-                ],
+            "bgImg" : "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso2.jpg?alt=media&token=140b58e8-21e8-493c-ac57-167bf2bd0532",
+            "designer" : "Mauro Cetto",
+            "mant" : "Limpiar con un trapo humedo, agua y jabon neutro",
+            "dim" : [ "chico: diametro 9 cm, altura 5 cm", "mediano: diametro 13 cm, altura 5 cm", "grande: diametro 16 cm, altura 5 cm" ],
+            "format" : [ {
+              "colors" : [ {
+                "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso2.jpg?alt=media&token=140b58e8-21e8-493c-ac57-167bf2bd0532", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso3.jpg?alt=media&token=5be6d792-9e7c-4cd4-9c95-153ebd55ca2d" ],
+                "name" : "negroVidrio"
+              }, {
+                "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso2.jpg?alt=media&token=140b58e8-21e8-493c-ac57-167bf2bd0532", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso3.jpg?alt=media&token=5be6d792-9e7c-4cd4-9c95-153ebd55ca2d" ],
+                "name" : "rosaVidrio"
+              }, {
+                "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso2.jpg?alt=media&token=140b58e8-21e8-493c-ac57-167bf2bd0532", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso3.jpg?alt=media&token=5be6d792-9e7c-4cd4-9c95-153ebd55ca2d" ],
+                "name" : "blancoVidrio"
+              } ],
+              "name" : "chica",
+              "order" : 4,
+              "price" : 1000,
+              "text" : "el mas quiquito"
+            }, {
+              "colors" : [ 
+                {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso2.jpg?alt=media&token=140b58e8-21e8-493c-ac57-167bf2bd0532", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso3.jpg?alt=media&token=5be6d792-9e7c-4cd4-9c95-153ebd55ca2d" ],
+                  "name" : "negroVidrio"
+                }, {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso2.jpg?alt=media&token=140b58e8-21e8-493c-ac57-167bf2bd0532", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso3.jpg?alt=media&token=5be6d792-9e7c-4cd4-9c95-153ebd55ca2d" ],
+                  "name" : "rosaVidrio"
+                }, {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso2.jpg?alt=media&token=140b58e8-21e8-493c-ac57-167bf2bd0532", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso3.jpg?alt=media&token=5be6d792-9e7c-4cd4-9c95-153ebd55ca2d" ],
+                  "name" : "blancoVidrio"
+                } ],
                 "name" : "mediana",
                 "order" : 3,
-                "price" : 1000,
+                "price" : 1200,
                 "text" : "el mediano"
-              }, 
-              {
-                "colors" : 
-                [ 
-                  {
-                    "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fpercheros1.jpg?alt=media&token=ba21da1c-176b-449c-ae80-f7ce19199803" ],
-                    "name" : "negroVidrio"
-                  }, 
-                  {
-                    "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fpercheros1.jpg?alt=media&token=ba21da1c-176b-449c-ae80-f7ce19199803" ],
-                    "name" : "rosaVidrio"
-                  },
-                  {
-                    "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fpercheros1.jpg?alt=media&token=ba21da1c-176b-449c-ae80-f7ce19199803" ],
-                    "name" : "blancoVidrio"
-                  } 
-                ],
+              }, {
+                "colors" : [ {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso2.jpg?alt=media&token=140b58e8-21e8-493c-ac57-167bf2bd0532", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso3.jpg?alt=media&token=5be6d792-9e7c-4cd4-9c95-153ebd55ca2d" ],
+                  "name" : "negroVidrio"
+                }, {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso2.jpg?alt=media&token=140b58e8-21e8-493c-ac57-167bf2bd0532", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso3.jpg?alt=media&token=5be6d792-9e7c-4cd4-9c95-153ebd55ca2d" ],
+                  "name" : "rosaVidrio"
+                }, {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso2.jpg?alt=media&token=140b58e8-21e8-493c-ac57-167bf2bd0532", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso3.jpg?alt=media&token=5be6d792-9e7c-4cd4-9c95-153ebd55ca2d" ],
+                  "name" : "blancoVidrio"
+                } ],
                 "name" : "grande",
                 "order" : 2,
-                "price" : 1000,
+                "price" : 1200,
                 "text" : "Maceta grande. Podes meter un arbol ahi adentro"
               }, 
               {
-              "colors" : [ {
-                "name" : "blancoVidrio"
-              }, {
-                "name" : "rosaVidrio"
-              }, {
-                "name" : "negroVidrio"
-              } ],
-              "name" : "Set de 5 percheros",
-              "order" : 1,
-              "price" : 1000,
-              "set" : {
-                "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fpercheros1.jpg?alt=media&token=ba21da1c-176b-449c-ae80-f7ce19199803" ],
-                "sizes" : [ "Grande", "Mediana", "Chico #1", "Chico #2", "Chica #3" ]
-              },
-              "text" : "1 grande, 1 mediano, 3 chica"
-            } ],
+                "colors" : [ {
+                  "name" : "blancoVidrio"
+                }, {
+                  "name" : "rosaVidrio"
+                }, {
+                  "name" : "negroVidrio"
+                } ],
+                "name" : "Set de 3 percheros",
+                "order" : 1,
+                "price" : 3100,
+                "set" : {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso2.jpg?alt=media&token=140b58e8-21e8-493c-ac57-167bf2bd0532", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso3.jpg?alt=media&token=5be6d792-9e7c-4cd4-9c95-153ebd55ca2d" ],
+                  "sizes" : [ "Grande", "Mediana", "Chico"]
+                },
+                "text" : "1 grande, 1 mediano, 3 chica"
+              }, 
+              {
+                "colors" : [ {
+                  "name" : "blancoVidrio"
+                }, {
+                  "name" : "rosaVidrio"
+                }, {
+                  "name" : "negroVidrio"
+                } ],
+                "name" : "Set de 5 percheros",
+                "order" : 1,
+                "price" : 4800,
+                "set" : {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso2.jpg?alt=media&token=140b58e8-21e8-493c-ac57-167bf2bd0532", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso3.jpg?alt=media&token=5be6d792-9e7c-4cd4-9c95-153ebd55ca2d" ],
+                  "sizes" : [ "Grande", "Mediana", "Chico #1", "Chico #2", "Chica #3" ]
+                },
+                "text" : "1 grande, 1 mediano, 3 chicos"
+              }
+            ],
             "name" : "Botones",
-            "text" : "Boton chiquito para cuelgues boludeses",
-            "dim" : [ "chico: diametro 9 cm, altura 5 cm", "mediana: diametro 13 cm, altura 5 cm", "grande: diametro 16 cm, altura 5 cm" ],
-            "designer" : "Nicolo Fessa"
+            "text" : "Botones es una aproximacion colorida y vibrante al funcional perchero. Fabricados en terrazzo, pulidos y lustrados a mano. Pueden ser combinados de infinitas maneras, en diversos tamaños y colores para configurar espacios unicos. Su funcionalidad y potencial para diseños innovadores los hacen especialmente practicos tanto para ambientaciones residenciales como profesionales"
           }
         }
       },
@@ -247,93 +212,90 @@
         "order" : 1,
         "products" : {
           "colgante" : {
-            "bgImg" : "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fcolgantes.jpg?alt=media&token=aed084cf-5fca-4d47-96a1-44dcd783e7b6",
-            "name" : "Bull",
-            "text" : "Lampara colgante. Es un cilindro largo",
+            "bgImg" : "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fcolgante.png?alt=media&token=d4c72849-1246-49c9-8ca7-79de7cd0265e",
             "designer" : "Nicolo Fessa",
-            "dim" : [ "30 x 40 x 2 cm" ],
-            "format" : [ 
-              {
-                "colors" : 
-                [ 
-                  {
-                    "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fcolgantes.jpg?alt=media&token=aed084cf-5fca-4d47-96a1-44dcd783e7b6" ],
-                    "name" : "negroVidrio"
-                  }, 
-                  {
-                    "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fcolgantes.jpg?alt=media&token=aed084cf-5fca-4d47-96a1-44dcd783e7b6" ],
-                    "name" : "rosaVidrio"
-                  },
-                  {
-                    "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fcolgantes.jpg?alt=media&token=aed084cf-5fca-4d47-96a1-44dcd783e7b6" ],
-                    "name" : "blancoVidrio"
-                  } 
-                ],
-                "name" : "Colgante",
-                "order" : 4,
-                "price" : 1000,
-                "text" : "el mas quiquito"
-              } 
-            ]
+            "mant" : "Limpiar con un trapo humedo, agua y jabon neutro",
+            "dim" : [ 
+              "12,5 cm de alto (sin incluir lampara)",
+              "23 cm de alto (incluyendo lampara)",
+              "6,5 cm diametro cilindro"
+            ],
+            "format" : [ {
+              "colors" : [ {
+                "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FcolgantesSR.jpeg?alt=media&token=565989ec-44c2-49db-85c1-39b0dcae8ede", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fcolgante.png?alt=media&token=d4c72849-1246-49c9-8ca7-79de7cd0265e"],
+                "name" : "bardiglio"
+              }, {
+                "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FcolgantesSR.jpeg?alt=media&token=565989ec-44c2-49db-85c1-39b0dcae8ede", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fcolgante.png?alt=media&token=d4c72849-1246-49c9-8ca7-79de7cd0265e"],
+                "name" : "napoleon"
+              }, {
+                "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FcolgantesSR.jpeg?alt=media&token=565989ec-44c2-49db-85c1-39b0dcae8ede", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fcolgante.png?alt=media&token=d4c72849-1246-49c9-8ca7-79de7cd0265e"],
+                "name" : "rosaCordoba"
+              } ],
+              "name" : "Colgante",
+              "order" : 4,
+              "price" : 4300,
+              "text" : "el mas quiquito"
+            } ],
+            "name" : "Bull",
+            "weight" : [ "1 kg" ],
+            "text" : "Simple y atractiva. De luz tenue y calida. Un detalle solitario o en distintas combinaciones de colores. Espectaculares para crear ambientaciones especiales"
           },
           "lamparaChica" : {
-            "bgImg" : "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fvelador.jpeg?alt=media&token=604c837f-b443-44f2-856c-0d7bd624dfdc",
-            "name" : "Fessa",
-            "text" : "Para velador o como adorno en una biblioteca. Con la lampara edison seria cool",
+            "bgImg" : "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FFessa.jpg?alt=media&token=e59eb014-2377-4511-ab8c-0af318b411cf",
             "dim" : [ "30 x 40 x 2 cm" ],
-            "format" : [ 
-              {
-                "colors" : 
-                [ 
-                  {
-                    "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fvelador.jpeg?alt=media&token=604c837f-b443-44f2-856c-0d7bd624dfdc" ],
-                    "name" : "negroVidrio"
-                  }, 
-                  {
-                    "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fvelador.jpeg?alt=media&token=604c837f-b443-44f2-856c-0d7bd624dfdc" ],
-                    "name" : "rosaVidrio"
-                  },
-                  {
-                    "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fvelador.jpeg?alt=media&token=604c837f-b443-44f2-856c-0d7bd624dfdc" ],
-                    "name" : "blancoVidrio"
-                  } 
-                ],
-                "name" : "Colgante",
-                "order" : 4,
-                "price" : 1000,
-                "text" : "el mas quiquito"
-              } 
-            ]
+            "mant" : "Limpiar con un trapo humedo, agua y jabon neutro",
+            "designer" : "Nicolo Fessa",
+            "format" : [ {
+              "colors" : [ {
+                "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FFessa.jpg?alt=media&token=e59eb014-2377-4511-ab8c-0af318b411cf", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FfessaBiblioteca.jpeg?alt=media&token=150af6f3-8ff8-4208-8790-16bfce0c5c0d" ],
+                "name" : "bardiglio"
+              }, {
+                "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FFessa.jpg?alt=media&token=e59eb014-2377-4511-ab8c-0af318b411cf", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FfessaBiblioteca.jpeg?alt=media&token=150af6f3-8ff8-4208-8790-16bfce0c5c0d" ],
+                "name" : "napoleon"
+              }, {
+                "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FFessa.jpg?alt=media&token=e59eb014-2377-4511-ab8c-0af318b411cf", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FfessaBiblioteca.jpeg?alt=media&token=150af6f3-8ff8-4208-8790-16bfce0c5c0d" ],
+                "name" : "rosaCordoba"
+              } ],
+              "name" : "Colgante",
+              "order" : 4,
+              "price" : 3800,
+              "text" : "el mas quiquito"
+            } ],
+            "name" : "Fessa",
+            "text" : "Tan funcional como atractiva. La lampara Fessa es un objeto ideal para una biblioteca, mesa ratona, consola o mesa de luz. "
           },
           "lamparaGrande" : {
-            "bgImg" : "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FlamparaGrande.jpg?alt=media&token=ab22bcee-3ffa-4986-9bc1-b6c29956dec2",
-            "name" : "Sasy",
-            "text" : "Esta ya viene con pantalla. Seguramente sea cara",
-            "designer" : "Frances Querio",
+            "bgImg" : "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fsassy.jpeg?alt=media&token=54d2f36b-d3c7-43af-b62c-a11b8e7245f0",
+            "designer" : "Frances Qüerio",
+            "mant" : "Limpiar con un trapo humedo, agua y jabon neutro",
             "dim" : [ "30 x 40 x 2 cm" ],
             "format" : [ 
               {
-                "colors" : 
-                [ 
-                  {
-                    "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FlamparaGrande.jpg?alt=media&token=ab22bcee-3ffa-4986-9bc1-b6c29956dec2" ],
-                    "name" : "negroVidrio"
-                  }, 
-                  {
-                    "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FlamparaGrande.jpg?alt=media&token=ab22bcee-3ffa-4986-9bc1-b6c29956dec2" ],
-                    "name" : "rosaVidrio"
-                  },
-                  {
-                    "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FlamparaGrande.jpg?alt=media&token=ab22bcee-3ffa-4986-9bc1-b6c29956dec2" ],
-                    "name" : "blancoVidrio"
-                  } 
-                ],
-                "name" : "Colgante",
-                "order" : 4,
-                "price" : 1000,
-                "text" : "el mas quiquito"
-              } 
-            ]
+              "colors" : [ 
+                {
+                  "imgs" : [ 
+                    "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FveladorLiving.jpeg?alt=media&token=7f2986be-7359-442f-af6a-28ddc272db0c", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fsassy.jpeg?alt=media&token=54d2f36b-d3c7-43af-b62c-a11b8e7245f0"
+                  ],
+                  "name" : "bardiglio"
+                }, {
+                  "imgs" : [ 
+                    "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FveladorLiving.jpeg?alt=media&token=7f2986be-7359-442f-af6a-28ddc272db0c", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fsassy.jpeg?alt=media&token=54d2f36b-d3c7-43af-b62c-a11b8e7245f0"
+                  ],
+                  "name" : "napoleon"
+                }, {
+                  "imgs" : [
+                    "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FveladorLiving.jpeg?alt=media&token=7f2986be-7359-442f-af6a-28ddc272db0c", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fsassy.jpeg?alt=media&token=54d2f36b-d3c7-43af-b62c-a11b8e7245f0"
+                  ],
+                  "name" : "rosaCordoba"
+                } 
+              ],
+              "name" : "Colgante",
+              "order" : 4,
+              "price" : 8900,
+              "text" : "el mas quiquito"
+            } ],
+            "name" : "Sassy",
+            "text" : "Sassy, una lampara elegante, sofisticada y original. En 3 variantes de colores suaves, es ideal para ambientaciones donde prevalezca la madera y las tonalidades pasteles"
           }
         }
       },
@@ -343,75 +305,120 @@
         "products" : {
           "macetaCilindrica" : {
             "bgImg" : "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FtresMacetas.jpg?alt=media&token=75971113-d3f4-45bd-bfe2-a29db6da80f9",
-            "designer" : "La mujer de Thomas",
             "dim" : [ "chica: diametro 10 cm, altura 20cm", "mediana: diametro 12 cm, altura 25cm", "grande: diametro 15 cm, altura 30cm" ],
-            "format" : [ {
-              "colors" : [ {
-                "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FtresMacetas.jpg?alt=media&token=75971113-d3f4-45bd-bfe2-a29db6da80f9" ],
-                "name" : "negro"
-              }, {
-                "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FrosaChica.jpg?alt=media&token=a780ecba-716a-4255-b05a-80220c1ccd5e", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FtresMacetas.jpg?alt=media&token=75971113-d3f4-45bd-bfe2-a29db6da80f9" ],
-                "name" : "vacaMarciana"
-              } ],
+            "format" : [ 
+            {
+              "colors" : [ 
+                {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FtresMacetas.jpg?alt=media&token=75971113-d3f4-45bd-bfe2-a29db6da80f9" ],
+                  "name" : "blanco"
+                }, 
+                {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FtresMacetas.jpg?alt=media&token=75971113-d3f4-45bd-bfe2-a29db6da80f9" ],
+                  "name" : "negro"
+                }, 
+                {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FtresMacetas.jpg?alt=media&token=75971113-d3f4-45bd-bfe2-a29db6da80f9" ],
+                  "name" : "rosaCordoba"
+                }, 
+                {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FtresMacetas.jpg?alt=media&token=75971113-d3f4-45bd-bfe2-a29db6da80f9" ],
+                  "name" : "bardiglio"
+                }, 
+                {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FtresMacetas.jpg?alt=media&token=75971113-d3f4-45bd-bfe2-a29db6da80f9" ],
+                  "name" : "napoleon"
+                }
+              ],
               "name" : "chica",
               "order" : 4,
-              "price" : 1000,
+              "price" : 800,
               "text" : "el mas quiquito"
             }, {
-              "colors" : [ {
-                "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FnegraMediana.jpg?alt=media&token=b67b4957-5a2a-4ec4-a69d-79eb5ef34a27", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FtresMacetas.jpg?alt=media&token=75971113-d3f4-45bd-bfe2-a29db6da80f9" ],
-                "name" : "dzek"
-              } ],
+              "colors" : [ 
+                {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FtresMacetas.jpg?alt=media&token=75971113-d3f4-45bd-bfe2-a29db6da80f9" ],
+                  "name" : "blanco"
+                }, 
+                {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FtresMacetas.jpg?alt=media&token=75971113-d3f4-45bd-bfe2-a29db6da80f9" ],
+                  "name" : "negro"
+                }, 
+                {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FtresMacetas.jpg?alt=media&token=75971113-d3f4-45bd-bfe2-a29db6da80f9" ],
+                  "name" : "rosaCordoba"
+                }, 
+                {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FtresMacetas.jpg?alt=media&token=75971113-d3f4-45bd-bfe2-a29db6da80f9" ],
+                  "name" : "bardiglio"
+                }, 
+                {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FtresMacetas.jpg?alt=media&token=75971113-d3f4-45bd-bfe2-a29db6da80f9" ],
+                  "name" : "napoleon"
+                }
+              ],
               "name" : "mediana",
               "order" : 3,
-              "price" : 1000,
+              "price" : 970,
               "text" : "el mediano"
             }, {
-              "colors" : [ {
-                "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fmaseta3.jpg?alt=media&token=66cbde90-49e6-42b9-8e1b-91461050dc60", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FtresMacetas.jpg?alt=media&token=75971113-d3f4-45bd-bfe2-a29db6da80f9" ],
-                "name" : "rosa"
-              } ],
+              "colors" : [ 
+                {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FtresMacetas.jpg?alt=media&token=75971113-d3f4-45bd-bfe2-a29db6da80f9" ],
+                  "name" : "blanco"
+                }, 
+                {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FtresMacetas.jpg?alt=media&token=75971113-d3f4-45bd-bfe2-a29db6da80f9" ],
+                  "name" : "negro"
+                }, 
+                {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FtresMacetas.jpg?alt=media&token=75971113-d3f4-45bd-bfe2-a29db6da80f9" ],
+                  "name" : "rosaCordoba"
+                }, 
+                {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FtresMacetas.jpg?alt=media&token=75971113-d3f4-45bd-bfe2-a29db6da80f9" ],
+                  "name" : "bardiglio"
+                }, 
+                {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FtresMacetas.jpg?alt=media&token=75971113-d3f4-45bd-bfe2-a29db6da80f9" ],
+                  "name" : "napoleon"
+                }
+              ],
               "name" : "grande",
               "order" : 2,
-              "price" : 1000,
+              "price" : 1190,
               "text" : "Maceta grande. Podes meter un arbol ahi adentro"
             }, {
-              "colors" : [ {
-                "name" : "rosa"
-              }, {
-                "name" : "vacaMarciana"
-              }, {
-                "name" : "dzek"
-              } ],
+              "colors" : [ 
+                {
+                  "name" : "blanco"
+                }, 
+                {
+                  "name" : "negro"
+                }, 
+                {
+                  "name" : "rosaCordoba"
+                }, 
+                {
+                  "name" : "bardiglio"
+                }, 
+                {
+                  "name" : "napoleon"
+                }
+              ],
               "name" : "set de 3 macetas",
               "order" : 1,
-              "price" : 1000,
+              "price" : 2800,
               "set" : {
                 "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FtresMacetas.jpg?alt=media&token=75971113-d3f4-45bd-bfe2-a29db6da80f9", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fmaseta1.jpg?alt=media&token=59728f3c-47e3-44b1-bb3c-e301c3db72bd", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FmacetasBlancaNegra.JPG?alt=media&token=6e476fa9-678b-4037-b381-50b2e7d07bfe" ],
                 "sizes" : [ "Grande", "Mediana", "Chica" ]
               },
               "text" : "1 grande, 1 mediano, 3 chicos"
             } ],
-            "mant" : "Limpiar con un trapo humedo, agua y jabon",
+            "mant" : "Limpiar con un trapo humedo, agua y jabon neutro",
             "name" : "Macetas cilindricas",
             "text" : "Macetas cilindricas fabricadas en terrazzo.\nFabricadas con aditivos especiales para asegurar impermeabilizacion.\nPulidas a mano para lograr detalles de terminacion",
             "weight" : [ "chica: 5 kg", "mediana: 7 kg", "grande: 10 kg" ]
-          },
-          "macetaEscritorio" : {
-            "bgImg" : "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FmacetaMiniNegra.jpg?alt=media&token=9ad228c9-6dc1-417d-abc3-9a3cf87cdc92",
-            "format" : [ {
-              "colors" : [ {
-                "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FmacetaMiniNegra.jpg?alt=media&token=9ad228c9-6dc1-417d-abc3-9a3cf87cdc92", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FmacetasMini.jpg?alt=media&token=a634359c-df68-42d9-badb-45b1f659d48e" ],
-                "name" : "negro"
-              } ],
-              "img" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FmacetaMiniNegra.jpg?alt=media&token=9ad228c9-6dc1-417d-abc3-9a3cf87cdc92", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FmacetasMini.jpg?alt=media&token=a634359c-df68-42d9-badb-45b1f659d48e" ],
-              "name" : "Maceta escritorio",
-              "order" : 1,
-              "price" : 1000,
-              "text" : "Si sos bien puto, te va a encantar ponerla con una planta del estilo de la suculenta, o posiblemente un cactus, en el baño, sobre el escriotorio o en algun ambiente de trolo"
-            } ],
-            "name" : "Maceta escritorio",
-            "text" : "Maceta escritorio o para algun estante "
           }
         }
       },
@@ -421,98 +428,94 @@
         "products" : {
           "arrime" : {
             "bgImg" : "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FmesaArrime0.jpg?alt=media&token=3eb8fd60-5830-4aa7-b64a-3c18e5daf7a9",
-            "name" : "Mesa arrime",
-            "text" : "Para mi es medio tosca",
-            "designer" : "Nicolo Fessa",
-            "dim" : [ "30 x 40 x 2 cm" ],
-            "format" : [ 
-              {
-                "colors" : 
-                [ 
-                  {
-                    "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FmesaArrime0.jpg?alt=media&token=3eb8fd60-5830-4aa7-b64a-3c18e5daf7a9" ],
-                    "name" : "negroVidrio"
-                  }, 
-                  {
-                    "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FmesaArrime0.jpg?alt=media&token=3eb8fd60-5830-4aa7-b64a-3c18e5daf7a9" ],
-                    "name" : "rosaVidrio"
-                  },
-                  {
-                    "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FmesaArrime0.jpg?alt=media&token=3eb8fd60-5830-4aa7-b64a-3c18e5daf7a9" ],
-                    "name" : "blancoVidrio"
-                  } 
-                ],
-                "name" : "Mesa arrime",
-                "order" : 4,
-                "price" : 1000,
-                "text" : "el mas quiquito"
-              } 
-            ]
-          },
-          "escritorio" : {
-            "bgImg" : "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fescritorio.jpeg?alt=media&token=91b4c86d-9959-497e-bede-7d27204429a0",
-            "name" : "Escritorio",
-            "text" : "Con patas de madera. Nos inspiramos vilmente en la de Gravelli",
-            "designer" : "Mauro Cetto",
-            "dim" : [ "30 x 40 x 2 cm" ],
-            "format" : [ 
-              {
-                "colors" : 
-                [ 
-                  {
-                    "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fescritorio.jpeg?alt=media&token=91b4c86d-9959-497e-bede-7d27204429a0" ],
-                    "name" : "negroVidrio"
-                  }, 
-                  {
-                    "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fescritorio.jpeg?alt=media&token=91b4c86d-9959-497e-bede-7d27204429a0" ],
-                    "name" : "rosaVidrio"
-                  },
-                  {
-                    "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fescritorio.jpeg?alt=media&token=91b4c86d-9959-497e-bede-7d27204429a0" ],
-                    "name" : "blancoVidrio"
-                  } 
-                ],
-                "name" : "Escritorio",
-                "order" : 4,
-                "price" : 1000,
-                "text" : "el mas quiquito"
-              } 
-            ]
+            "designer" : "Frances Qüerio",
+            "mant" : "Limpiar con un trapo humedo, agua y jabon neutro",
+            "dim" : [ "45 x 35 x 2 cm" ],
+            "format" : [ {
+              "colors" : 
+              [ 
+                {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FmesaArrime0.jpg?alt=media&token=3eb8fd60-5830-4aa7-b64a-3c18e5daf7a9" ],
+                  "name" : "blanco"
+                }, 
+                {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FmesaArrime0.jpg?alt=media&token=3eb8fd60-5830-4aa7-b64a-3c18e5daf7a9" ],
+                  "name" : "negro"
+                }, 
+                {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FmesaArrime0.jpg?alt=media&token=3eb8fd60-5830-4aa7-b64a-3c18e5daf7a9" ],
+                  "name" : "rosaCordoba"
+                },
+                {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FmesaArrime0.jpg?alt=media&token=3eb8fd60-5830-4aa7-b64a-3c18e5daf7a9" ],
+                  "name" : "bardiglio"
+                },
+                {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FmesaArrime0.jpg?alt=media&token=3eb8fd60-5830-4aa7-b64a-3c18e5daf7a9" ],
+                  "name" : "napoleon"
+                }
+              ],
+              "name" : "Mesa arrime",
+              "order" : 4,
+              "price" : 7600,
+              "text" : "el mas quiquito"
+            } ],
+            "name" : "Mesa de arrime",
+            "text" : "Una mesa cómoda, versatil y útil. Aporta un detalle de sofisticación y estilo a cualquier ambiente.\nPulida a mano a brillo maximo y protegida con tratamientos especiales antimanchas para garantizar un mantenimiento sencillo."
           },
           "redondaChica" : {
             "bgImg" : "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FmesaRedondaBaja2.jpg?alt=media&token=73e053af-7030-4e35-94a1-d6ae81810c71",
+            "designer" : "Frances Qüerio",
+            "mant" : "Limpiar con un trapo humedo, agua y jabon neutro",
+            "dim" : [ "45 cm de diamentro", "2 cm de espesor" ],
+            "format" : [ {
+              "colors" : 
+              [ 
+                {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FmesaRedondaBaja2.jpg?alt=media&token=73e053af-7030-4e35-94a1-d6ae81810c71" ],
+                  "name" : "blanco"
+                }, 
+                {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FmesaRedondaBaja2.jpg?alt=media&token=73e053af-7030-4e35-94a1-d6ae81810c71" ],
+                  "name" : "negro"
+                }, 
+                {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FmesaRedondaBaja2.jpg?alt=media&token=73e053af-7030-4e35-94a1-d6ae81810c71" ],
+                  "name" : "rosaCordoba"
+                }, 
+                {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FmesaRedondaBaja2.jpg?alt=media&token=73e053af-7030-4e35-94a1-d6ae81810c71" ],
+                  "name" : "bardiglio"
+                }, 
+                {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FmesaRedondaBaja2.jpg?alt=media&token=73e053af-7030-4e35-94a1-d6ae81810c71" ],
+                  "name" : "napoleon"
+                } 
+              ],
+              "name" : "Mesa ratona",
+              "order" : 4,
+              "price" : 12400,
+              "text" : "el mas quiquito"
+            } ],
             "name" : "Mesa ratona",
-            "text" : "Como la que tiene nico en su casa",
-            "designer" : "Frences Querio",
-            "dim" : [ "30 x 40 x 2 cm" ],
-            "format" : [ 
-              {
-                "colors" : 
-                [ 
-                  {
-                    "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FmesaRedondaBaja2.jpg?alt=media&token=73e053af-7030-4e35-94a1-d6ae81810c71" ],
-                    "name" : "negroVidrio"
-                  }, 
-                  {
-                    "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FmesaRedondaBaja2.jpg?alt=media&token=73e053af-7030-4e35-94a1-d6ae81810c71" ],
-                    "name" : "rosaVidrio"
-                  },
-                  {
-                    "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FmesaRedondaBaja2.jpg?alt=media&token=73e053af-7030-4e35-94a1-d6ae81810c71" ],
-                    "name" : "blancoVidrio"
-                  } 
-                ],
-                "name" : "Mesa ratona",
-                "order" : 4,
-                "price" : 1000,
-                "text" : "el mas quiquito"
-              } 
-            ]
+            "text" : "Mesa ratona de diseño sofisticado, minimalista y elegante.\nPulida a mano a brillo maximo y protegida con tratamientos especiales antimanchas para garantizar un mantenimiento sencillo."
           }
         }
       }
     },
     "colors" : {
+      "bardiglio" : {
+        "name" : "Plata",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fbardiglio.jpg?alt=media&token=803edcd3-3cc6-437a-930b-69d897034c0d"
+      },
+      "napoleon" : {
+        "name" : "Dorado",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FNapoleon.jpg?alt=media&token=7da3e829-3530-489d-9a4d-e0b32b6f7724"
+      },
+      "rosaCordoba" : {
+        "name" : "Rosa",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FRosaCordoba.jpg?alt=media&token=e36470e4-c841-4d23-9ac1-b69d81e8d063"
+      },
       "blanco" : {
         "name" : "Blanco",
         "url" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/colors%2FBlanco.jpg?alt=media&token=5ab8f3c5-f218-4fae-846b-fdb5aa355226"
@@ -594,11 +597,24 @@
     },
     "landing" : {
       "slides" : [ {
-        "img" : "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/ambients%2FlandingDesktop.jpg?alt=media&token=5effc5d1-921e-4feb-ab51-d8bb0aaba4e9",
-        "imgMobile" : "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/ambients%2FlandingMobile.jpg?alt=media&token=971a9bb5-436c-4c79-bd20-e68ac36f7e07",
-        "subTitle" : "pero muy caras",
-        "title" : "Pelotudeses hechas en cemento y a veces pulidas que te haran feliz un dia de lluvia"
+        "img" : "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FColganteLanding.jpg?alt=media&token=0ec9df3f-7952-4fe2-8779-7ac254a62f33",
+        "imgMobile" : "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FColganteLandingMobile.jpg?alt=media&token=3674c18f-ba08-401d-a678-c30cef0c1d15",
+        "subTitle" : "Diseñamos objetos únicos en terrazzo para aplicaciones de diseño y arquitectura",
+        "title" : "Queo"
       } ]
+    },
+    "components" : {
+      "cta" : {
+        "primary" : "Comprar",
+        "secondary" : "Conocer mas"
+      },
+      "terrazzo" : {
+        "text" : [ "El terrazzo es un material moderno, tradicional y eterno. Esencialmente es una base de cemento o resinas con agregados de mármol, granito y otros materiales reciclables. Esto aporta su singular riqueza y apariencia multi-tonal.", "Este increible material nos permite diseñar y fabricar piezas unicas." ],
+        "title" : "Diseño en Terrazzo"
+      }
+    },
+    "about" : {
+      "featured" : "https://firebasestorage.googleapis.com/v0/b/designweb-249da.appspot.com/o/quadri%2Fambientes%2Fvagones.jpg?alt=media&token=0b4b1d33-6508-4fd3-a52c-3f60213c3ad4"
     }
   }
 }

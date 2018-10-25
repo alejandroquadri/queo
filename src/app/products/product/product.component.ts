@@ -75,6 +75,7 @@ export class ProductComponent implements OnInit {
 
   addSet() {
     if (this.currentFormat.set) {
+      this.buyForm.controls['set'] = this.fb.array([]);
       this.buyForm.get('color').clearValidators();
       this.currentFormat.set.sizes.forEach( (size, index) => {
         this.addSetCont();

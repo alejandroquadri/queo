@@ -1,0 +1,45 @@
+.contenedor {
+  min-height: calc(100vh - var(--navbar-height));
+  min-height: calc(var(--vh, 1vh) * 100 - var(--navbar-height));
+}
+
+.featured {
+  height: 30vh;
+  height: calc(var(--vh, 1vh) * 30);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-filter: brightness(80%);
+  -moz-filter: brightness(80%);
+  -o-filter: brightness(80%);
+  -ms-filter: brightness(80%);
+  filter: brightness(80%);
+}
+
+.title-wrapper {
+  margin-top: var(--navbar-height);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+
+.text {
+  z-index: 1;
+}
+
+p {
+  font-weight: 100;
+  line-height: 1.7;
+}
+
+.link {
+  color: var(--pink-dark);
+}

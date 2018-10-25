@@ -27,11 +27,11 @@
 	background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-filter: brightness(80%);
-  -moz-filter: brightness(80%);
-  -o-filter: brightness(80%);
-  -ms-filter: brightness(80%);
-  filter: brightness(80%);
+  -webkit-filter: brightness(60%);
+  -moz-filter: brightness(60%);
+  -o-filter: brightness(60%);
+  -ms-filter: brightness(60%);
+  filter: brightness(60%);
 }
 
 .carousel-caption {
@@ -56,8 +56,12 @@
 
 .text-wrapper {
   padding-bottom: 2rem;
-  padding-left: 3rem;
-  max-width: 40%;
+  // padding-left: 3rem;
+  // max-width: 100%;
+}
+
+.logo {
+  width: 40%;
 }
 
 .oneliner {
@@ -69,62 +73,15 @@
 }
 
 .sub-liner {
-	color: white;
-  font-size: 2rem;
-  font-weight: 100;
-  text-align: start;
-}
-
-.button-wrapper {
-  display: block;
-  text-align: center;
-}
-
-.botonComprar {
-	color: white;
-	background-color: var(--pink-dark);
-	border-color: var(--pink-dark);
-}
-
-.botonComprar:hover {
-	color: white;
-	background-color: var(--pink-light);
-	border-color: var(--pink-light);
-	cursor: pointer;
-}
-
-.botonComprar:active {
   color: white;
-  background-color: var(--pink-light);
-	border-color: var(--pink-light);
-  box-shadow: 0 0 0 0.2rem hsla(290, 100%, 50%, 0.5);
+  font-size: 1.8rem;
+  font-weight: 100;
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  margin-top: 2rem;
+  letter-spacing: 0.1rem;
 }
-
-.botonConocer {
-	color: white;
-	border-color: white;
-}
-
-.botonConocer:hover {
-	cursor: pointer;
-}
-
-// video#bgvid { 
-//   position: relative;
-//   top: 50%;
-//   left: 50%;
-//   min-width: 100%;
-//   min-height: 100%;
-//   width: auto;
-//   height: auto;
-//   z-index: 2;
-//   -ms-transform: translateX(-50%) translateY(-50%);
-//   -moz-transform: translateX(-50%) translateY(-50%);
-//   -webkit-transform: translateX(-50%) translateY(-50%);
-//   transform: translateX(-50%) translateY(-50%);
-//   //background: url(polina.jpg) no-repeat;
-//   background-size: cover; 
-// }
 
 video#bgvid { 
     position: absolute;
@@ -140,7 +97,7 @@ video#bgvid {
 
 	.mobile {
 		display: none;
-	}
+  }
 
 }
 
@@ -149,16 +106,25 @@ video#bgvid {
 	.desktop {
 		display: none;
   }
-  
+
   .text-wrapper {
-    padding-left: 1rem;
-    padding-bottom: 1rem;
-    max-width: 100%;
-    margin-top: 4rem
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .logo {
+    width: 100%;
+    margin-bottom: 2rem;
   }
 
   .oneliner {
     font-size: 2rem;
+  }
+
+  .sub-liner {
+    font-size: 1.3rem;
+    width: 100%;
+    margin: auto;
   }
 
 }

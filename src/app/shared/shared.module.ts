@@ -18,6 +18,9 @@ import { TrustQuadriComponent } from './components/trust-quadri/trust-quadri.com
 import { BlendsComponent } from './components/blends/blends.component';
 import { DimComponent } from './components/dim/dim.component';
 import { ApplicationsComponent } from './components/applications/applications.component';
+import { BuyModalComponent } from './components/buy-modal/buy-modal.component';
+import { TerrazzoComponent } from './components/terrazzo/terrazzo.component';
+import { CtaButtonsComponent } from './components/cta-buttons/cta-buttons.component';
 
 // directives
 import { HoverDirective } from './directives/hover.directive';
@@ -25,7 +28,6 @@ import { HoverDirective } from './directives/hover.directive';
 // Pipes
 import { ToArrayPipe } from './pipes/to-array.pipe';
 import { SortPipe } from './pipes/sort.pipe';
-import { BuyModalComponent } from './components/buy-modal/buy-modal.component';
 
 @NgModule({
   imports: [
@@ -52,7 +54,9 @@ import { BuyModalComponent } from './components/buy-modal/buy-modal.component';
     ApplicationsComponent,
     ToArrayPipe,
     SortPipe,
-    BuyModalComponent
+    BuyModalComponent,
+    TerrazzoComponent,
+    CtaButtonsComponent
   ],
   exports: [
     CommonModule,
@@ -73,6 +77,8 @@ import { BuyModalComponent } from './components/buy-modal/buy-modal.component';
     ToArrayPipe,
     SortPipe,
     BuyModalComponent,
+    TerrazzoComponent,
+    CtaButtonsComponent
   ],
   providers: [
   ]

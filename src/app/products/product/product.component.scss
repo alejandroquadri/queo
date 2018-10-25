@@ -99,6 +99,10 @@
   box-shadow: 0 0 0 0.2rem hsla(290, 100%, 50%, 0.5);
 }
 
+.especificaciones {
+  font-weight: 100;
+}
+
 .desc-esp {
   font-weight: 100;
 }
@@ -109,11 +113,13 @@
 }
 
 .descripcion {
-  white-space: pre-wrap; 
+  white-space: pre-wrap;
   // esto hace que con nueva linea (\n) lo haga y tambien cuando no hay espacio
 }
 
-@media (max-width: 744px) {
-
+@media (max-width: 500px) {
+  .custom {
+    height: 17rem;
+  }
 
 }
