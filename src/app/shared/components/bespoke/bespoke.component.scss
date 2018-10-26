@@ -1,0 +1,53 @@
+.images-container {
+  width: 50%;
+}
+
+.text-container {
+  width: 50%;
+}
+
+.custom {
+	height: 33rem;
+  // width: 100%;
+  background-color: transparent;
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title, .text, .buttons {
+  width: 80%;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.text {
+  font-size: 1.2rem;
+  font-weight: 100;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 415px) {
+
+  .text-container, .images-container, .title, .text, .buttons{
+    width: 100%;
+  }
+  
+   .title, .text, .buttons {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .text{
+    font-size: 1rem;
+    // padding: 1rem 3rem 1rem 3rem;
+  }
+
+  .custom {
+    height: 17rem;
+  }
+}

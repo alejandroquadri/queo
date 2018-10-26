@@ -6,3 +6,4 @@ export * from './applications/applications.component';
 export * from './buy-modal/buy-modal.component';
 export * from './cta-buttons/cta-buttons.component';
 export * from './terrazzo/terrazzo.component';
+export * from './query/query.component';

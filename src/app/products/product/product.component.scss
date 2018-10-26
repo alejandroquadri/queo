@@ -1,6 +1,12 @@
-.prod-wrapper {
+.wrapper {
   min-height: calc(100vh - var(--navbar-height));
-  margin-top: calc(var(--navbar-height) + 2rem);
+  min-height: calc(var(--vh, 1vh) * 100 - var(--navbar-height));
+  margin-top: var(--navbar-height);
+}
+
+.prod-wrapper {
+  padding-top: 2rem;
+  padding-bottom: 2rem; 
 }
 
 .prod-imgs, .prod-data {
@@ -118,6 +124,12 @@
 }
 
 @media (max-width: 500px) {
+  
+  .prod-wrapper {
+    padding-top: 2rem;
+    padding-bottom: 2rem; 
+  }
+  
   .custom {
     height: 17rem;
   }

@@ -21,6 +21,8 @@ import { ApplicationsComponent } from './components/applications/applications.co
 import { BuyModalComponent } from './components/buy-modal/buy-modal.component';
 import { TerrazzoComponent } from './components/terrazzo/terrazzo.component';
 import { CtaButtonsComponent } from './components/cta-buttons/cta-buttons.component';
+import { BespokeComponent } from './components/bespoke/bespoke.component';
+import { QueryComponent } from './components';
 
 // directives
 import { HoverDirective } from './directives/hover.directive';
@@ -56,7 +58,9 @@ import { SortPipe } from './pipes/sort.pipe';
     SortPipe,
     BuyModalComponent,
     TerrazzoComponent,
-    CtaButtonsComponent
+    CtaButtonsComponent,
+    BespokeComponent,
+    QueryComponent
   ],
   exports: [
     CommonModule,
@@ -78,7 +82,12 @@ import { SortPipe } from './pipes/sort.pipe';
     SortPipe,
     BuyModalComponent,
     TerrazzoComponent,
-    CtaButtonsComponent
+    CtaButtonsComponent,
+    BespokeComponent,
+    QueryComponent
+  ],
+  entryComponents: [
+    QueryComponent
   ],
   providers: [
   ]

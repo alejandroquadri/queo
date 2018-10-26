@@ -54,16 +54,20 @@
 
   .item-wrapper{
     padding-top: 1rem;
-    padding-bottom:1rem;
+    padding-bottom:0rem;
   }
 
   .title {
     font-size: 2rem;
-    padding-bottom: 1rem; 
+    padding-bottom: 0rem; 
   }
 
   .text {
     padding: 1rem 3rem 1rem 3rem;
+  }
+
+  .p {
+    font-size: 1rem;
   }
 
 }
@@ -73,10 +77,4 @@
   .title {
     padding-bottom: 0px;
   }
-
-  .p {
-    font-size: 1rem;
-  }
-
-
 }

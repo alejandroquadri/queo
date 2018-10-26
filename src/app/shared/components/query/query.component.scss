@@ -1,0 +1,75 @@
+.titulo {
+	font-size: 1.5rem;
+	font-weight: 100;
+}
+
+.detalleProducto, .textoConfirmacion {
+	font-size: 0.9rem;
+	font-weight: 100;
+}
+
+.modal-footer {
+	display: block;
+}
+
+.missing {
+	background-color: hsl(355, 70%, 91%);;
+}
+
+.logo {
+	max-width: 20%;
+}
+
+label {
+  font-weight: 100;
+}
+
+.botonComprar, .botonLlamar {
+	color: white;
+	background-color: var(--pink-dark);
+	border-color: var(--pink-dark);
+}
+
+.botonComprar, .botonLlamar:hover {
+	color: white;
+	background-color: var(--pink-light);
+	border-color: var(--pink-light);
+	cursor: pointer;
+}
+
+.botonComprar, .botonLlamar:active {
+  color: white;
+  background-color: var(--pink-light);
+	border-color: var(--pink-light);
+}
+
+.missing-text {
+  color: rgb(80%, 20%, 21.2%);
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.alternativa {
+	font-weight: 100;
+	color: #6c757d
+}
+
+.desktop-mobile {
+	display: none;
+}
+
+@media (max-width : 769px) {
+
+	.desktop-tel {
+		display: none;
+	}
+	
+	.desktop-mobile {
+		display: block;
+	}
+  
+  .oneliner {
+    font-size: 3rem;
+  }
+
+}

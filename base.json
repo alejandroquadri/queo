@@ -50,7 +50,11 @@
             "dim" : [ "chica: diametro 235 mm, espesor 10 mm", "mediana: diametro 280 mm, espesor 10 mm", "grande: diametro 35 mm, espesor 10 mm" ],
             "format" : [ 
                 {
-                "colors" : [ {
+                "colors" : [ 
+                  {
+                    "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FbandejaNegra.JPG?alt=media&token=3951c9d3-4cb6-44dc-ba4c-a8bacc3a6a1d" ],
+                    "name" : "espuma"
+                  },{
                   "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FbandejaNegra.JPG?alt=media&token=3951c9d3-4cb6-44dc-ba4c-a8bacc3a6a1d" ],
                   "name" : "negroVidrio"
                 }, {
@@ -504,6 +508,10 @@
       }
     },
     "colors" : {
+      "espuma" : {
+        "name" : "Nieve",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fespuma.jpg?alt=media&token=d0e4877c-b14e-44b8-9e98-a936b20dec6b"
+      },
       "bardiglio" : {
         "name" : "Plata",
         "url" : "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fbardiglio.jpg?alt=media&token=803edcd3-3cc6-437a-930b-69d897034c0d"
@@ -611,6 +619,10 @@
       "terrazzo" : {
         "text" : [ "El terrazzo es un material moderno, tradicional y eterno. Esencialmente es una base de cemento o resinas con agregados de mármol, granito y otros materiales reciclables. Esto aporta su singular riqueza y apariencia multi-tonal.", "Este increible material nos permite diseñar y fabricar piezas unicas." ],
         "title" : "Diseño en Terrazzo"
+      },
+      "bespoke": {
+        "featured" : "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FmesasTC.png?alt=media&token=f8ff24f7-bf3c-425c-8f66-fa7e6a3c160d",
+        "text": "Cuando nuestros productos estándar no son suficientes, exploramos soluciones alternativas. Trabajamos en proyectos especiales con diseñadores, arquitectos y distintas marcas. Contactanos para agendar una reunion y desarrollar tu proyecto."
       }
     },
     "about" : {

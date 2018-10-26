@@ -3,4 +3,4 @@ export * from './static.service';
 export * from './seo.service';
 export * from './window.service';
 export * from './analytics.service';
-
+export * from './contact.service';

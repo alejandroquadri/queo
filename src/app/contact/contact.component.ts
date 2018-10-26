@@ -8,10 +8,8 @@ import {
   transition
 } from '@angular/animations';
 import { Validators, FormGroup, FormArray, FormBuilder } from '@angular/forms';
-
 import { faMapMarker, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
-
-import { ContactFormService } from './contact-form.service';
+import { ContactService } from '../shared/services/contact.service';
 
 @Component({
   selector: 'app-contact',
@@ -47,7 +45,7 @@ export class ContactComponent implements OnInit {
   public telephone = faPhone;
 
   constructor(
-    private formData: ContactFormService,
+    private contactData: ContactService,
     private fb: FormBuilder,
     private renderer: Renderer,
     @Inject(PLATFORM_ID) private platformId: Object
@@ -73,13 +71,19 @@ export class ContactComponent implements OnInit {
   }
 
   submit() {
-    console.log(this.myForm.value);
-    // this.formData.saveReq(this.myForm.value);
-    this.myForm.reset();
-    this.thanks = 'show';
-    setTimeout(() => {
-      this.thanks = 'hide';
-    }, 5000);
+    const query = this.myForm.value;
+    this.contactData.sendQuery(query)
+    .subscribe( () => console.log('email sent'));
+
+    this.contactData.saveQuery(query)
+    .then( () => {
+      console.log('query saved');
+      this.myForm.reset();
+      this.thanks = 'show';
+      setTimeout(() => {
+        this.thanks = 'hide';
+      }, 5000);
+    });
   }
 
 }

@@ -1,0 +1,99 @@
+<div class="modal-header" *ngIf="!thanks">
+  <img class="logo" [src]="logoNegro" style="display:none;">      
+  <h4 class="titulo" *ngIf="!datos">Consultanos</h4>
+  <h4 class="titulo" *ngIf="datos">{{ this.datos }}</h4>
+  <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+  
+<div class="modal-header thanks" *ngIf="thanks">
+  <img class="logo" [src]="logoNegro">
+</div>
+  
+<div class="modal-body">
+  <div class="thanks" *ngIf="thanks">
+    <div class="titulo">
+      Muchas gracias por tu consulta, en breve nos estaremos comunicando			
+    </div>
+  </div>
+
+  <div class="alternativa" *ngIf="!thanks">
+    <div>
+      <fa-icon [icon]="envelope"></fa-icon>&nbsp; <a style="color: #6c757d;" [href]="'mailto:info@quadri.com.ar'">info@queo.com.ar</a>
+    </div>
+    <div class="desktop-tel">
+      <fa-icon [icon]="telephone"></fa-icon>&nbsp; +54 11 4861 0450
+    </div>
+    <div class="desktop-mobile mt-2">
+      <a class="btn btn-outline-secondary btn-block botonLlamar" role="button" href="tel:48610450">Llamar</a>
+    </div>
+  </div>
+</div>
+  
+<div class="modal-footer" *ngIf="!thanks">
+
+  <form *ngIf="!thanks" [formGroup]="myForm" novalidate (ngSubmit)="submit()">
+    <div class="form-group row">
+      <label class="text-muted col-sm-2 col-form-label" for="nombre">Nombre</label>
+      <div class="col-sm-10">
+        <input type="text" formControlName="name" class="form-control"
+        [ngClass]="{'missing': myForm.controls.name.invalid && (myForm.controls.name.dirty || myForm.controls.name.touched)}">
+      </div>
+    </div>
+
+    <!-- indicacion que falta el nombre -->
+    <div *ngIf="myForm.controls.name.invalid && (myForm.controls.name.dirty || myForm.controls.name.touched)" class="row">
+      <div *ngIf="myForm.controls.name.errors.required" class="col-sm-10 offset-sm-2">
+        <div class="missing-text">¡Nos falta tu nombre!</div>
+      </div>
+    </div>
+
+    <!-- <div class="form-group row">
+      <label class="text-muted col-sm-2 col-form-label" for="tel">Telefono</label>
+      <div class="col-sm-10">
+        <input type="tel" formControlName="telephone" class="form-control"
+        [ngClass]="{'missing': myForm.controls.telephone.invalid && (myForm.controls.telephone.dirty || myForm.controls.telephone.touched)}">
+      </div>
+    </div> -->
+
+    <!-- indicacion falta telefono -->
+      <!-- <div *ngIf="myForm.controls.telephone.invalid && (myForm.controls.telephone.dirty || myForm.controls.telephone.touched)" class="row">
+      <div *ngIf="myForm.controls.telephone.errors.required" class="col-sm-10 offset-sm-2">
+        <div class="missing-text">Necesitamos saber tu numero de telefono para contactarte</div>
+      </div>
+    </div> -->
+    
+    <div class="form-group row">
+      <label class="text-muted col-sm-2 col-form-label" for="email">E-mail</label>
+      <div class="col-sm-10">
+        <input type="e-mail" formControlName="email" class="form-control" id="email" aria-describedby="emailHelp"
+        [ngClass]="{'missing': myForm.controls.email.invalid && (myForm.controls.email.dirty || myForm.controls.email.touched)}">
+      </div>
+    </div>
+
+    <!-- indicacion falta mail -->
+      <div *ngIf="myForm.controls.email.invalid && (myForm.controls.email.dirty || myForm.controls.email.touched)" class="row">
+      <div *ngIf="myForm.controls.email.errors.required" class="col-sm-10 offset-sm-2">
+        <div class="missing-text">Necesitamos saber tu e-mail para contactarte</div>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label class="text-muted col-sm-2 col-form-label" for="textArea">Consulta</label>
+      <div class="col-sm-10">
+        <textarea formControlName="query" class="form-control" id="textArea" rows="3"></textarea>
+      </div>
+    </div>
+
+    <button [disabled]="!myForm.valid" type="submit" class="btn botonComprar mr-3 align-self-start">
+      Enviar mi consulta
+    </button>
+    <button type="button" class="btn btn-outline-secondary" (click)="activeModal.close('Close click')">
+      Cancelar
+    </button>
+
+  </form>
+
+</div>
+    

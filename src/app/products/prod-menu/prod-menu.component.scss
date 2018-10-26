@@ -1,17 +1,6 @@
 
-.title-wrapper {
-  height: calc(var(--vh, 1vh) * 32);
-}
-
-.title {
-  font-size: calc(var(--vh, 1vh) * 6);
-  font-weight: 200;
-  // color: white;
-}
-
 .sub-title {
-  margin-top: 1vh;
-  font-size: 3.5vh;
+  font-size: 2rem;
   font-weight: 100;
 }
 
@@ -21,7 +10,7 @@
 }
 
 .col-title {
-  margin: 2vh 2vh 2vh 0;
+  margin: 1rem 1rem 1rem 0rem;
   cursor: pointer;
 }
 
