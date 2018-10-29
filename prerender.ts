@@ -18,7 +18,16 @@ import * as fs from 'fs-extra';
 const ROUTES = [
   '/',
   '/productos',
-  '/inspiracion',
+  '/productos/iluminacion/colgante',
+  '/productos/iluminacion/lamparaChica',
+  '/productos/iluminacion/lamparaGrande',
+  '/productos/mesas/arrime',
+  '/productos/mesas/redondaChica',
+  '/productos/macetas/macetaCilindrica',
+  '/productos/accesorios/apoyaVasos',
+  '/productos/accesorios/bandejaRedonda',
+  '/productos/accesorios/botones',
+  '/nosotros',
   '/contacto'
 ];
 

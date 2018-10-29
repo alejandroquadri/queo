@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg fixed-top bg-transparent" 
-[ngClass]="{'navbar-dark': (router.url === '/' || router.url === '/nosotros'), 'navbar-light': !(router.url === '/' || router.url === '/nosotros'), 'expandedMobileLndg':isExpanded && router.url === '/', 'expandedMobile':isExpanded && !(router.url === '/')}"
+[ngClass]="{'navbar-dark': (router.url === '/' || router.url === '/nosotros'), 'navbar-light': !(router.url === '/' || router.url === '/nosotros'), 'expandedMobileLndg':isExpanded && (router.url === '/' || router.url === '/nosotros'), 'expandedMobile':isExpanded && !(router.url === '/' || router.url === '/nosotros')}"
 [@in]="scrollDir">
 
   <a class="navbar-brand no-show" [ngClass]="{'no-show': router.url === '/'}" [routerLink]="['/']">

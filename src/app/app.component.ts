@@ -38,6 +38,7 @@ export class AppComponent {
 
       if (!(this.win.innerWidth < 540 && this.load === false) ) {
         const vh = this.win.innerHeight * 0.01;
+        console.log(vh);
       // Then we set the value in the --vh custom property to the root of the document
         this.doc.documentElement.style.setProperty('--vh', `${vh}px`);
         this.load = false;

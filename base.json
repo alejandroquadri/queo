@@ -127,81 +127,106 @@
             "format" : [ {
               "colors" : [ {
                 "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso2.jpg?alt=media&token=140b58e8-21e8-493c-ac57-167bf2bd0532", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso3.jpg?alt=media&token=5be6d792-9e7c-4cd4-9c95-153ebd55ca2d" ],
-                "name" : "negroVidrio"
+                "name" : "negroCalcareo"
               }, {
                 "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso2.jpg?alt=media&token=140b58e8-21e8-493c-ac57-167bf2bd0532", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso3.jpg?alt=media&token=5be6d792-9e7c-4cd4-9c95-153ebd55ca2d" ],
-                "name" : "rosaVidrio"
+                "name" : "azulCalcareo"
               }, {
                 "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso2.jpg?alt=media&token=140b58e8-21e8-493c-ac57-167bf2bd0532", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso3.jpg?alt=media&token=5be6d792-9e7c-4cd4-9c95-153ebd55ca2d" ],
-                "name" : "blancoVidrio"
+                "name" : "verdeCalcareo"
+              }, {
+                "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso2.jpg?alt=media&token=140b58e8-21e8-493c-ac57-167bf2bd0532", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso3.jpg?alt=media&token=5be6d792-9e7c-4cd4-9c95-153ebd55ca2d" ],
+                "name" : "amarilloCalcareo"
+              } , {
+                "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso2.jpg?alt=media&token=140b58e8-21e8-493c-ac57-167bf2bd0532", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso3.jpg?alt=media&token=5be6d792-9e7c-4cd4-9c95-153ebd55ca2d" ],
+                "name" : "rosaCalcareo"
               } ],
-              "name" : "chica",
+              "name" : "Chico",
               "order" : 4,
               "price" : 1000,
               "text" : "el mas quiquito"
             }, {
-              "colors" : [ 
-                {
-                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso2.jpg?alt=media&token=140b58e8-21e8-493c-ac57-167bf2bd0532", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso3.jpg?alt=media&token=5be6d792-9e7c-4cd4-9c95-153ebd55ca2d" ],
-                  "name" : "negroVidrio"
-                }, {
-                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso2.jpg?alt=media&token=140b58e8-21e8-493c-ac57-167bf2bd0532", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso3.jpg?alt=media&token=5be6d792-9e7c-4cd4-9c95-153ebd55ca2d" ],
-                  "name" : "rosaVidrio"
-                }, {
-                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso2.jpg?alt=media&token=140b58e8-21e8-493c-ac57-167bf2bd0532", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso3.jpg?alt=media&token=5be6d792-9e7c-4cd4-9c95-153ebd55ca2d" ],
-                  "name" : "blancoVidrio"
-                } ],
-                "name" : "mediana",
+              "colors" : [ {
+                "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso2.jpg?alt=media&token=140b58e8-21e8-493c-ac57-167bf2bd0532", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso3.jpg?alt=media&token=5be6d792-9e7c-4cd4-9c95-153ebd55ca2d" ],
+                "name" : "negroCalcareo"
+              }, {
+                "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso2.jpg?alt=media&token=140b58e8-21e8-493c-ac57-167bf2bd0532", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso3.jpg?alt=media&token=5be6d792-9e7c-4cd4-9c95-153ebd55ca2d" ],
+                "name" : "azulCalcareo"
+              }, {
+                "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso2.jpg?alt=media&token=140b58e8-21e8-493c-ac57-167bf2bd0532", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso3.jpg?alt=media&token=5be6d792-9e7c-4cd4-9c95-153ebd55ca2d" ],
+                "name" : "verdeCalcareo"
+              }, {
+                "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso2.jpg?alt=media&token=140b58e8-21e8-493c-ac57-167bf2bd0532", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso3.jpg?alt=media&token=5be6d792-9e7c-4cd4-9c95-153ebd55ca2d" ],
+                "name" : "amarilloCalcareo"
+              } , {
+                "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso2.jpg?alt=media&token=140b58e8-21e8-493c-ac57-167bf2bd0532", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso3.jpg?alt=media&token=5be6d792-9e7c-4cd4-9c95-153ebd55ca2d" ],
+                "name" : "rosaCalcareo"
+              } ],
+                "name" : "Mediano",
                 "order" : 3,
                 "price" : 1200,
                 "text" : "el mediano"
               }, {
                 "colors" : [ {
                   "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso2.jpg?alt=media&token=140b58e8-21e8-493c-ac57-167bf2bd0532", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso3.jpg?alt=media&token=5be6d792-9e7c-4cd4-9c95-153ebd55ca2d" ],
-                  "name" : "negroVidrio"
+                  "name" : "negroCalcareo"
                 }, {
                   "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso2.jpg?alt=media&token=140b58e8-21e8-493c-ac57-167bf2bd0532", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso3.jpg?alt=media&token=5be6d792-9e7c-4cd4-9c95-153ebd55ca2d" ],
-                  "name" : "rosaVidrio"
+                  "name" : "azulCalcareo"
                 }, {
                   "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso2.jpg?alt=media&token=140b58e8-21e8-493c-ac57-167bf2bd0532", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso3.jpg?alt=media&token=5be6d792-9e7c-4cd4-9c95-153ebd55ca2d" ],
-                  "name" : "blancoVidrio"
+                  "name" : "verdeCalcareo"
+                }, {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso2.jpg?alt=media&token=140b58e8-21e8-493c-ac57-167bf2bd0532", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso3.jpg?alt=media&token=5be6d792-9e7c-4cd4-9c95-153ebd55ca2d" ],
+                  "name" : "amarilloCalcareo"
+                } , {
+                  "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso2.jpg?alt=media&token=140b58e8-21e8-493c-ac57-167bf2bd0532", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso3.jpg?alt=media&token=5be6d792-9e7c-4cd4-9c95-153ebd55ca2d" ],
+                  "name" : "rosaCalcareo"
                 } ],
-                "name" : "grande",
+                "name" : "Grande",
                 "order" : 2,
                 "price" : 1200,
                 "text" : "Maceta grande. Podes meter un arbol ahi adentro"
               }, 
               {
                 "colors" : [ {
-                  "name" : "blancoVidrio"
+                  "name" : "negroCalcareo"
                 }, {
-                  "name" : "rosaVidrio"
+                  "name" : "azulCalcareo"
                 }, {
-                  "name" : "negroVidrio"
-                } ],
+                  "name" : "verdeCalcareo"
+                } , {
+                  "name" : "rosaCalcareo"
+                }, {
+                  "name" : "amarilloCalcareo"
+                }],
                 "name" : "Set de 3 percheros",
                 "order" : 1,
                 "price" : 3100,
                 "set" : {
                   "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso2.jpg?alt=media&token=140b58e8-21e8-493c-ac57-167bf2bd0532", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso3.jpg?alt=media&token=5be6d792-9e7c-4cd4-9c95-153ebd55ca2d" ],
-                  "sizes" : [ "Grande", "Mediana", "Chico"]
+                  "sizes" : [ "Grande", "Mediano", "Chico"]
                 },
-                "text" : "1 grande, 1 mediano, 3 chica"
+                "text" : "1 grande, 1 mediano, 3 chicos"
               }, 
               {
                 "colors" : [ {
-                  "name" : "blancoVidrio"
+                  "name" : "negroCalcareo"
                 }, {
-                  "name" : "rosaVidrio"
+                  "name" : "azulCalcareo"
                 }, {
-                  "name" : "negroVidrio"
-                } ],
+                  "name" : "verdeCalcareo"
+                } , {
+                  "name" : "rosaCalcareo"
+                }, {
+                  "name" : "amarilloCalcareo"
+                }],
                 "name" : "Set de 5 percheros",
                 "order" : 1,
                 "price" : 4800,
                 "set" : {
                   "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso2.jpg?alt=media&token=140b58e8-21e8-493c-ac57-167bf2bd0532", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FpercherosMeso3.jpg?alt=media&token=5be6d792-9e7c-4cd4-9c95-153ebd55ca2d" ],
-                  "sizes" : [ "Grande", "Mediana", "Chico #1", "Chico #2", "Chica #3" ]
+                  "sizes" : [ "Grande", "Mediano", "Chico #1", "Chico #2", "Chico #3" ]
                 },
                 "text" : "1 grande, 1 mediano, 3 chicos"
               }
@@ -508,6 +533,26 @@
       }
     },
     "colors" : {
+      "negroCalcareo" : {
+        "name" : "Negro",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FnegroCalcareo.jpg?alt=media&token=212b4481-b0df-4e3b-996d-81dff98590f8"
+      },
+      "verdeCalcareo" : {
+        "name" : "Verde",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FverdeCalcareo.jpg?alt=media&token=b14a4063-c430-4d77-b841-d2d34976e126"
+      },
+      "rosaCalcareo" : {
+        "name" : "Salmon",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FrosaCalcareo.jpg?alt=media&token=f9f6adac-f890-48ce-be07-cef7b1070406"
+      },
+      "azulCalcareo" : {
+        "name" : "Azul",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FazulCalcareo.jpg?alt=media&token=6a1f3d4c-5c28-421b-9478-5a0bb2896b20"
+      },
+      "amarilloCalcareo" : {
+        "name" : "Mostaza",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FamarilloCalcareo.jpg?alt=media&token=3b6db2f4-1860-4eb1-a3ad-15f22bc51d34"
+      },
       "espuma" : {
         "name" : "Nieve",
         "url" : "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fespuma.jpg?alt=media&token=d0e4877c-b14e-44b8-9e98-a936b20dec6b"
