@@ -123,6 +123,14 @@
   // esto hace que con nueva linea (\n) lo haga y tambien cuando no hay espacio
 }
 
+@media (max-width: 800px) {
+
+  .title {
+    font-size: 2rem;
+  }
+  
+}
+
 @media (max-width: 500px) {
   
   .prod-wrapper {

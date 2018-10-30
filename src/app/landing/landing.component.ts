@@ -2,7 +2,7 @@ import { Component, OnInit, ViewChild, Inject, ElementRef } from '@angular/core'
 import { DOCUMENT } from '@angular/common';
 import { Router } from '@angular/router';
 
-import { StaticService } from '../shared';
+import { StaticService, ApiService } from '../shared';
 
 @Component({
   selector: 'app-landing',
@@ -37,7 +37,8 @@ export class LandingComponent implements OnInit {
   constructor(
     private staticData: StaticService,
     private router: Router,
-    @Inject(DOCUMENT) document
+    @Inject(DOCUMENT) document,
+    private apiService: ApiService
   ) {
     this.doc = document;
     // this.data = this.staticData.data.landing;
