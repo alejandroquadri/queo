@@ -2,7 +2,7 @@ import { Component, OnInit, ViewChild, Inject, ElementRef } from '@angular/core'
 import { DOCUMENT } from '@angular/common';
 import { Router } from '@angular/router';
 
-import { StaticService, ApiService } from '../shared';
+import { StaticService, SeoService, WINDOW, GTagService } from '../shared';
 
 @Component({
   selector: 'app-landing',
@@ -18,6 +18,7 @@ export class LandingComponent implements OnInit {
   data: any;
   images: any;
   doc: any;
+  win: any;
 
   carouselInner: any;
   carouselItems: any;
@@ -38,11 +39,19 @@ export class LandingComponent implements OnInit {
     private staticData: StaticService,
     private router: Router,
     @Inject(DOCUMENT) document,
-    private apiService: ApiService
+    // @Inject(WINDOW) private window: Window,
+    private seoService: SeoService,
+    private gTagSrv: GTagService
   ) {
     this.doc = document;
     // this.data = this.staticData.data.landing;
     // this.images = this.staticData.data.projectImgs;
+
+    this.gTagSrv.pushObject({
+      event: 'prueba',
+      estado: 'frustracion'
+    });
+    this.gTagSrv.printDataLayer();
 
     this.slidesData = this.staticData.data.landing.slides;
     this.slidesArray = Object.keys(this.slidesData);
@@ -50,6 +59,16 @@ export class LandingComponent implements OnInit {
   }
 
   ngOnInit() {
+
+    const metaTags = {
+      title: 'Diseño de objetos y muebles únicos en terrazzo | Queo',
+      // tslint:disable-next-line:max-line-length
+      description: 'En Queo diseñamos y fabricamos objetos y muebles únicos con terrazzo para las mas variadas aplicaciones de diseño y arquitectura.',
+      image: this.slidesData[0].img,
+      slug: '',
+    };
+
+    this.seoService.generateTags(metaTags);
 
     // !! el codigo de abajo sirve para cambiar el css para que el carousel quede fullscreen
     if (this.carrousel) {

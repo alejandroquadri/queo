@@ -29,7 +29,7 @@ export class BuyModalComponent implements OnInit {
 
   ngOnInit() {
     this.datos = JSON.parse(this.data);
-    console.log(this.datos);
+    // console.log(this.datos);
     this.buildForm();
   }
 

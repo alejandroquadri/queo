@@ -7,7 +7,7 @@
       <div *ngFor="let p of data.text" class="p">{{ p }}</div>
     </div>
     <div class="botones">
-    <app-cta-buttons [changeTheme]="true" [primary]="true" (prim)="router.navigate(['/productos'])"
+    <app-cta-buttons [changeTheme]="true" [primary]="true" [pText]="'Productos'" (prim)="router.navigate(['/productos'])" [pId]="'productos-terrazzo-info'"
     [terciary]="true" [tText]="'Conocer +'" (ter)="router.navigate(['/nosotros'])"
     [vertical]="false"></app-cta-buttons>
   </div>

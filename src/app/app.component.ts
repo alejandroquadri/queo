@@ -1,8 +1,9 @@
+import { GTagService } from './shared/services/g-tag.service';
 import { Component, Inject, HostListener, PLATFORM_ID } from '@angular/core';
 import { isPlatformBrowser, isPlatformServer } from '@angular/common';
 import { DOCUMENT } from '@angular/common';
 import { WINDOW } from './shared/services/window.service';
-import { AnalyticsService } from './shared/services/analytics.service';
+// import { AnalyticsService } from './shared/services/analytics.service';
 
 @Component({
   selector: 'app-root',
@@ -17,15 +18,16 @@ export class AppComponent {
   load = true;
 
   constructor(
-    private analyticsS: AnalyticsService,
+    // private analyticsS: AnalyticsService,
     @Inject(DOCUMENT) document,
     @Inject(WINDOW) private window: Window,
     @Inject(PLATFORM_ID) private platformId: Object,
+    private gTagSvc: GTagService
   ) {
     this.doc = document;
     this.win = window;
     this.getVH();
-    this.analyticsS.trackRouter();
+    // this.analyticsS.trackRouter();
   }
 
   @HostListener('window:resize', ['$event'])

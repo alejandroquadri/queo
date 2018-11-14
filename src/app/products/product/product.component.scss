@@ -82,7 +82,29 @@
 }
 
 .qty {
-  width: 5rem;
+  width: 2.5rem;
+  text-align: center;
+  border: none;
+  background: transparent;
+}
+
+input.qty::-webkit-outer-spin-button,
+input.qty::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+select { 
+  background-color: transparent;
+}
+
+.botonQty {
+  background-color: transparent;
+}
+
+.botonQty:hover {
+  background-color: black;
 }
 
 .botonComprar {

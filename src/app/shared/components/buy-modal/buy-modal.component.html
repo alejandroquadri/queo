@@ -17,10 +17,10 @@
     <div class="text-muted">Tu compra:</div>
     <div class="detalleProducto">
       <div *ngIf="!datos.set">
-        {{ datos.qty }} {{ datos.product }} {{ datos.format }} color {{ colors[datos.color].name }}
+        {{ datos.qty }} {{ datos.desc }} color {{ colors[datos.color].name }}
       </div>
       <div class="mt-2" *ngIf="datos.set">
-          {{ datos.qty }} {{ datos.format }}
+          {{ datos.qty }} {{ datos.desc }}
           <ul>
             <li *ngFor="let color of datos.color">
               {{ color.size }} color {{ colors[color.color].name }}
@@ -105,7 +105,7 @@
       </div>
     </div>
 
-    <button [disabled]="!myForm.valid" type="submit" class="btn botonComprar mr-3 align-self-start">Confirmar Compra</button>
+    <button id="confirmar-compra" [disabled]="!myForm.valid" type="submit" class="btn botonComprar mr-3 align-self-start">Confirmar Compra</button>
     <button type="button" class="btn btn-outline-dark" (click)="activeModal.close('Close click')">Cancelar</button>
 
   </form>

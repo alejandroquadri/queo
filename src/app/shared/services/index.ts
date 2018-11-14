@@ -4,3 +4,5 @@ export * from './seo.service';
 export * from './window.service';
 export * from './analytics.service';
 export * from './contact.service';
+export * from './g-tag.service';
+

@@ -6,7 +6,7 @@ import { Validators, FormGroup, FormArray, FormBuilder } from '@angular/forms';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { faSpinner } from '@fortawesome/free-solid-svg-icons';
 
-import { StaticService, BuyModalComponent } from '../../shared';
+import { StaticService, BuyModalComponent, SeoService } from '../../shared';
 
 @Component({
   selector: 'app-product',
@@ -35,6 +35,7 @@ export class ProductComponent implements OnInit {
   constructor(
     private route: ActivatedRoute,
     private router: Router,
+    private seoService: SeoService,
     private staticData: StaticService,
     public fb: FormBuilder,
     private modalService: NgbModal,
@@ -48,7 +49,6 @@ export class ProductComponent implements OnInit {
     this.prodKey = this.route.snapshot.paramMap.getAll('prod');
     this.product = this.staticData.data.collections[this.colKey].products[this.prodKey];
     this.colors = this.staticData.data.colors;
-    console.log(this.product);
     if (!this.product) {
       this.router.navigate(['/']);
     }
@@ -56,6 +56,17 @@ export class ProductComponent implements OnInit {
     this.currentColor = this.currentFormat.colors[0];
     this.imgArray =  this.currentColor.imgs;
     this.buildForm();
+
+    const metaTags = {
+      title: `${this.product.name} | Productos ${this.colKey} Queo`,
+      // tslint:disable-next-line:max-line-length
+      description: this.product.text,
+      image: this.product.bgImg,
+      slug: `productos/${this.colKey}/${this.prodKey}`,
+    };
+
+    this.seoService.generateTags(metaTags);
+
   }
 
   cambio(event) {
@@ -130,12 +141,28 @@ export class ProductComponent implements OnInit {
     });
   }
 
+  add() {
+    let qty = this.buyForm.controls['qty'].value;
+    qty += 1;
+    this.buyForm.patchValue({
+      qty: qty
+    });
+  }
+
+  sub() {
+    let qty = this.buyForm.controls['qty'].value;
+    qty -= 1;
+    this.buyForm.patchValue({
+      qty: qty
+    });
+  }
+
   buy() {
     const buyForm = this.buyForm.value;
-    console.log(buyForm);
+    // console.log(buyForm);
     const sendForm = {
       product: this.product.name,
-      format: buyForm.format.name,
+      desc: buyForm.format.buyDesc,
       price: buyForm.format.price,
       qty: buyForm.qty
     };

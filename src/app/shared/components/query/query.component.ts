@@ -34,7 +34,7 @@ export class QueryComponent implements OnInit {
     this.logoNegro = this.staticData.logoNegro;
     if (this.data) {
       this.datos = JSON.parse(this.data);
-      console.log(this.datos);
+      // console.log(this.datos);
     }
   }
 

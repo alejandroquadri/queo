@@ -19,7 +19,7 @@ Como el template de cada slide se crea dinamicamente por el componente de ng-boo
             <div class="sub-liner">{{ slidesData[slide].subTitle }}</div>
           </div>
           <app-cta-buttons 
-          [primary]="true" [pText]="'Comprar'" 
+          [primary]="true" [pText]="'Productos'" [pId]="'productos-landingImg'"
           [terciary]="true" [tText]="'Conocer +'"
           [changeTheme]="false"
           (prim)="toProducts()" (ter)="more()">

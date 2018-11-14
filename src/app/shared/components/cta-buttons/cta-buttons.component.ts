@@ -25,6 +25,10 @@ export class CtaButtonsComponent implements OnInit {
   @Input() interest: string;
   @Input() buttonsStart: boolean;
   @Input() vertical = false;
+  @Input() pId: string;
+  @Input() sId: string;
+  @Input() tId: string;
+
 
   constructor(
     private statisData: StaticService,
@@ -35,7 +39,6 @@ export class CtaButtonsComponent implements OnInit {
   ngOnInit() {
     this.data = this.statisData.data.components.cta;
     if ( this.changeTheme) { this.lightTheme = !this.lightTheme; }
-    console.log(this.pText, this.sText);
   }
 
   // openModal() {

@@ -28,7 +28,7 @@
             <textarea formControlName="query" class="form-control" id="exampleFormControlTextarea1" rows="6" style="font-size: 1.25rem;"></textarea>
           </div>
           <div class="d-flex">
-            <button [disabled]="!myForm.valid" type="submit" class="btn btn-outline-secondary align-self-start">Enviar</button>
+            <button id="contact-form" [disabled]="!myForm.valid" type="submit" class="btn btn-outline-secondary align-self-start">Enviar</button>
             <div [@in]="thanks" class="align-self-center pl-2 thanks">Gracias por tu consulta! En breve nos estaremos contactando</div>
           </div>
         </form>

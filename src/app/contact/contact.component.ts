@@ -1,4 +1,4 @@
-import { Component, OnInit, Renderer, Inject, PLATFORM_ID } from '@angular/core';
+import { Component, OnInit, Inject, PLATFORM_ID } from '@angular/core';
 import { isPlatformBrowser, isPlatformServer } from '@angular/common';
 import {
   trigger,
@@ -10,6 +10,7 @@ import {
 import { Validators, FormGroup, FormArray, FormBuilder } from '@angular/forms';
 import { faMapMarker, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { ContactService } from '../shared/services/contact.service';
+import { SeoService } from '../shared';
 
 @Component({
   selector: 'app-contact',
@@ -47,7 +48,7 @@ export class ContactComponent implements OnInit {
   constructor(
     private contactData: ContactService,
     private fb: FormBuilder,
-    private renderer: Renderer,
+    private seoService: SeoService,
     @Inject(PLATFORM_ID) private platformId: Object
   ) {
     if (isPlatformBrowser(this.platformId)) {
@@ -60,6 +61,15 @@ export class ContactComponent implements OnInit {
 
   ngOnInit() {
     this.buildForm();
+
+    const metaTags = {
+      title: `Contacto | Queo`,
+      // tslint:disable-next-line:max-line-length
+      description: `Telefono: +54 11 4861 0450. Gascon 483, Ciudad autonoma de Buenos Aires. info@queo.com.ar`,
+      slug: 'contacto'
+    };
+
+    this.seoService.generateTags(metaTags);
   }
 
   buildForm() {
