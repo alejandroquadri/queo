@@ -2,7 +2,7 @@ import { Component, OnInit, Input } from '@angular/core';
 import { Validators, FormGroup, FormBuilder } from '@angular/forms';
 
 import { NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
-import { StaticService } from '../../services';
+import { StaticService, ContactService } from '../../services';
 
 @Component({
   selector: 'app-buy-modal',
@@ -21,7 +21,8 @@ export class BuyModalComponent implements OnInit {
   constructor(
     private staticData: StaticService,
     public fb: FormBuilder,
-    public activeModal: NgbActiveModal
+    public activeModal: NgbActiveModal,
+    private contactData: ContactService
   ) {
     this.logoNegro = this.staticData.logoNegro;
     this.colors = this.staticData.data.colors;
@@ -38,13 +39,31 @@ export class BuyModalComponent implements OnInit {
       name: ['', Validators.required],
       telephone: ['', Validators.required],
       email: ['', Validators.required],
-      obs: ['', Validators.required]
+      query: ['']
     });
   }
 
   submit() {
-    this.thanks = true;
-    console.log(this.myForm.value);
+    const query = this.myForm.value;
+
+    let readablePurchase;
+    if (!this.datos.set) {
+      readablePurchase =  `${this.datos.qty}  ${this.datos.desc } color ${this.colors[this.datos.color].name}`;
+    } else {
+      readablePurchase = `${this.datos.qty} ${this.datos.desc}`;
+      this.datos.color.forEach( item => {
+        readablePurchase += `\n${ item.size } color ${ this.colors[item.color].name }`;
+      });
+    }
+
+    query['origin'] = 'Compra';
+    query['purchase'] = this.datos;
+    query['readablePurchase'] = readablePurchase;
+
+    this.contactData.saveQuery(query)
+    .then( () => {
+      this.thanks = true;
+    });
   }
 
 }

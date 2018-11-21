@@ -82,9 +82,8 @@ export class ContactComponent implements OnInit {
 
   submit() {
     const query = this.myForm.value;
-    this.contactData.sendQuery(query)
-    .subscribe( () => console.log('email sent'));
 
+    query ['origin'] = 'Contacto';
     this.contactData.saveQuery(query)
     .then( () => {
       console.log('query saved');
