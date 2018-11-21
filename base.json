@@ -233,7 +233,7 @@
           "colgante" : {
             "bgImg" : "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FcolgantesSR.jpeg?alt=media&token=565989ec-44c2-49db-85c1-39b0dcae8ede",
             "designer" : "Nicolo Fessa",
-            "dim" : [ "12,5 cm de alto (sin incluir lampara)", "23 cm de alto (incluyendo lampara)", "6,5 cm diametro cilindro" ],
+            "dim" : [ "13 cm de alto (sin incluir lampara)", "23 cm de alto (incluyendo lampara)", "6,5 cm diametro cilindro" ],
             "format" : [ {
               "colors" : [ {
                 "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FcolgantesSR.jpeg?alt=media&token=565989ec-44c2-49db-85c1-39b0dcae8ede", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fcolgante.png?alt=media&token=d4c72849-1246-49c9-8ca7-79de7cd0265e" ],
@@ -258,7 +258,7 @@
           "lamparaChica" : {
             "bgImg" : "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fbull.JPG?alt=media&token=3b1df9cf-ef9d-4096-9d84-4aa400cf10b4",
             "designer" : "Nicolo Fessa",
-            "dim" : [ "30 x 40 x 2 cm" ],
+            "dim" : [ "diametro: 10 cm, altura: 13 cm" ],
             "format" : [ {
               "colors" : [ {
                 "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fbull.JPG?alt=media&token=3b1df9cf-ef9d-4096-9d84-4aa400cf10b4", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FfessaBiblioteca.jpeg?alt=media&token=150af6f3-8ff8-4208-8790-16bfce0c5c0d" ],
@@ -277,12 +277,12 @@
             } ],
             "mant" : "Limpiar con un trapo humedo, agua y jabon neutro",
             "name" : "Lupe",
-            "text" : "Tan funcional como atractiva. La lampara Fessa es un objeto ideal para una biblioteca, mesa ratona, consola o mesa de luz. "
+            "text" : "Tan funcional como atractiva. La lampara Lupe es un objeto ideal para una biblioteca, mesa ratona, consola o mesa de luz. "
           },
           "lamparaGrande" : {
             "bgImg" : "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fsassy2.jpg?alt=media&token=7de13f21-ff3a-47c2-9011-bbfb28a17c0b",
             "designer" : "Frances Qüerio",
-            "dim" : [ "30 x 40 x 2 cm" ],
+            "dim" : [ "diametro: 15 cm, altura: 33 cm" ],
             "format" : [ {
               "colors" : [ {
                 "imgs" : [ "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FveladorLiving.jpeg?alt=media&token=7f2986be-7359-442f-af6a-28ddc272db0c", "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2Fsassy.jpeg?alt=media&token=54d2f36b-d3c7-43af-b62c-a11b8e7245f0" ],
@@ -311,7 +311,7 @@
         "products" : {
           "macetaCilindrica" : {
             "bgImg" : "https://firebasestorage.googleapis.com/v0/b/livelinks-62c79.appspot.com/o/products%2FmacetaCeleste.jpg?alt=media&token=70597c89-b934-467e-a2de-78f81e9f30e0",
-            "dim" : [ "chica: diametro 10 cm, altura 20cm", "mediana: diametro 12 cm, altura 25cm", "grande: diametro 15 cm, altura 30cm" ],
+            "dim" : [ "chica: diametro 18 cm, altura 18 cm", "mediana: diametro 19 cm, altura 22,5 cm", "grande: diametro 24 cm, altura 26,5 cm" ],
             "format" : [ {
               "colors" : [ 
                 {
