@@ -45,15 +45,22 @@
                 </select>
               </div>
             </div>
-            <div *ngIf="currentFormat.set" formArrayName="set">
+            <div *ngIf="currentFormat.set" formArrayName="setColors">
               <div *ngFor="let size of setControls.controls; let i=index">
+              <!-- <div *ngFor="let size of buyForm.controls.setColors.controls; let i=index"> -->
                 <div class="form-group row">
                   <label class="col-3 col-form-label">{{ currentFormat.set.sizes[i] }} </label>
+
                   <div class="col-9">
-                    <select class="form-control" [formControlName]="i">
+                      <select class="form-control" [formControlName]="i">
+                        <option *ngFor="let colorObj of currentFormat.colors | toArray" [ngValue]="colorObj"> {{ colors[colorObj.name].name }} </option>
+                      </select>
+                    </div>
+                  <!-- <div class="col-9" [formGroupName]="i">
+                    <select class="form-control" formControlName="color">
                       <option *ngFor="let colorObj of currentFormat.colors | toArray" [ngValue]="colorObj"> {{ colors[colorObj.name].name }} </option>
                     </select>
-                  </div>
+                  </div> -->
                 </div>
 
               </div>
@@ -88,6 +95,7 @@
             </div>
 
           </form>
+
         </div>
         
       </div>

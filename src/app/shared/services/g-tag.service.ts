@@ -18,7 +18,7 @@ export class GTagService {
 
   printDataLayer() {
     if (isPlatformBrowser(this.platformId)) {
-      console.log(this.win.dataLayer);
+      // console.log(this.win.dataLayer);
     }
   }
 

@@ -4,7 +4,7 @@ import * as express from 'express';
 import * as admin from 'firebase-admin';
 admin.initializeApp();
 
-import * as nodemailer from 'nodemailer';
+import { send } from './functions/send-mail';
 
 const app = express();
 
@@ -20,28 +20,32 @@ exports.app = functions.https.onRequest(app);
 
 exports.sendMail = functions.database
 .ref('/queo/queries/{pushId}')
-.onCreate( (snapshot:any, context:any) => {
+.onCreate(send);
 
-  const user = functions.config().gmail.user;
-  const pass = functions.config().gmail.pass;
-  const mailTransport = nodemailer.createTransport(`smtps://${user}:${pass}@smtp.gmail.com`);
+// exports.sendMail = functions.database
+// .ref('/queo/queries/{pushId}')
+// .onCreate( (snapshot:any, context:any) => {
 
-  const consulta = snapshot.val();
+//   const user = functions.config().gmail.user;
+//   const pass = functions.config().gmail.pass;
+//   const mailTransport = nodemailer.createTransport(`smtps://${user}:${pass}@smtp.gmail.com`);
 
-  let price;
-  consulta.purchase ? price = `$${consulta.purchase.price}` : price = '';
+//   const consulta = snapshot.val();
 
-  const mailOptions = {
-    from: `"Queo" <info@queo.com.ar>`,
-    to: "ale@quadri.com.ar",
-    subject: `Queo - ${consulta.origin}`,
-    text : `${consulta.name} - ${consulta.email} - ${consulta.telephone || ''}\n \n${consulta.query || ''} \n${price} \n${consulta.readablePurchase || ''}`
-  };
+//   let price;
+//   consulta.purchase ? price = `$${consulta.purchase.price}` : price = '';
 
-  return mailTransport.sendMail(mailOptions)
-  .then(() => {
-    console.log('New query sent');
-  }).catch(error => {
-    console.error('There was an error while sending the email:', error);  
-  });
-});
+//   const mailOptions = {
+//     from: `"Queo" <info@queo.com.ar>`,
+//     to: "ale@quadri.com.ar",
+//     subject: `Queo - ${consulta.origin}`,
+//     text : `${consulta.name} - ${consulta.email} - ${consulta.telephone || ''}\n \n${consulta.query || ''} \n${price} \n${consulta.readablePurchase || ''}`
+//   };
+
+//   return mailTransport.sendMail(mailOptions)
+//   .then(() => {
+//     console.log('New query sent');
+//   }).catch(error => {
+//     console.error('There was an error while sending the email:', error);  
+//   });
+// });

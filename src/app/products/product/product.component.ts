@@ -31,6 +31,7 @@ export class ProductComponent implements OnInit {
 
   buyForm: FormGroup;
   colors: any;
+  form$: any;
 
   constructor(
     private route: ActivatedRoute,
@@ -57,15 +58,15 @@ export class ProductComponent implements OnInit {
     this.imgArray =  this.currentColor.imgs;
     this.buildForm();
 
-    const metaTags = {
-      title: `${this.product.name} | Productos ${this.colKey} Queo`,
-      // tslint:disable-next-line:max-line-length
-      description: this.product.text,
-      image: this.product.bgImg,
-      slug: `productos/${this.colKey}/${this.prodKey}`,
-    };
+    // const metaTags = {
+    //   title: `${this.product.name} | Productos ${this.colKey} Queo`,
+    //   // tslint:disable-next-line:max-line-length
+    //   description: this.product.text,
+    //   image: this.product.bgImg,
+    //   slug: `productos/${this.colKey}/${this.prodKey}`,
+    // };
 
-    this.seoService.generateTags(metaTags);
+    // this.seoService.generateTags(metaTags);
 
   }
 
@@ -77,7 +78,7 @@ export class ProductComponent implements OnInit {
     this.buyForm = this.fb.group({
       format: [this.currentFormat, Validators.required],
       color: [this.currentColor, Validators.required],
-      set: this.fb.array([]),
+      setColors: this.fb.array([]),
       qty: [ 1, Validators.required],
     });
     this.addSet();
@@ -86,29 +87,33 @@ export class ProductComponent implements OnInit {
 
   addSet() {
     if (this.currentFormat.set) {
-      this.buyForm.controls['set'] = this.fb.array([]);
+
       this.buyForm.get('color').clearValidators();
       this.currentFormat.set.sizes.forEach( (size, index) => {
         this.addSetCont();
-        this.setControls.controls[index].setValue(this.currentColor);
+        this.setControls.controls[index].patchValue(this.currentColor);
+        console.log(this.currentColor, this.currentFormat.colors);
       });
-      this.buyForm.get('color').setValue('');
+      this.buyForm.get('color').patchValue('');
       this.imgArray =  this.currentFormat.set.imgs;
+
     } else {
-      this.buyForm.controls['set'] = this.fb.array([]);
+
       this.buyForm.patchValue({
         color: this.currentColor
       });
       this.buyForm.get('color').setValidators([Validators.required]);
       this.imgArray =  this.currentColor.imgs;
+
     }
+
   }
 
   // esta funcion de aca abajo es un getter. La uso para poder hacer referencia con
   // mas facilidad. Abajo la referencia
   // https://angular.io/guide/reactive-forms#dynamic-controls-using-form-arrays
   get setControls() {
-    return this.buyForm.get('set') as FormArray;
+    return this.buyForm.get('setColors') as FormArray;
   }
 
   addSetCont() {
@@ -123,15 +128,68 @@ export class ProductComponent implements OnInit {
     }
   }
 
+  addSet2() {
+    if (this.currentFormat.set) {
+
+      this.buyForm.get('color').clearValidators();
+      const control = <FormArray>this.buyForm.controls['setColors'];
+
+      this.currentFormat.set.sizes.forEach( (size, index) => {
+
+        this.addColor();
+
+        this.setControls.controls[index].patchValue(this.currentColor);
+        console.log(this.currentColor, this.currentFormat.colors);
+      });
+      this.buyForm.get('color').patchValue('');
+      this.imgArray =  this.currentFormat.set.imgs;
+
+    } else {
+
+      this.buyForm.patchValue({
+        color: this.currentColor
+      });
+      this.buyForm.get('color').setValidators([Validators.required]);
+      this.imgArray =  this.currentColor.imgs;
+
+    }
+
+  }
+
+  addColor() {
+    const control = <FormArray>this.buyForm.controls['setColors'];
+    control.push(this.initColor());
+  }
+
+  initColor() {
+    return this.fb.group({
+      color: ['', Validators.required]
+    })
+  }
+
+
   formChanges() {
     this.buyForm.controls['format'].valueChanges.subscribe(val => {
       this.currentFormat = val;
       this.currentColor = this.currentFormat.colors[0];
+      this.buyForm.controls['setColors'] = this.fb.array([]);
       this.addSet();
     });
     this.buyForm.controls['color'].valueChanges.subscribe(val => {
       this.currentColor = val;
       this.setColorArray();
+    });
+
+    // this.buyForm.controls.setColors.controls.valueChanges.subscribe( val => {
+    //   console.log('cambio en array', val);
+    // });
+
+    this.setControls.valueChanges.subscribe(values => {
+      console.log(values);
+    });
+
+    this.buyForm.valueChanges.subscribe( val => {
+      console.log('cambio el formulario', val);
     });
   }
 
@@ -159,19 +217,19 @@ export class ProductComponent implements OnInit {
 
   buy() {
     const buyForm = this.buyForm.value;
-    // console.log(buyForm);
+    console.log(buyForm);
     const sendForm = {
       product: this.product.name,
       desc: buyForm.format.buyDesc,
       price: buyForm.format.price,
       qty: buyForm.qty
     };
-    if (buyForm.set.length > 0) {
+    if (buyForm.setColors.length > 0) {
       const colors = [];
       buyForm.format.set.sizes.forEach( (size, index) => {
         const color = {
           size: size,
-          color: buyForm.set[index].name
+          color: buyForm.setColors[index].name
         };
         colors.push(color);
       });
