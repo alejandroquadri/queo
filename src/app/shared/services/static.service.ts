@@ -17,6 +17,8 @@ export class StaticService {
 
   logoBlanco = './assets/icons/logoQueoBlancoLimpio.png';
   logoNegro = './assets/icons/logoQueoNegroLimpio.png';
+  logoBlancoPlus = './assets/icons/logoQueoBlanco+.png';
+  logoNegroPlus = './assets/icons/logoQueoNegro+.png';
 
   constructor(
     private api: ApiService,
