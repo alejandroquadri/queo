@@ -2,7 +2,7 @@ import { Component, OnInit, ViewChild, Inject, ElementRef } from '@angular/core'
 import { DOCUMENT } from '@angular/common';
 import { Router } from '@angular/router';
 
-import { StaticService, SeoService, WINDOW, GTagService } from '../shared';
+import { StaticService, SeoService, GTagService } from '../shared';
 
 @Component({
   selector: 'app-landing',
@@ -39,7 +39,6 @@ export class LandingComponent implements OnInit {
     private staticData: StaticService,
     private router: Router,
     @Inject(DOCUMENT) document,
-    // @Inject(WINDOW) private window: Window,
     private seoService: SeoService,
     private gTagSrv: GTagService
   ) {

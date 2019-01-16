@@ -5,7 +5,9 @@ Como el template de cada slide se crea dinamicamente por el componente de ng-boo
 -->
 
 <div  *ngIf="carrousel"  class="carousel-wrapper d-flex">
-  <ngb-carousel [interval]="0"  [showNavigationArrows]="slidesArray.lenght > 1" [showNavigationIndicators]="slidesArray.lenght > 1" (slide)="cambio($event)">
+  <ngb-carousel [interval]="0"  
+  [showNavigationArrows]="slidesArray.lenght > 1" [showNavigationIndicators]="slidesArray.lenght > 1" 
+  (slide)="cambio($event)">
   
     <ng-template ngbSlide *ngFor="let slide of slidesArray" >
 

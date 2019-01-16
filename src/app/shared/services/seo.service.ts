@@ -23,8 +23,6 @@ export class SeoService {
       ...tags
     };
 
-    // console.log(tags, `https://www.queo.com.ar/${tags.slug}`);
-
     // Set a title
     this.titleService.setTitle(tags.title);
 
