@@ -31,7 +31,7 @@ export class SeoService {
     // this.meta.updateTag({ name: 'twitter:site', content: '@angularfirebase' }); // lo comento porque no tendremos cuenta de twitter
     this.meta.updateTag({ name: 'twitter:title', content: tags.title });
     this.meta.updateTag({ name: 'twitter:description', content: tags.description });
-    this.meta.updateTag({ name: 'twitter:image', content: tags.image });
+    this.meta.updateTag({ name: 'twitter:image', content: `${tags.image}/` });
 
     this.meta.updateTag({ name: 'description', content: tags.description });
 
@@ -40,7 +40,7 @@ export class SeoService {
     this.meta.updateTag({ property: 'og:site_name', content: 'Queo' });
     this.meta.updateTag({ property: 'og:title', content: tags.title });
     this.meta.updateTag({ property: 'og:description', content: tags.description });
-    this.meta.updateTag({ property: 'og:image', content: tags.image });
-    this.meta.updateTag({ property: 'og:url', content: `https://www.queo.com.ar/${tags.slug}` });
+    this.meta.updateTag({ property: 'og:image', content: `${tags.image}/` });
+    this.meta.updateTag({ property: 'og:url', content: `https://www.queo.com.ar/${tags.slug}/` });
   }
 }

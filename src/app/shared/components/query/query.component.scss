@@ -26,21 +26,21 @@ label {
 
 .botonComprar, .botonLlamar {
 	color: white;
-	background-color: var(--pink-dark);
-	border-color: var(--pink-dark);
+	background-color: var(--green-dark);
+	border-color: var(--green-dark);
 }
 
 .botonComprar, .botonLlamar:hover {
 	color: white;
-	background-color: var(--pink-light);
-	border-color: var(--pink-light);
+	background-color: var(--green-light);
+	border-color: var(--green-light);
 	cursor: pointer;
 }
 
 .botonComprar, .botonLlamar:active {
   color: white;
-  background-color: var(--pink-light);
-	border-color: var(--pink-light);
+  background-color: var(--green-light);
+	border-color: var(--green-light);
 }
 
 .missing-text {

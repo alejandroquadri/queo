@@ -58,15 +58,15 @@ export class ProductComponent implements OnInit {
     this.imgArray =  this.currentColor.imgs;
     this.buildForm();
 
-    // const metaTags = {
-    //   title: `${this.product.name} | Productos ${this.colKey} Queo`,
-    //   // tslint:disable-next-line:max-line-length
-    //   description: this.product.text,
-    //   image: this.product.bgImg,
-    //   slug: `productos/${this.colKey}/${this.prodKey}`,
-    // };
+    const metaTags = {
+      title: `${this.product.name} | Productos ${this.colKey} Queo`,
+      // tslint:disable-next-line:max-line-length
+      description: this.product.text,
+      image: this.product.bgImg,
+      slug: `productos/${this.colKey}/${this.prodKey}`,
+    };
 
-    // this.seoService.generateTags(metaTags);
+    this.seoService.generateTags(metaTags);
 
   }
 
@@ -92,7 +92,6 @@ export class ProductComponent implements OnInit {
       this.currentFormat.set.sizes.forEach( (size, index) => {
         this.addSetCont();
         this.setControls.controls[index].patchValue(this.currentColor);
-        console.log(this.currentColor, this.currentFormat.colors);
       });
       this.buyForm.get('color').patchValue('');
       this.imgArray =  this.currentFormat.set.imgs;
