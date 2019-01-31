@@ -18,4 +18,8 @@ export class ContactService {
     return this.api.push('queo/queries', query);
   }
 
+  captureEmail(email) {
+    return this.api.push('queo/emails', {email: email});
+  }
+
 }

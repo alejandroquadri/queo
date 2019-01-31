@@ -29,6 +29,7 @@ import { ContactComponent } from './contact/contact.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { LandingComponent } from './landing/landing.component';
 import { AboutComponent } from './about/about.component';
+import { EmailCaptureComponent } from './shared/components/email-capture/email-capture.component';
 
 // esto es para precargar la data antes que se inicie la aplicacion
 export function DataProviderFactory(provider: StaticService) {
@@ -57,6 +58,9 @@ export function DataProviderFactory(provider: StaticService) {
     NgbModule.forRoot(),
     AppRoutingModule,
     SharedModule,
+  ],
+  entryComponents: [
+    EmailCaptureComponent
   ],
   providers: [
     { provide: APP_INITIALIZER, useFactory: DataProviderFactory, deps: [StaticService], multi: true },

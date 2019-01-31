@@ -1,0 +1,53 @@
+.modal-body {
+  font-weight: 100;
+}
+
+.networks {
+  font-size: 3rem;
+  color: black;
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  text-align: center;  
+}
+
+:-ms-input-placeholder {  
+  text-align: center; 
+}
+
+.boton-mail {
+	color: white;
+	background-color: var(--green-dark);
+	border-color: var(--green-dark);
+}
+
+.boton-mail:hover {
+	color: white;
+	background-color: var(--green-light);
+	border-color: var(--green-light);
+	cursor: pointer;
+}
+
+.boton-mail:active {
+  color: #fff;
+  background-color: var(--green-light);
+	border-color: var(--green-light);
+  box-shadow: 0 0 0 0.2rem var(--green-dark);
+}
+
+.decline {
+  color: black;
+  font-size: 0.8rem;
+}
+
+.frases {
+  white-space: pre-line;
+}

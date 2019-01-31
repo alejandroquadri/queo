@@ -30,6 +30,7 @@ import { HoverDirective } from './directives/hover.directive';
 // Pipes
 import { ToArrayPipe } from './pipes/to-array.pipe';
 import { SortPipe } from './pipes/sort.pipe';
+import { EmailCaptureComponent } from './components/email-capture/email-capture.component';
 
 @NgModule({
   imports: [
@@ -60,7 +61,8 @@ import { SortPipe } from './pipes/sort.pipe';
     TerrazzoComponent,
     CtaButtonsComponent,
     BespokeComponent,
-    QueryComponent
+    QueryComponent,
+    EmailCaptureComponent
   ],
   exports: [
     CommonModule,
@@ -84,7 +86,8 @@ import { SortPipe } from './pipes/sort.pipe';
     TerrazzoComponent,
     CtaButtonsComponent,
     BespokeComponent,
-    QueryComponent
+    QueryComponent,
+    EmailCaptureComponent
   ],
   entryComponents: [
     QueryComponent

@@ -15,26 +15,17 @@ export class StaticService {
   data: any;
   data$: any;
 
-  logoBlanco = './assets/icons/logoQueoBlancoLimpio.png';
-  logoNegro = './assets/icons/logoQueoNegroLimpio.png';
+  logoBlancoLimpio = './assets/icons/logoQueoBlancoLimpio.png';
+  logoNegroLimpio = './assets/icons/logoQueoNegroLimpio.png';
   logoBlancoPlus = './assets/icons/logoQueoBlanco+.png';
   logoNegroPlus = './assets/icons/logoQueoNegro+.png';
+  logoBlanco = './assets/icons/Queo-quadri-dark-tp.png';
+  logoNegro = './assets/icons/Queo-quadri-light-tp.png';
 
   constructor(
     private api: ApiService,
     private state: TransferState
   ) { }
-
-  // getStaticData() {
-  //   return new Promise( (resolve, reject) => {
-  //     this.data$ = this.api.getObject('queo');
-  //     this.data$.subscribe( data => {
-  //       this.data = data;
-  //       console.log('static data available');
-  //       resolve();
-  //     });
-  //   });
-  // }
 
   getStaticData() {
     return new Promise( (resolve, reject) => {

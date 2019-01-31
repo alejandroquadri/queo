@@ -1,0 +1,40 @@
+<div class="modal-body">
+  <form [formGroup]="emailForm" (ngSubmit)="submit()">
+
+      <div class="form-group">
+        
+        <div class="text-center">
+          No vamos a enviarte un newsletter aburrido. <br> Nos podes seguir acá
+        </div>
+        <div class="d-flex justify-content-center">
+          <a class="links" href="https://www.instagram.com/queobsas/">
+            <fa-icon class="networks p-3" [icon]="instagram"></fa-icon>
+          </a>
+          <a class="links" href="https://ar.pinterest.com/queobsas/">
+            <fa-icon class="networks p-3" [icon]="pinterest"></fa-icon>
+          </a>
+          <a class="links" href="https://www.facebook.com/queobsas/">
+            <fa-icon class="networks p-3" [icon]="facebook"></fa-icon>
+          </a>
+        </div>
+        <div class="text-center mb-2">
+          ¡Queremos ofrecerte ediciones limitadas <br> y descuentos especiales!
+        </div>
+        <div>
+          <input type="e-mail" formControlName="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="e-mail"
+          [ngClass]="{'missing': emailForm.controls.email.invalid && (emailForm.controls.email.dirty || emailForm.controls.email.touched)}">
+        </div>
+      </div>
+      <div>
+        <button type="submit" class="btn btn-outline btn-block boton-mail frases" [disabled]="!emailForm.valid">
+          ¡Quiero recibir descuentos y ediciones limitadas!
+        </button>
+      </div>
+      <div>
+        <button type="button" (click)="activeModal.close()" class="btn btn-link btn-block decline frases">
+          No me gusta el diseño fuera de serie
+        </button>
+      </div>
+
+    </form>
+  </div>

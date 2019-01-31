@@ -2,7 +2,7 @@ import { Component, OnInit, ViewChild, Inject, ElementRef } from '@angular/core'
 import { DOCUMENT } from '@angular/common';
 import { Router } from '@angular/router';
 
-import { StaticService, SeoService, GTagService } from '../shared';
+import { StaticService, SeoService } from '../shared';
 
 @Component({
   selector: 'app-landing',
@@ -40,17 +40,10 @@ export class LandingComponent implements OnInit {
     private router: Router,
     @Inject(DOCUMENT) document,
     private seoService: SeoService,
-    private gTagSrv: GTagService
   ) {
     this.doc = document;
     // this.data = this.staticData.data.landing;
     // this.images = this.staticData.data.projectImgs;
-
-    this.gTagSrv.pushObject({
-      event: 'prueba',
-      estado: 'frustracion'
-    });
-    this.gTagSrv.printDataLayer();
 
     this.slidesData = this.staticData.data.landing.slides;
     this.slidesArray = Object.keys(this.slidesData);
